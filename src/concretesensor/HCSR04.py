@@ -6,7 +6,7 @@ Created on 04/02/2015
 import RPi.GPIO as GPIO
 import time
 
-class USonic(object):
+class HCSR04(object):
     '''
     classdocs
     '''
@@ -24,7 +24,7 @@ class USonic(object):
         GPIO.setmode(GPIO.BCM)
         GPIO.setwarnings(False) 
       
-    def reading(self,sensor): 
+    def measure(self,sensor): 
         # Disable any warning message such as GPIO pins in use
         GPIO.setwarnings(False)
         
@@ -103,6 +103,6 @@ class USonic(object):
             print ("Incorrect usonic() function varible.")
             
 
-uSonic = USonic()            
-print (uSonic.reading(0))
+HCSR04 = HCSR04()            
+print (HCSR04.measure(0))
             

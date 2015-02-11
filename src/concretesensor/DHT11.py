@@ -3,10 +3,12 @@ Created on 30/01/2015
 
 @author: Junior
 '''
+import abc
 import RPi.GPIO as GPIO
 import time
+from abstractclass import TemperatureSensor
 
-class DHT11():
+class DHT11(TemperatureSensor):
     '''
     classdocs
     '''
@@ -37,15 +39,31 @@ class DHT11():
             print ("Humidity: " + self.__humidity + "%")
             return self.__humidity
         else: 
-            print ("No valid data readed")
+            return ("No valid data readed")
     
     def getTemperature(self):
         self.__readData()
         if (self.__checkValidData()):
-            print ("Temperature: " + self.__temperature +"C")
+            print ("Temperature in Celsius: " + self.__temperature +"C")
             return self.__temperature
         else: 
-            print ("No valid data readed")
+            return ("No valid data readed")
+            
+    def getTemperatureInFahrenheit(self):
+        self.__readData()
+        if (self.__checkValidData()):
+            print ("Temperature in Fahrenheit: " + self.__temperature +"F")
+            return (self.__temperature * 9 /5.0 ) + 32
+        else: 
+            return ("No valid data readed")       
+            
+    def getTemperatureInKelvin(self):
+        self.__readData()
+        if (self.__checkValidData()):
+            print ("Temperature in Kelvin: " + self.__temperature)
+            return (self.__temperature + 273.15)
+        else: 
+            return ("No valid data readed")          
             
     def __readData(self):
         self.__data = []
