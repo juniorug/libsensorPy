@@ -5,8 +5,9 @@ Created on 04/02/2015
 '''
 import RPi.GPIO as GPIO
 import time
+from abstractclass.ultrasonicSensor import UltrasonicSensor
 
-class HCSR04(object):
+class HCSR04(UltrasonicSensor):
     '''
     classdocs
     '''
@@ -102,7 +103,6 @@ class HCSR04(object):
         else:
             print ("Incorrect usonic() function varible.")
             
-
-HCSR04 = HCSR04()            
-print (HCSR04.measure(0))
+            
+            
             

@@ -3,10 +3,10 @@ Created on 30/01/2015
 
 @author: Junior
 '''
-import abc
+
 import RPi.GPIO as GPIO
 import time
-from abstractclass import TemperatureSensor
+from abstractclass.temperatureSensor import TemperatureSensor
 
 class DHT11(TemperatureSensor):
     '''
@@ -141,9 +141,7 @@ class DHT11(TemperatureSensor):
         self.__temperature = self.__bin2dec(temperatureBit)
         self.__crc = self.__bin2dec(crc)
         
-dht11 = DHT11()
-dht11.getTemperature()
-dht11.getHumidity()        
+     
         
         
         

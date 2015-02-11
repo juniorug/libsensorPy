@@ -19,7 +19,7 @@ class TemperatureSensor(Sensor):
         '''
         
     @staticmethod
-    def createSensor(self,sensorType):
+    def getSensor(self,sensorType):
         #return eval(type + "()")
         if (sensorType == "DHT11"): 
             return DHT11()

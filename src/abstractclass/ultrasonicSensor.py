@@ -20,7 +20,7 @@ class UltrasonicSensor(Sensor):
         '''
         
     @staticmethod
-    def createSensor(self,sensorType):
+    def getSensor(self,sensorType):
         #return eval(type + "()")
         if (sensorType == "HCSR04"): 
             return HCSR04()
