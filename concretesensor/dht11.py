@@ -6,7 +6,7 @@ Created on 30/01/2015
 
 import RPi.GPIO as GPIO
 import time
-from abstractclass.temperatureSensor import TemperatureSensor
+from abstractclass import TemperatureSensor
 
 class DHT11(TemperatureSensor):
     '''

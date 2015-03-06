@@ -3,7 +3,7 @@ Created on 11/02/2015
 
 @author: zeus
 '''
-from concretesensor.hcsr04 import HCSR04
+from concretesensor import HCSR04
 
 if __name__ == '__main__':
     HCSR04 = HCSR04()            

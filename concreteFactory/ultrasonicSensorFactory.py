@@ -5,8 +5,8 @@ Created on 11/02/2015
 '''
 
 
-from abstractclass.abstractSensorFactory import AbstractSensorFactory
-from abstractclass.ultrasonicSensor  import UltrasonicSensor
+from abstractclass import AbstractSensorFactory
+from abstractclass  import UltrasonicSensor
 
 class UltrasonicSensorFactory(AbstractSensorFactory):
     '''

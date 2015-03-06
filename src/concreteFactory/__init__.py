@@ -1,2 +1,0 @@
-from concreteFactory.temperatureSensorFactory import TemperatureSensorFactory
-from concreteFactory.ultrasonicSensorFactory import UltrasonicSensorFactory

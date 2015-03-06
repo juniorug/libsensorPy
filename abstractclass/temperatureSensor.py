@@ -4,8 +4,8 @@ Created on 10/02/2015
 @author: zeus
 '''
 import abc
-from abstractclass.sensor import Sensor
-from concretesensor.dht11 import DHT11
+from sensor import Sensor
+from concretesensor import DHT11
 
 class TemperatureSensor(Sensor):
     '''

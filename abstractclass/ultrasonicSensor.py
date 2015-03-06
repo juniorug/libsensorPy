@@ -4,7 +4,7 @@ Created on 08/02/2015
 @author: zeus
 '''
 import abc
-from abstractclass import Sensor
+from sensor import Sensor
 from concretesensor import HCSR04
 
 class UltrasonicSensor(Sensor):
