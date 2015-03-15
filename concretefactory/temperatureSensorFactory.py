@@ -19,7 +19,7 @@ class TemperatureSensorFactory(AbstractSensorFactory):
         '''
      
     def createSensor(self, sensorType):
-        return TemperatureSensor.getSensor(sensorType)  
+        return TemperatureSensor.getSensor(sensorType)
         
     def createEvent(self, sensorType):     
-        return  
+        pass

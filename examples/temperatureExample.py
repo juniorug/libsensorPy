@@ -4,7 +4,7 @@ Created on 11/02/2015
 @author: zeus
 '''
 
-from concreteFactory.temperatureSensorFactory import TemperatureSensorFactory
+from concretefactory.temperatureSensorFactory import TemperatureSensorFactory
 
 '''from concretesensor.dht11 import DHT11'''
 
