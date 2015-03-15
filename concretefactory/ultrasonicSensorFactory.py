@@ -19,9 +19,8 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
         Constructor
         '''
      
-    def createSensor(self, sensorType):
-        us = UltrasonicSensor()
-        return us.getSensor(sensorType)
+    def createSensor(self, sensorType): 
+	return UltrasonicSensor.getSensor(sensorType)
     
     def createEvent(self, sensorType):     
         pass
