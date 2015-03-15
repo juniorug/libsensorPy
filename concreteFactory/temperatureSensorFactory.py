@@ -4,8 +4,8 @@ Created on 11/02/2015
 @author: zeus
 '''
 
-from abstractclass import AbstractSensorFactory
-from abstractclass import TemperatureSensor
+from abstractclass.abstractSensorFactory import AbstractSensorFactory
+#from abstractclass.temperatureSensor import TemperatureSensor
 
 class TemperatureSensorFactory(AbstractSensorFactory):
     '''

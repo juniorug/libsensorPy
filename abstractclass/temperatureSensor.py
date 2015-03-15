@@ -5,7 +5,7 @@ Created on 10/02/2015
 '''
 import abc
 from sensor import Sensor
-from concretesensor import DHT11
+from concretesensor.dht11 import DHT11
 
 class TemperatureSensor(Sensor):
     '''
