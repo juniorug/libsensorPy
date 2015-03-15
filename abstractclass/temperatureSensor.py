@@ -13,14 +13,14 @@ class TemperatureSensor(Sensor):
     '''
     __metaclass__ = abc.ABCMeta
 
+
     def __init__(self):
         '''
         Constructor
         '''
         
     @staticmethod
-    def getSensor(self,sensorType):
-        #return eval(type + "()")
+    def getSensor(sensorType):
         if (sensorType == "DHT11"): 
             return DHT11()
         elif(sensorType == "DHT22"):
@@ -33,14 +33,14 @@ class TemperatureSensor(Sensor):
     @abc.abstractmethod
     def getTemperature(self):
         """Retrieve data from the input source and return an object."""
-        return    
+        pass
     
     @abc.abstractmethod
     def getTemperatureInFahrenheit(self):
         """Retrieve data from the input source and return an object."""
-        return 
+        pass
     
     @abc.abstractmethod
     def getTemperatureInKelvin(self):
         """Retrieve data from the input source and return an object."""
-        return
+        pass

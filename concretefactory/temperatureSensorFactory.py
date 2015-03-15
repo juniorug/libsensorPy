@@ -5,7 +5,7 @@ Created on 11/02/2015
 '''
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
-#from abstractclass.temperatureSensor import TemperatureSensor
+from abstractclass.temperatureSensor import TemperatureSensor
 
 class TemperatureSensorFactory(AbstractSensorFactory):
     '''

@@ -11,17 +11,17 @@ class AbstractSensorFactory(object):
     '''
     __metaclass__ = abc.ABCMeta
 
-    def __init__(self, params):
+    def __init__(self):
         '''
         Constructor
         '''
         
     @abc.abstractmethod
-    def createSensor(self, sensorType):
+    def createSensor(sensorType):
         """Retrieve data from the input source and return an object."""
         pass
     
     @abc.abstractmethod
-    def createEvent(self, sensorType):
+    def createEvent(sensorType):
         """Retrieve data from the input source and return an object."""
         pass     

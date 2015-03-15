@@ -21,16 +21,10 @@ class UltrasonicSensor(Sensor):
         
     @staticmethod
     def getSensor(sensorType):
-        #return eval(type + "()")
-        if (sensorType == "HCSR04"): 
-            return HCSR04()
-        else:
-            ''' assert 0, "Bad sensor creation: " + type '''
-            ''' retornando HCSR04 por default, por enquanto'''    
-            return HCSR04()
-        
+        pass
+
     @abc.abstractmethod
     def measure(sensor):
         """Retrieve data from the input source and return an object."""
-        return        
+        pass
         
