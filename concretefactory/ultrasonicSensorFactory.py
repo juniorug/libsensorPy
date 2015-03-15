@@ -20,7 +20,7 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
         '''
     @staticmethod
     def createSensor(self, sensorType): 
-	    if (sensorType == "HCSR04"):
+	if (sensorType == "HCSR04"):
             return HCSR04()
         else:
             ''' assert 0, "Bad sensor creation: " + type '''
