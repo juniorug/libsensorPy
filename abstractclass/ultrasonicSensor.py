@@ -5,7 +5,6 @@ Created on 08/02/2015
 '''
 import abc
 from abstractclass.sensor import Sensor
-from concretesensor.hcsr04 import HCSR04
 
 class UltrasonicSensor(Sensor):
     '''

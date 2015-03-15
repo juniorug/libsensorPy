@@ -5,7 +5,6 @@ Created on 11/02/2015
 '''
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
-from abstractclass.ultrasonicSensor import UltrasonicSensor
 from concretesensor.hcsr04 import HCSR04
 
 class UltrasonicSensorFactory(AbstractSensorFactory):
@@ -26,6 +25,7 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
             ''' assert 0, "Bad sensor creation: " + type '''
             ''' retornando HCSR04 por default, por enquanto'''
             return HCSR04()
-    
+
+    @staticmethod
     def createEvent(sensorType):     
         pass

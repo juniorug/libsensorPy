@@ -5,7 +5,6 @@ Created on 10/02/2015
 '''
 import abc
 from sensor import Sensor
-from concretesensor.dht11 import DHT11
 
 class TemperatureSensor(Sensor):
     '''
@@ -21,14 +20,7 @@ class TemperatureSensor(Sensor):
         
     @staticmethod
     def getSensor(sensorType):
-        if (sensorType == "DHT11"): 
-            return DHT11()
-        elif(sensorType == "DHT22"):
-            return DHT11()
-        else:
-            ''' assert 0, "Bad sensor creation: " + type '''
-            ''' retornando dht11 por default, por enquanto'''
-            return DHT11()
+        pass
             
     @abc.abstractmethod
     def getTemperature(self):

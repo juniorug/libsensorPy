@@ -8,7 +8,6 @@ from concretefactory.ultrasonicSensorFactory import UltrasonicSensorFactory
 
 #if __name__ == '__main__':
 
-#fty = UltrasonicSensorFactory()
 
 hcsr04 = UltrasonicSensorFactory.createSensor("HCSR04")
 print (hcsr04.measure(0))
