@@ -5,9 +5,9 @@ Created on 04/02/2015
 '''
 import RPi.GPIO as GPIO
 import time
-from abstractclass.ultrasonicSensor import UltrasonicSensor
+#from abstractclass.ultrasonicSensor import UltrasonicSensor
 
-class HCSR04(UltrasonicSensor):
+class HCSR04:
     '''
     classdocs
     '''

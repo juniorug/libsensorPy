@@ -5,7 +5,7 @@ Created on 08/02/2015
 '''
 import abc
 from abstractclass.sensor import Sensor
-#from concretesensor.hcsr04 import HCSR04
+from concretesensor.hcsr04 import HCSR04
 
 class UltrasonicSensor(Sensor):
     '''
@@ -20,7 +20,7 @@ class UltrasonicSensor(Sensor):
         '''
         
     @staticmethod
-    def getSensor(self,sensorType):
+    def getSensor(sensorType):
         #return eval(type + "()")
         if (sensorType == "HCSR04"): 
             return HCSR04()
@@ -30,7 +30,7 @@ class UltrasonicSensor(Sensor):
             return HCSR04()
         
     @abc.abstractmethod
-    def measure(self,sensor):
+    def measure(sensor):
         """Retrieve data from the input source and return an object."""
         return        
         
