@@ -5,8 +5,8 @@ Created on 11/02/2015
 '''
 
 
-from abstractclass import AbstractSensorFactory
-from abstractclass  import UltrasonicSensor
+from abstractclass.abstractSensorFactory  import AbstractSensorFactory
+#from abstractclass.ultrasonicSensor  import UltrasonicSensor
 
 class UltrasonicSensorFactory(AbstractSensorFactory):
     '''
@@ -14,7 +14,7 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
     '''
 
 
-    def __init__(self, params):
+    def __init__(self):
         '''
         Constructor
         '''
@@ -23,4 +23,4 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
         return UltrasonicSensor.getSensor(sensorType)  
     
     def createEvent(self, sensorType):     
-        return 
+        pass

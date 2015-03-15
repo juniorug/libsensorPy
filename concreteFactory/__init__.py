@@ -1,2 +1,2 @@
-from temperatureSensorFactory import TemperatureSensorFactory
-from ultrasonicSensorFactory import UltrasonicSensorFactory
+#from temperatureSensorFactory import TemperatureSensorFactory
+#from ultrasonicSensorFactory import UltrasonicSensorFactory

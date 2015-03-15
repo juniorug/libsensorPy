@@ -11,7 +11,7 @@ class Sensor(object):
     '''
     __metaclass__ = abc.ABCMeta
 
-    def __init__(self, params):
+    def __init__(self):
         '''
         Constructor
         '''
@@ -19,4 +19,4 @@ class Sensor(object):
     @abc.abstractmethod
     def getSensor(self, sensorType):
         """Retrieve data from the input source and return an object."""
-        return   
+        pass   

@@ -3,10 +3,9 @@ Created on 30/01/2015
 
 @author: Junior
 '''
-
 import RPi.GPIO as GPIO
-import time
 from abstractclass import TemperatureSensor
+import time
 
 class DHT11(TemperatureSensor):
     '''

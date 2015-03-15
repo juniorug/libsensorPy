@@ -4,8 +4,8 @@ Created on 08/02/2015
 @author: zeus
 '''
 import abc
-from sensor import Sensor
-from concretesensor import HCSR04
+from abstractclass.sensor import Sensor
+from concretesensor.hcsr04 import HCSR04
 
 class UltrasonicSensor(Sensor):
     '''
@@ -14,7 +14,7 @@ class UltrasonicSensor(Sensor):
     __metaclass__ = abc.ABCMeta
     
       
-    def __init__(self, params):
+    def __init__(self):
         '''
         Constructor
         '''

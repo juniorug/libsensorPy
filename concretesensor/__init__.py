@@ -1,2 +1,2 @@
-from dht11 import DHT11
-from hcsr04 import HCSR04
+#from dht11 import DHT11
+#from hcsr04 import HCSR04
