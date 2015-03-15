@@ -19,7 +19,7 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
         Constructor
         '''
     @staticmethod
-    def createSensor(self, sensorType): 
+    def createSensor(sensorType): 
 	if (sensorType == "HCSR04"):
             return HCSR04()
         else:
@@ -27,5 +27,5 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
             ''' retornando HCSR04 por default, por enquanto'''
             return HCSR04()
     
-    def createEvent(self, sensorType):     
+    def createEvent(sensorType):     
         pass
