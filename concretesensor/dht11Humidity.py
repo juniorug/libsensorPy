@@ -1,13 +1,13 @@
 '''
-Created on 30/01/2015
+Created on 16/03/2015
 
 @author: Junior
 '''
 import RPi.GPIO as GPIO
-from abstractclass.temperatureSensor import TemperatureSensor
+from abstractclass.humiditySensor import HumiditySensor
 import time
 
-class DHT11(TemperatureSensor):
+class DHT11Humididty(HumiditySensor):
     '''
     classdocs
     '''
@@ -40,30 +40,14 @@ class DHT11(TemperatureSensor):
         else: 
             return ("No valid data readed")
     
-    def getTemperature(self):
+    def _getTemperature(self):
         self.__readData()
         if (self.__checkValidData()):
             print ("Temperature in Celsius: " + self.__temperature +"C")
             return self.__temperature
         else: 
             return ("No valid data readed")
-            
-    def getTemperatureInFahrenheit(self):
-        self.__readData()
-        if (self.__checkValidData()):
-            print ("Temperature in Fahrenheit: " + self.__temperature +"F")
-            return (self.__temperature * 9 /5.0 ) + 32
-        else: 
-            return ("No valid data readed")       
-            
-    def getTemperatureInKelvin(self):
-        self.__readData()
-        if (self.__checkValidData()):
-            print ("Temperature in Kelvin: " + self.__temperature)
-            return (self.__temperature + 273.15)
-        else: 
-            return ("No valid data readed")          
-            
+
     def __readData(self):
         self.__data = []
         GPIO.setmode(GPIO.BCM)

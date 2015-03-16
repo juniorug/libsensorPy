@@ -6,7 +6,7 @@ Created on 10/02/2015
 import abc
 from sensor import Sensor
 
-class TemperatureSensor(Sensor):
+class AccelerometerSensor(Sensor):
     '''
     classdocs
     '''
@@ -17,23 +17,19 @@ class TemperatureSensor(Sensor):
         '''
         Constructor
         '''
-        Sensor.__init__(self)
 
     @staticmethod
     def getSensor(sensorType):
         pass
-            
+
     @abc.abstractmethod
-    def getTemperature(self):
+    def getAxes(self,gforce = False):
         """Retrieve data from the input source and return an object."""
         pass
-    
+
     @abc.abstractmethod
-    def getTemperatureInFahrenheit(self):
+    def setSensitivity(self,range_flag):
         """Retrieve data from the input source and return an object."""
         pass
-    
-    @abc.abstractmethod
-    def getTemperatureInKelvin(self):
-        """Retrieve data from the input source and return an object."""
-        pass
+
+
