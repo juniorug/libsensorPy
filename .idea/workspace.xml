@@ -41,8 +41,8 @@
       <file leaf-file-name="dht11Temperature.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28181818" vertical-offset="532" max-vertical-offset="2280">
-              <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.23068182" vertical-offset="532" max-vertical-offset="2280">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
               <folding>
                 <element signature="e#47#70#0" expanded="true" />
               </folding>
@@ -1068,8 +1068,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28181818" vertical-offset="532" max-vertical-offset="2280">
-          <caret line="52" column="36" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.23068182" vertical-offset="532" max-vertical-offset="2280">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
           <folding>
             <element signature="e#47#70#0" expanded="true" />
           </folding>

@@ -47,7 +47,7 @@ class DHT11Temperature(TemperatureSensor):
 
         while not (dataRead):
             print "data not good"
-            time.sleep(2)
+            time.sleep(1)
             dataRead = self.__readData()
 
         print "ohhhh data is ok now!"
