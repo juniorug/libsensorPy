@@ -10,3 +10,5 @@ if __name__ == '__main__':
 
     dht11 = TemperatureSensorFactory.createSensor("DHT11Temperature")
     print ("Temperature in Fahrenheit: " + dht11.getTemperatureInFahrenheit() +"F")
+    print ("Temperature in Celsius: " + dht11.getTemperature() +"ºC")
+    print ("Temperature in Kelvin: " + dht11.getTemperatureInKelvin() +"K")

@@ -43,13 +43,9 @@ class DHT11Temperature(TemperatureSensor):
                 time.sleep(0.5)
 
     def getTemperature(self):
-        self.__readData()
-        if (self.__checkValidData()):
-            #print ("Temperature in Celsius: " + self.__temperature +"C")
-            return self.__temperature
-        else: 
-            return ("No valid data readed")
-            
+        self.__getValidData()
+        return self.__temperature
+
     def getTemperatureInFahrenheit(self):
 
         self.__getValidData()
@@ -57,13 +53,9 @@ class DHT11Temperature(TemperatureSensor):
 
             
     def getTemperatureInKelvin(self):
-        self.__readData()
-        if (self.__checkValidData()):
-            #print ("Temperature in Kelvin: " + self.__temperature)
-            return str((float(self.__temperature) + 273.15))
-        else: 
-            return ("No valid data readed")          
-            
+        self.__getValidData()
+        return str((float(self.__temperature) + 273.15))
+
     def __readData(self):
         self.__data = []
         GPIO.setmode(GPIO.BCM)
