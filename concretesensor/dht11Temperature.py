@@ -43,19 +43,16 @@ class DHT11Temperature(TemperatureSensor):
             
     def getTemperatureInFahrenheit(self):
 
-        dataRead = self.__readData()
+        dataRead = False
 
         while not (dataRead):
-            print "data not good"
-            time.sleep(1)
             dataRead = self.__readData()
-
-        dataRead = self.__checkValidData()
-        while not (dataRead):
-            print "data not good"
-            time.sleep(1)
-            dataRead = self.__checkValidData()
-
+            if (dataRead):
+                print "data read OK"
+                dataRead = self.__checkValidData()
+            if not (dataRead):
+                "data read not ok or not a valid data"
+                time.sleep(1)
         print "wohhh data ok now"
         return str((float(self.__temperature) * 9 /5.0 ) + 32)
 
