@@ -7,7 +7,7 @@ Created on 17/03/2015
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
 from concretesensor.bmp085Pressure import BMP085Pressure
 
-class AltitudeSensorFactory(AbstractSensorFactory):
+class PressureSensorFactory(AbstractSensorFactory):
     '''
     classdocs
     '''
