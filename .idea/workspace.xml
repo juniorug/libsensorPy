@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f27477-73e1-41db-9f9a-08559e3195de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/dht11Temperature.py" afterPath="$PROJECT_DIR$/concretesensor/dht11Temperature.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/temperatureExample.py" afterPath="$PROJECT_DIR$/examples/temperatureExample.py" />
     </list>
     <ignored path="libsensorPy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dht11Temperature.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dht11Temperature.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38636363" vertical-offset="485" max-vertical-offset="2175">
+            <state vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="2175">
               <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               <folding>
                 <element signature="e#47#70#0" expanded="true" />
@@ -82,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temperatureExample.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="temperatureExample.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/temperatureExample.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="880">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -186,11 +186,11 @@
         <option value="$PROJECT_DIR$/examples/humidityExample.py" />
         <option value="$PROJECT_DIR$/examples/lsm303dAccelerometerExample.py" />
         <option value="$PROJECT_DIR$/examples/lsm303dMagnetometerExample.py" />
-        <option value="$PROJECT_DIR$/examples/temperatureExample.py" />
         <option value="$PROJECT_DIR$/examples/ultrasonicExample.py" />
         <option value="$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py" />
         <option value="$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py" />
         <option value="$PROJECT_DIR$/concretesensor/dht11Temperature.py" />
+        <option value="$PROJECT_DIR$/examples/temperatureExample.py" />
       </list>
     </option>
   </component>
@@ -1022,14 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/temperatureExample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/ultrasonicExample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -1068,11 +1060,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38636363" vertical-offset="485" max-vertical-offset="2175">
+        <state vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="2175">
           <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
           <folding>
             <element signature="e#47#70#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/temperatureExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1875" vertical-offset="0" max-vertical-offset="880">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
