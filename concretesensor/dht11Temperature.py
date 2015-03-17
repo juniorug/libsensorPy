@@ -50,12 +50,15 @@ class DHT11Temperature(TemperatureSensor):
             time.sleep(1)
             dataRead = self.__readData()
 
-        print "ohhhh data is ok now!"
-        if (self.__checkValidData()):
-            #print ("Temperature in Fahrenheit: " + self.__temperature +"F")
-            return str((float(self.__temperature) * 9 /5.0 ) + 32)
-        else: 
-            return ("No valid data readed")       
+        dataRead = self.__checkValidData()
+        while not (dataRead):
+            print "data not good"
+            time.sleep(1)
+            dataRead = self.__checkValidData()
+
+        print "wohhh data ok now"
+        return str((float(self.__temperature) * 9 /5.0 ) + 32)
+
             
     def getTemperatureInKelvin(self):
         self.__readData()
