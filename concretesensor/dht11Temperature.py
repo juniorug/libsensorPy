@@ -33,6 +33,15 @@ class DHT11Temperature(TemperatureSensor):
     def __checkValidData(self):
         return (int(self.__humidity) + int(self.__temperature) - int(self.__crc) == 0)
 
+    def __getValidData(self):
+        dataRead = False
+        while not (dataRead):
+            dataRead = self.__readData()
+            if (dataRead):
+                dataRead = self.__checkValidData()
+            if not (dataRead):
+                time.sleep(0.5)
+
     def getTemperature(self):
         self.__readData()
         if (self.__checkValidData()):
@@ -43,17 +52,7 @@ class DHT11Temperature(TemperatureSensor):
             
     def getTemperatureInFahrenheit(self):
 
-        dataRead = False
-
-        while not (dataRead):
-            dataRead = self.__readData()
-            if (dataRead):
-                print "data read OK"
-                dataRead = self.__checkValidData()
-            if not (dataRead):
-                "data read not ok or not a valid data"
-                time.sleep(0.5)
-        print "wohhh data ok now"
+        self.__getValidData()
         return str((float(self.__temperature) * 9 /5.0 ) + 32)
 
             
