@@ -6,6 +6,7 @@ Created on 11/02/2015
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
 from concretesensor.dht11Temperature import DHT11Temperature
+from concretesensor.dht22Temperature import DHT22Temperature
 
 class TemperatureSensorFactory(AbstractSensorFactory):
     '''
@@ -22,11 +23,9 @@ class TemperatureSensorFactory(AbstractSensorFactory):
         if (sensorType == "DHT11Temperature"):
             return DHT11Temperature()
         elif(sensorType == "DHT22"):
-            return DHT11Temperature()
+            return DHT22Temperature()
         else:
-            ''' assert 0, "Bad sensor creation: " + type '''
-            ''' retornando dht11 por default, por enquanto'''
-            return DHT11Temperature()
+            assert 0, "Bad sensor creation: " + sensorType
 
     @staticmethod
     def createEvent(sensorType):

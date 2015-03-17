@@ -32,15 +32,7 @@ class DHT11Temperature(TemperatureSensor):
     
     def __checkValidData(self):
         return (int(self.__humidity) + int(self.__temperature) - int(self.__crc) == 0)
-    
-    def _getHumidity(self):
-        self.__readData()
-        if (self.__checkValidData()):
-            print ("Humidity: " + self.__humidity + "%")
-            return self.__humidity
-        else: 
-            return ("No valid data readed")
-    
+
     def getTemperature(self):
         self.__readData()
         if (self.__checkValidData()):

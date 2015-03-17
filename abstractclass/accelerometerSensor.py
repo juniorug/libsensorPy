@@ -1,5 +1,5 @@
 '''
-Created on 10/02/2015
+Created on 16/03/2015
 
 @author: zeus
 '''
@@ -17,6 +17,7 @@ class AccelerometerSensor(Sensor):
         '''
         Constructor
         '''
+        Sensor.__init__(self)
 
     @staticmethod
     def getSensor(sensorType):
@@ -24,11 +25,6 @@ class AccelerometerSensor(Sensor):
 
     @abc.abstractmethod
     def getAxes(self,gforce = False):
-        """Retrieve data from the input source and return an object."""
-        pass
-
-    @abc.abstractmethod
-    def setSensitivity(self,range_flag):
         """Retrieve data from the input source and return an object."""
         pass
 

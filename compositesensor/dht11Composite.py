@@ -20,14 +20,14 @@ class DHT11Composite(TemperatureSensor,HumiditySensor):
         '''
         Constructor
         '''
-
+        TemperatureSensor.__init__(self)
+        HumiditySensor.__init__(self)
         self.__dht11Temp = DHT11Temperature()
         self.__dht11Hum = DHT11Humididty()
         
     @staticmethod
     def getSensor(sensorType):
         pass
-
 
     def getTemperature(self):
         """Retrieve data from the input source and return an object."""
@@ -48,9 +48,9 @@ class DHT11Composite(TemperatureSensor,HumiditySensor):
         return self.__dht11Hum.getHumidity()
 
     def add(self,sensor):
-        if (isinstance(sensor, DHT11Temperature)):
+        if ( isinstance(sensor, DHT11Temperature)):
             self.__dht11Temp = sensor
-        elif (isinstance(sensor, DHT11Humididty)):
+        elif ( isinstance(sensor, DHT11Humididty)):
             self.__dht11Hum = sensor
         else:
             assert 0, "Bad sensor creation. "

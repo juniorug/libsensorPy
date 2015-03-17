@@ -17,6 +17,7 @@ class DHT11Humididty(HumiditySensor):
         '''
         Constructor
         '''
+        HumiditySensor.__init__(self)
         self.__data = []
         self.__crc = ""
         self.__humidity = "" 
@@ -37,14 +38,6 @@ class DHT11Humididty(HumiditySensor):
         if (self.__checkValidData()):
             print ("Humidity: " + self.__humidity + "%")
             return self.__humidity
-        else: 
-            return ("No valid data readed")
-    
-    def _getTemperature(self):
-        self.__readData()
-        if (self.__checkValidData()):
-            print ("Temperature in Celsius: " + self.__temperature +"C")
-            return self.__temperature
         else: 
             return ("No valid data readed")
 
@@ -123,8 +116,3 @@ class DHT11Humididty(HumiditySensor):
         self.__humidity = self.__bin2dec(humidityBit)
         self.__temperature = self.__bin2dec(temperatureBit)
         self.__crc = self.__bin2dec(crc)
-        
-     
-        
-        
-        

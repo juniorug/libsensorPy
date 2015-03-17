@@ -17,6 +17,7 @@ class HumiditySensor(Sensor):
         '''
         Constructor
         '''
+        Sensor.__init__(self)
 
     @staticmethod
     def getSensor(sensorType):

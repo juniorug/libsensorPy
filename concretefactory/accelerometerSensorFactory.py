@@ -6,6 +6,7 @@ Created on 16/03/2015
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
 from concretesensor.adxl345 import ADXL345
+from concretesensor.lsm303dAccelerometer import LSM303DAccelerometer
 
 class AccelerometerSensorFactory(AbstractSensorFactory):
     '''
@@ -17,14 +18,15 @@ class AccelerometerSensorFactory(AbstractSensorFactory):
         '''
         Constructor
         '''
+
     @staticmethod
     def createSensor(sensorType):
         if (sensorType == "ADXL345"):
             return ADXL345()
+        elif (sensorType == "LSM303DAccelerometer"):
+            return LSM303DAccelerometer()
         else:
-            ''' assert 0, "Bad sensor creation: " + type '''
-            ''' retornando dht11 por default, por enquanto'''
-            return ADXL345()
+            assert 0, "Bad sensor creation: " + sensorType
 
     @staticmethod
     def createEvent(sensorType):

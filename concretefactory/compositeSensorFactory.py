@@ -6,6 +6,7 @@ Created on 16/03/2015
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
 from compositesensor.dht11Composite import DHT11Composite
+from compositesensor.lsm303dComposite import LSM303DComposite
 
 class CompositeSensorFactory(AbstractSensorFactory):
     '''
@@ -21,10 +22,10 @@ class CompositeSensorFactory(AbstractSensorFactory):
     def createSensor(sensorType): 
 	if (sensorType == "DHT11Composite"):
             return DHT11Composite()
+        elif (sensorType == "LSM303DComposite"):
+            return LSM303DComposite()
         else:
-            ''' assert 0, "Bad sensor creation: " + type '''
-            ''' retornando HCSR04 por default, por enquanto'''
-            return DHT11Composite()
+            assert 0, "Bad sensor creation: " + sensorType
 
     @staticmethod
     def createEvent(sensorType):     

@@ -5,9 +5,9 @@ Created on 16/03/2015
 '''
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
-from concretesensor.dht11Humidity import DHT11Humididty
+from concretesensor.lsm303dMagnetometer import LSM303DMagnetometer
 
-class HumididtySensorFactory(AbstractSensorFactory):
+class MagnetometerSensorFactory(AbstractSensorFactory):
     '''
     classdocs
     '''
@@ -17,14 +17,14 @@ class HumididtySensorFactory(AbstractSensorFactory):
         '''
         Constructor
         '''
+
     @staticmethod
     def createSensor(sensorType):
-        if (sensorType == "DHT11Humididty"):
-            return DHT11Humididty()
+        if (sensorType == "LSM303DMagnetometer"):
+            return LSM303DMagnetometer()
         else:
             assert 0, "Bad sensor creation: " + sensorType
 
     @staticmethod
     def createEvent(sensorType):
         pass
-
