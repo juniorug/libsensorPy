@@ -45,7 +45,7 @@ class DHT11Temperature(TemperatureSensor):
         self.__readData()
         if (self.__checkValidData()):
             print ("Temperature in Fahrenheit: " + self.__temperature +"F")
-            return (self.__temperature * 9 /5.0 ) + 32
+            return (float(self.__temperature) * 9 /5.0 ) + 32
         else: 
             return ("No valid data readed")       
             
@@ -53,7 +53,7 @@ class DHT11Temperature(TemperatureSensor):
         self.__readData()
         if (self.__checkValidData()):
             print ("Temperature in Kelvin: " + self.__temperature)
-            return (self.__temperature + 273.15)
+            return (float(self.__temperature) + 273.15)
         else: 
             return ("No valid data readed")          
             

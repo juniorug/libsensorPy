@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f27477-73e1-41db-9f9a-08559e3195de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py" afterPath="$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py" afterPath="$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/dht11Temperature.py" afterPath="$PROJECT_DIR$/concretesensor/dht11Temperature.py" />
     </list>
     <ignored path="libsensorPy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dht11Temperature.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dht11Temperature.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2175">
-              <caret line="107" column="15" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.38636363" vertical-offset="485" max-vertical-offset="2175">
+              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
               <folding>
                 <element signature="e#47#70#0" expanded="true" />
               </folding>
@@ -51,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lsm303dMagnetometer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lsm303dMagnetometer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.51704544" vertical-offset="605" max-vertical-offset="1485">
+            <state vertical-scroll-proportion="0.0" vertical-offset="605" max-vertical-offset="1485">
               <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding>
                 <element signature="e#45#68#0" expanded="true" />
@@ -117,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/examples/dht11CompositeExample.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -178,7 +177,6 @@
         <option value="$PROJECT_DIR$/concretefactory/compositeSensorFactory.py" />
         <option value="$PROJECT_DIR$/concretefactory/accelerometerSensorFactory.py" />
         <option value="$PROJECT_DIR$/concretesensor/dht11Humidity.py" />
-        <option value="$PROJECT_DIR$/concretesensor/dht11Temperature.py" />
         <option value="$PROJECT_DIR$/concretesensor/dht22Humidity.py" />
         <option value="$PROJECT_DIR$/concretesensor/dht22Temperature.py" />
         <option value="$PROJECT_DIR$/concretefactory/magnetometerSensorFactory.py" />
@@ -192,6 +190,7 @@
         <option value="$PROJECT_DIR$/examples/ultrasonicExample.py" />
         <option value="$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py" />
         <option value="$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py" />
+        <option value="$PROJECT_DIR$/concretesensor/dht11Temperature.py" />
       </list>
     </option>
   </component>
@@ -991,14 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/dht11CompositeExample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/humidityExample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
@@ -1047,16 +1038,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1080" max-vertical-offset="2175">
-          <caret line="107" column="15" selection-start-line="107" selection-start-column="8" selection-end-line="107" selection-end-column="15" />
-          <folding>
-            <element signature="e#47#70#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="545" max-vertical-offset="1515">
@@ -1069,10 +1050,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.51704544" vertical-offset="605" max-vertical-offset="1485">
+        <state vertical-scroll-proportion="0.0" vertical-offset="605" max-vertical-offset="1485">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding>
             <element signature="e#45#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/dht11CompositeExample.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38636363" vertical-offset="485" max-vertical-offset="2175">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
+          <folding>
+            <element signature="e#47#70#0" expanded="true" />
           </folding>
         </state>
       </provider>
