@@ -34,5 +34,5 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
             	assert 0, "Bad sensor creation: " + sensorType 
 
     @staticmethod
-    def createEvent(sensorType):     
+    def createEvent(sensorType):
         pass

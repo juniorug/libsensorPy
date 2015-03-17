@@ -3,7 +3,6 @@ Created on 16/03/2015
 
 @author: zeus
 '''
-import abc
 from abstractclass.accelerometerSensor import AccelerometerSensor
 from abstractclass.magnetometerSensor import MagnetometerSensor
 from concretesensor.lsm303dAccelerometer import LSM303DAccelerometer
@@ -15,8 +14,6 @@ class LSM303DComposite(AccelerometerSensor,MagnetometerSensor):
     '''
     classdocs
     '''
-    __metaclass__ = abc.ABCMeta
-
 
     def __init__(self):
         '''
@@ -27,13 +24,12 @@ class LSM303DComposite(AccelerometerSensor,MagnetometerSensor):
         self.__lsm303dAcc = LSM303DAccelerometer()
         self.__lsm303dMag = LSM303DMagnetometer()
 
-    @staticmethod
-    def getSensor(sensorType):
+    def setup(self):
         pass
 
     def getMagnetic(self):
         """Retrieve data from the input source and return an object."""
-        return self.__lsm303dAcc.getMagnetic()
+        return self.__lsm303dMag.getMagnetic()
 
 
     def getAxes(self):

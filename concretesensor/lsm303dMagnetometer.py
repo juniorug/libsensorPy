@@ -51,6 +51,9 @@ class LSM303DMagnetometer(MagnetometerSensor):
         Constructor
         '''
         MagnetometerSensor.__init__(self)
+        self.setup()
+
+    def setup(self):
         try:
             self.b = SMBus(self.busNum)
         except:
@@ -84,12 +87,5 @@ class LSM303DMagnetometer(MagnetometerSensor):
         x = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.MAG_X_MSB), self.b.read_byte_data(self.LSM, self.MAG_X_LSB))
         y = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.MAG_Y_MSB), self.b.read_byte_data(self.LSM, self.MAG_Y_LSB))
         z = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.MAG_Z_MSB), self.b.read_byte_data(self.LSM, self.MAG_Z_LSB))
-        return {"x": x, "y": y, "z": z}
-
-
-    def __getAxes(self):
-        x = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.ACC_X_MSB), self.b.read_byte_data(self.LSM, self.ACC_X_LSB))
-        y = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.ACC_Y_MSB), self.b.read_byte_data(self.LSM, self.ACC_Y_LSB))
-        z = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.ACC_Z_MSB), self.b.read_byte_data(self.LSM, self.ACC_Z_LSB))
         return {"x": x, "y": y, "z": z}
 

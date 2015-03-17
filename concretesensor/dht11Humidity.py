@@ -7,7 +7,7 @@ import RPi.GPIO as GPIO
 from abstractclass.humiditySensor import HumiditySensor
 import time
 
-class DHT11Humididty(HumiditySensor):
+class DHT11Humidity(HumiditySensor):
     '''
     classdocs
     '''
@@ -22,10 +22,10 @@ class DHT11Humididty(HumiditySensor):
         self.__crc = ""
         self.__humidity = "" 
         self.__temperature = ""
-        GPIO.setmode(GPIO.BCM)
+        self.setup()
     
-    def __bin2dec(self,string_num):
-        return str(int(string_num, 2))     
+    '''def __bin2dec(self,string_num):
+        return str(int(string_num, 2)) '''
     
     def setup(self):
         GPIO.setmode(GPIO.BCM)
@@ -117,7 +117,7 @@ class DHT11Humididty(HumiditySensor):
         except:
             return False
             
-        self.__humidity = self.__bin2dec(humidityBit)
-        self.__temperature = self.__bin2dec(temperatureBit)
-        self.__crc = self.__bin2dec(crc)
+        self.__humidity = self._bin2dec(humidityBit)
+        self.__temperature = self._bin2dec(temperatureBit)
+        self.__crc = self._bin2dec(crc)
         return True

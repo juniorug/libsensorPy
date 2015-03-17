@@ -3,17 +3,15 @@ Created on 16/03/2015
 
 @author: zeus
 '''
-import abc
-from abstractclass.temperatureSensor import TemperatureSensor
 from abstractclass.humiditySensor import HumiditySensor
+from abstractclass.temperatureSensor import TemperatureSensor
+from concretesensor.dht11Humidity import DHT11Humidity
 from concretesensor.dht11Temperature import DHT11Temperature
-from concretesensor.dht11Humidity import DHT11Humididty
 
 class DHT11Composite(TemperatureSensor,HumiditySensor):
     '''
     classdocs
     '''
-    __metaclass__ = abc.ABCMeta
     
       
     def __init__(self):
@@ -23,10 +21,9 @@ class DHT11Composite(TemperatureSensor,HumiditySensor):
         TemperatureSensor.__init__(self)
         HumiditySensor.__init__(self)
         self.__dht11Temp = DHT11Temperature()
-        self.__dht11Hum = DHT11Humididty()
-        
-    @staticmethod
-    def getSensor(sensorType):
+        self.__dht11Hum = DHT11Humidity()
+
+    def setup(self):
         pass
 
     def getTemperature(self):
@@ -50,7 +47,7 @@ class DHT11Composite(TemperatureSensor,HumiditySensor):
     def add(self,sensor):
         if ( isinstance(sensor, DHT11Temperature)):
             self.__dht11Temp = sensor
-        elif ( isinstance(sensor, DHT11Humididty)):
+        elif ( isinstance(sensor, DHT11Humidity)):
             self.__dht11Hum = sensor
         else:
             assert 0, "Bad sensor creation. "

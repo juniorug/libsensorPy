@@ -19,21 +19,23 @@ class TemperatureSensor(Sensor):
         '''
         Sensor.__init__(self)
 
-    @staticmethod
-    def getSensor(sensorType):
+    @abc.abstractmethod
+    def setup(self):
         pass
             
     @abc.abstractmethod
     def getTemperature(self):
         """Retrieve data from the input source and return an object."""
         pass
-    
-    @abc.abstractmethod
+
     def getTemperatureInFahrenheit(self):
         """Retrieve data from the input source and return an object."""
-        pass
+        return str((float(self.getTemperature()) * 9 /5.0 ) + 32)
     
-    @abc.abstractmethod
+
     def getTemperatureInKelvin(self):
         """Retrieve data from the input source and return an object."""
-        pass
+        return str((float(self.getTemperature()) + 273.15))
+
+    def _bin2dec(self,string_num):
+        return str(int(string_num, 2))

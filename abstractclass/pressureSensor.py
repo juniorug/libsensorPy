@@ -1,12 +1,12 @@
 '''
-Created on 16/03/2015
+Created on 17/03/2015
 
 @author: zeus
 '''
 import abc
 from sensor import Sensor
 
-class AccelerometerSensor(Sensor):
+class PressureSensor(Sensor):
     '''
     classdocs
     '''
@@ -24,8 +24,7 @@ class AccelerometerSensor(Sensor):
         pass
 
     @abc.abstractmethod
-    def getAxes(self,gforce = False):
+    def getPressure(self):
         """Retrieve data from the input source and return an object."""
         pass
-
 

@@ -22,26 +22,17 @@ class DHT22Temperature(TemperatureSensor):
         self.__crc = ""
         self.__humidity = "" 
         self.__temperature = ""
-        GPIO.setmode(GPIO.BCM)
-    
-    def __bin2dec(self,string_num):
-        pass
-    
+        self.setup()
+
     def setup(self):
-        pass
+        GPIO.setmode(GPIO.BCM)
     
     def __checkValidData(self):
         pass
 
     def getTemperature(self):
         pass
-            
-    def getTemperatureInFahrenheit(self):
-        pass
-            
-    def getTemperatureInKelvin(self):
-        pass
-            
+
     def __readData(self):
         pass
         

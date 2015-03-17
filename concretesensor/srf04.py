@@ -28,8 +28,12 @@ class SRF04(UltrasonicSensor):
         GPIO.setwarnings(False)
         GPIO.setup(self.trigger,GPIO.OUT)
         GPIO.setup(self.echo,GPIO.IN)
-        ser = serial.Serial('/dev/ttyAMA0', 9600, timeout=1)
-        ser.open()
+        try:
+            ser = serial.Serial('/dev/ttyAMA0', 9600, timeout=1)
+            ser.open()
+        except:
+            print "no device connected"
+            exit(0)
 
     def measure(self):
 
@@ -48,8 +52,6 @@ class SRF04(UltrasonicSensor):
         # return the distance of an object in front of the sensor in cm
         return self.__distance
 
-        # we're no longer using the GPIO, so tell software we're done
-        GPIO.cleanup()
 
 
 

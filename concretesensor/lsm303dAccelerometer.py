@@ -53,6 +53,9 @@ class LSM303DAccelerometer(AccelerometerSensor):
         Constructor
         '''
         AccelerometerSensor.__init__(self)
+        self.setup()
+
+    def setup(self):
         try:
             self.b = SMBus(self.busNum)
         except:
@@ -81,13 +84,6 @@ class LSM303DAccelerometer(AccelerometerSensor):
         self.b.write_byte_data(self.LSM, self.CTRL_5, 0b01100100) #high resolution mode, thermometer off, 6.25hz ODR
         self.b.write_byte_data(self.LSM, self.CTRL_6, 0b00100000) # set +/- 4 gauss full scale
         self.b.write_byte_data(self.LSM, self.CTRL_7, 0x00) #get magnetometer out of low power mode
-
-    def __getMagnetic(self):
-        x = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.MAG_X_MSB), self.b.read_byte_data(self.LSM, self.MAG_X_LSB))
-        y = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.MAG_Y_MSB), self.b.read_byte_data(self.LSM, self.MAG_Y_LSB))
-        z = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.MAG_Z_MSB), self.b.read_byte_data(self.LSM, self.MAG_Z_LSB))
-        return {"x": x, "y": y, "z": z}
-
 
     def getAxes(self, gforce = False):
         x = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.ACC_X_MSB), self.b.read_byte_data(self.LSM, self.ACC_X_LSB))

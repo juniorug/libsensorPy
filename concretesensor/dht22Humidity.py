@@ -22,13 +22,10 @@ class DHT22Humidity(HumiditySensor):
         self.__crc = ""
         self.__humidity = "" 
         self.__temperature = ""
-        GPIO.setmode(GPIO.BCM)
-    
-    def __bin2dec(self,string_num):
-        pass
+        self.setup()
     
     def setup(self):
-        pass
+        GPIO.setmode(GPIO.BCM)
     
     def __checkValidData(self):
         pass

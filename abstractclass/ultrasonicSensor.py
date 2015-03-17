@@ -19,11 +19,14 @@ class UltrasonicSensor(Sensor):
         '''
         Sensor.__init__(self)
         
-    @staticmethod
-    def getSensor(sensorType):
+    @abc.abstractmethod
+    def setup(self):
         pass
 
     @abc.abstractmethod
     def measure(sensor):
         """Retrieve data from the input source and return an object."""
         pass
+
+    def _bin2dec(self,string_num):
+        return str(int(string_num, 2))

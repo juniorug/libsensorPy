@@ -5,12 +5,10 @@ Created on 16/03/2015
 '''
 
 import smbus
-from time import sleep
 from abstractclass.accelerometerSensor import AccelerometerSensor
 
 # select the correct i2c bus for this revision of Raspberry Pi
 revision = ([l[12:-1] for l in open('/proc/cpuinfo','r').readlines() if l[:8]=="Revision"]+['0000'])[0]
-#bus = smbus.SMBus(1 if int(revision, 16) >= 4 else 0)
 
 
 
@@ -50,14 +48,17 @@ class ADXL345(AccelerometerSensor):
             exit(0)
 
         self.address = address
-        self.setBandwidthRate(ADXL345.BW_RATE_100HZ)
-        self.setSensitivity(ADXL345.RANGE_2G)
-        self.enableMeasurement()
+        self.setup()
 
-    def enableMeasurement(self):
+    def setup(self):
+        self.__setBandwidthRate(ADXL345.BW_RATE_100HZ)
+        self.setSensitivity(ADXL345.RANGE_2G)
+        self.__enableMeasurement()
+
+    def __enableMeasurement(self):
         self.bus.write_byte_data(ADXL345.address, ADXL345.POWER_CTL, ADXL345.MEASURE)
 
-    def setBandwidthRate(self, rate_flag):
+    def __setBandwidthRate(self, rate_flag):
         self.bus.write_byte_data(ADXL345.address, ADXL345.BW_RATE, rate_flag)
 
     # set the measurement range for 10-bit readings

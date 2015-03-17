@@ -17,6 +17,6 @@ class Sensor(object):
         '''
      
     @abc.abstractmethod
-    def getSensor(sensorType):
+    def setup(self):
         """Retrieve data from the input source and return an object."""
         pass   

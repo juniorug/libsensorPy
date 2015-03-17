@@ -1,14 +1,13 @@
 '''
-Created on 16/03/2015
+Created on 17/03/2015
 
 @author: zeus
 '''
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
-from concretesensor.dht11Humidity import DHT11Humidity
-from concretesensor.dht22Humidity import DHT22Humidity
+from concretesensor.bmp085Pressure import BMP085Pressure
 
-class HumididtySensorFactory(AbstractSensorFactory):
+class AltitudeSensorFactory(AbstractSensorFactory):
     '''
     classdocs
     '''
@@ -20,10 +19,8 @@ class HumididtySensorFactory(AbstractSensorFactory):
         '''
     @staticmethod
     def createSensor(sensorType):
-        if (sensorType == "DHT11Humididty"):
-            return DHT11Humidity()
-        elif (sensorType == "DHT22Humididty"):
-            return DHT22Humidity()
+        if (sensorType == "BMP085Pressure"):
+            return BMP085Pressure()
         else:
             assert 0, "Bad sensor creation: " + sensorType
 
