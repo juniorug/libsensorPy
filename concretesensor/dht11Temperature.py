@@ -42,7 +42,15 @@ class DHT11Temperature(TemperatureSensor):
             return ("No valid data readed")
             
     def getTemperatureInFahrenheit(self):
-        self.__readData()
+
+        dataRead = self.__readData()
+
+        while not (dataRead):
+            print "data not good"
+            time.sleep(2)
+            dataRead = self.__readData()
+
+        print "ohhhh data is ok now!"
         if (self.__checkValidData()):
             #print ("Temperature in Fahrenheit: " + self.__temperature +"F")
             return str((float(self.__temperature) * 9 /5.0 ) + 32)
@@ -106,8 +114,7 @@ class DHT11Temperature(TemperatureSensor):
                         temperatureBit = temperatureBit + "0"
 
         except:
-            print ("ERR_RANGE")
-            exit(0)
+            return False
 
         try:
             for i in range(0, 8):
@@ -126,12 +133,12 @@ class DHT11Temperature(TemperatureSensor):
                 else:
                     crc = crc + "0"
         except:
-            print ("ERR_RANGE")
-            exit(0) 
+            return False
             
         self.__humidity = self.__bin2dec(humidityBit)
         self.__temperature = self.__bin2dec(temperatureBit)
         self.__crc = self.__bin2dec(crc)
+        return True
         
      
         
