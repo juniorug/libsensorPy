@@ -9,4 +9,4 @@ from concretefactory.temperatureSensorFactory import TemperatureSensorFactory
 if __name__ == '__main__':
 
     dht11 = TemperatureSensorFactory.createSensor("DHT11Temperature")
-    print (dht11.getTemperatureInFahrenheit())
+    print ("Temperature in Fahrenheit: " + dht11.getTemperatureInFahrenheit() +"F")
