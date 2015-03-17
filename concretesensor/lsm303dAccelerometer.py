@@ -11,7 +11,6 @@ from abstractclass.accelerometerSensor import AccelerometerSensor
 class LSM303DAccelerometer(AccelerometerSensor):
 
     busNum = 1
-    b = SMBus(busNum)
 
     LSM = 0x1d
 
@@ -54,6 +53,10 @@ class LSM303DAccelerometer(AccelerometerSensor):
         Constructor
         '''
         AccelerometerSensor.__init__(self)
+        try:
+            self.b = SMBus(self.busNum)
+        except:
+            pass
         self.detect(self)
         self.configure(self)
 

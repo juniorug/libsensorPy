@@ -9,7 +9,6 @@ from abstractclass.magnetometerSensor import MagnetometerSensor
 class LSM303DMagnetometer(MagnetometerSensor):
 
     busNum = 1
-    b = SMBus(busNum)
 
     LSM = 0x1d
 
@@ -52,6 +51,10 @@ class LSM303DMagnetometer(MagnetometerSensor):
         Constructor
         '''
         MagnetometerSensor.__init__(self)
+        try:
+            self.b = SMBus(self.busNum)
+        except:
+            pass
         self.detect(self)
         self.configure(self)
 
