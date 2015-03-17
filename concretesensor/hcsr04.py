@@ -28,7 +28,7 @@ class HCSR04(UltrasonicSensor):
         # Disable any warning message such as GPIO pins in use
         GPIO.setwarnings(False) 
       
-    def measure(self,sensor): 
+    def measure(self):
 
         # point the software to the GPIO pins the sensor is using
         # change these values to the pins you are using
@@ -90,8 +90,6 @@ class HCSR04(UltrasonicSensor):
         # return the distance of an object in front of the sensor in cm
         return self.__distance
 
-        # we're no longer using the GPIO, so tell software we're done
-        GPIO.cleanup()
             
             
             
