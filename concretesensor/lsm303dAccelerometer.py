@@ -57,7 +57,7 @@ class LSM303DAccelerometer(AccelerometerSensor):
             self.b = SMBus(self.busNum)
         except:
             print "no device connected"
-            assert 0
+            exit(0)
 
         self.detect(self)
         self.configure(self)

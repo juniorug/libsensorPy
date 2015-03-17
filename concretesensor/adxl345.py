@@ -47,7 +47,8 @@ class ADXL345(AccelerometerSensor):
             self.bus = smbus.SMBus(1 if int(revision, 16) >= 4 else 0)
         except:
             print "no device connected"
-            assert 0
+            exit(0)
+
         self.address = address
         self.setBandwidthRate(ADXL345.BW_RATE_100HZ)
         self.setSensitivity(ADXL345.RANGE_2G)
