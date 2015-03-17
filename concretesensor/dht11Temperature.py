@@ -52,7 +52,7 @@ class DHT11Temperature(TemperatureSensor):
                 dataRead = self.__checkValidData()
             if not (dataRead):
                 "data read not ok or not a valid data"
-                time.sleep(1)
+                time.sleep(0.5)
         print "wohhh data ok now"
         return str((float(self.__temperature) * 9 /5.0 ) + 32)
 
