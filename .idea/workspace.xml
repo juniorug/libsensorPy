@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f27477-73e1-41db-9f9a-08559e3195de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/dht11CompositeExample.py" afterPath="$PROJECT_DIR$/examples/dht11CompositeExample.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/dht11Humidity.py" afterPath="$PROJECT_DIR$/concretesensor/dht11Humidity.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/humidityExample.py" afterPath="$PROJECT_DIR$/examples/humidityExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/temperatureExample.py" afterPath="$PROJECT_DIR$/examples/temperatureExample.py" />
     </list>
     <ignored path="libsensorPy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dht11Temperature.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dht11Temperature.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9375" vertical-offset="0" max-vertical-offset="2145">
-              <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="2145">
+              <caret line="131" column="19" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="19" />
               <folding>
                 <element signature="e#47#70#0" expanded="true" />
               </folding>
@@ -41,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dht11Humidity.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dht11Humidity.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/concretesensor/dht11Humidity.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="1920">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.89772725" vertical-offset="1010" max-vertical-offset="1890">
+              <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -981,14 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/dht11Humidity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="1920">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/humidityExample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
@@ -1007,11 +996,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9375" vertical-offset="0" max-vertical-offset="2145">
-          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1170" max-vertical-offset="2145">
+          <caret line="131" column="19" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="19" />
           <folding>
             <element signature="e#47#70#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/dht11Humidity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.89772725" vertical-offset="1010" max-vertical-offset="1890">
+          <caret line="122" column="19" selection-start-line="122" selection-start-column="19" selection-end-line="122" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -96,8 +96,7 @@ class DHT11Humididty(HumiditySensor):
                         temperatureBit = temperatureBit + "0"
 
         except:
-            print ("ERR_RANGE")
-            exit(0)
+            return False
 
         try:
             for i in range(0, 8):
@@ -116,9 +115,9 @@ class DHT11Humididty(HumiditySensor):
                 else:
                     crc = crc + "0"
         except:
-            print ("ERR_RANGE")
-            exit(0) 
+            return False
             
         self.__humidity = self.__bin2dec(humidityBit)
         self.__temperature = self.__bin2dec(temperatureBit)
         self.__crc = self.__bin2dec(crc)
+        return True
