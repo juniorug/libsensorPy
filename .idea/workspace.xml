@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21f27477-73e1-41db-9f9a-08559e3195de" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/abstractclass/motionSensor.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/concretefactory/motionSensorFactory.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/concretesensor/pir.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/pirExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="21f27477-73e1-41db-9f9a-08559e3195de" name="Default" comment="" />
     <ignored path="libsensorPy.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
