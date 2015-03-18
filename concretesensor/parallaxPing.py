@@ -35,7 +35,7 @@ class ParallaxPing(UltrasonicSensor):
 
 
 
-    def measure(self):
+    def distance_in_cm(self):
 
         #set pin as output so we can send a pulse
         GPIO.setup(self.__signal,GPIO.OUT)

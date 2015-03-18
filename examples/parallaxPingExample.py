@@ -9,6 +9,7 @@ from concretefactory.ultrasonicSensorFactory import UltrasonicSensorFactory
 if __name__ == '__main__':
 
     ping = UltrasonicSensorFactory.createSensor("ParallaxPing")
-    print (ping.measure())
+    print ("Distance in cm:" + ping.distance_in_cm() + " cm")
+    print ("Distance in inches:" + ping.distance_in_inches() + " in")
 
 

@@ -35,7 +35,7 @@ class SRF04(UltrasonicSensor):
             print "no device connected"
             exit(0)
 
-    def measure(self):
+    def distance_in_cm(self):
 
         GPIO.output(self.trigger, GPIO.HIGH)
         time.sleep(0.00001)

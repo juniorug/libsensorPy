@@ -24,9 +24,12 @@ class UltrasonicSensor(Sensor):
         pass
 
     @abc.abstractmethod
-    def measure(sensor):
+    def distance_in_cm(sensor):
         """Retrieve data from the input source and return an object."""
         pass
+
+    def distance_in_inches(self):
+        return (self.distance_in_cm() * 0.3937)
 
     def _bin2dec(self,string_num):
         return str(int(string_num, 2))

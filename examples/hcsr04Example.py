@@ -9,4 +9,6 @@ from concretefactory.ultrasonicSensorFactory import UltrasonicSensorFactory
 if __name__ == '__main__':
 
     hcsr04 = UltrasonicSensorFactory.createSensor("HCSR04")
-    print (hcsr04.measure())
+    print ("Distance in cm:" + hcsr04.distance_in_cm() + " cm")
+    print ("Distance in inches:" + hcsr04.distance_in_inches() + " in")
+
