@@ -9,6 +9,7 @@ from concretesensor.hcsr04 import HCSR04
 from concretesensor.parallaxPing import ParallaxPing
 from concretesensor.srf04 import SRF04
 from concretesensor.srf05 import SRF05
+from concretesensor.urm37 import URM37
 
 class UltrasonicSensorFactory(AbstractSensorFactory):
     '''
@@ -30,6 +31,8 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
             	return SRF04()
     	elif (sensorType == "SRF05"):
         	return SRF05()
+        elif (sensorType == "URM37"):
+            return URM37()
         else:
             	assert 0, "Bad sensor creation: " + sensorType 
 
