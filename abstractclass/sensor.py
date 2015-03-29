@@ -24,5 +24,4 @@ class Sensor(object):
 
     def __del__(self):
         # we're no longer using the GPIO, so tell software we're done
-        print("sensor work finished!")
         GPIO.cleanup()
