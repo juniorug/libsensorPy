@@ -7,7 +7,7 @@ import RPi.GPIO as GPIO
 import time
 from abstractclass.ultrasonicSensor import UltrasonicSensor
 
-class HCSR04(UltrasonicSensor):
+class HYSRF05(UltrasonicSensor):
     '''
     classdocs
     '''

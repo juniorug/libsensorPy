@@ -5,7 +5,7 @@ Created on 11/02/2015
 '''
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
-from concretesensor.hcsr04 import HCSR04
+from concretesensor.hysrf05 import HYSRF05
 from concretesensor.parallaxPing import ParallaxPing
 from concretesensor.srf04 import SRF04
 from concretesensor.srf05 import SRF05
@@ -23,8 +23,8 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
         '''
     @staticmethod
     def createSensor(sensorType): 
-	if (sensorType == "HCSR04"):
-		return HCSR04()
+	if (sensorType == "HYSRF05"):
+		return HYSRF05()
     	elif (sensorType == "ParallaxPing"):
         	return ParallaxPing()
     	elif (sensorType == "SRF04"):
