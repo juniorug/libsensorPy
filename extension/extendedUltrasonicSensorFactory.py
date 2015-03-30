@@ -18,8 +18,17 @@ class ExtendedUltrasonicSensorFactory(UltrasonicSensorFactory):
         Constructor
         '''
     @staticmethod
-    def createSensor(sensorType): 
-	if (sensorType == "HCSR04"):
-		return HCSR04()
+    def createSensor(sensorType):
+        if (sensorType == "HCSR04"):
+                return HCSR04()
         else:
-            	return super(sensorType)
+                return super(sensorType)
+
+
+
+
+
+
+
+
+
