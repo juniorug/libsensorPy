@@ -1,7 +1,7 @@
 '''
 Created on 16/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 import abc
 from sensor import Sensor
@@ -12,7 +12,6 @@ class MotionSensor(Sensor):
     classdocs
     '''
     __metaclass__ = abc.ABCMeta
-
 
     def __init__(self):
         '''

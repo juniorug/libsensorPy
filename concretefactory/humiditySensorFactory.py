@@ -1,7 +1,7 @@
 '''
 Created on 16/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
@@ -13,11 +13,11 @@ class HumididtySensorFactory(AbstractSensorFactory):
     classdocs
     '''
 
-
     def __init__(self):
         '''
         Constructor
         '''
+
     @staticmethod
     def createSensor(sensorType):
         if (sensorType == "DHT11Humididty"):
@@ -30,4 +30,3 @@ class HumididtySensorFactory(AbstractSensorFactory):
     @staticmethod
     def createEvent(sensorType):
         pass
-

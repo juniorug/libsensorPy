@@ -1,7 +1,7 @@
 '''
 Created on 30/01/2015
 
-@author: Junior
+@author: Junior Mascarenhas
 '''
 import RPi.GPIO as GPIO
 from abstractclass.temperatureSensor import TemperatureSensor
@@ -11,25 +11,26 @@ class DHT11Temperature(TemperatureSensor):
     '''
     classdocs
     '''
-    
-    
+
     def __init__(self):
         '''
         Constructor
         '''
         TemperatureSensor.__init__(self)
-        self.__data = []
-        self.__crc = ""
-        self.__humidity = "" 
-        self.__temperature = ""
         self.setup()
-    
-    '''def __bin2dec(self,string_num):
-        return str(int(string_num, 2))  '''
-    
+
     def setup(self):
         GPIO.setmode(GPIO.BCM)
-    
+        GPIO.setwarnings(False)
+        self.__pin = 23
+        self.__data = []
+        self.__crc = ""
+        self.__humidity = ""
+        self.__temperature = ""
+
+    def changeSetup(self, pin):
+        self.__pin = pin
+
     def __checkValidData(self):
         return (int(self.__humidity) + int(self.__temperature) - int(self.__crc) == 0)
 
@@ -46,26 +47,16 @@ class DHT11Temperature(TemperatureSensor):
         self.__getValidData()
         return self.__temperature
 
-    '''def getTemperatureInFahrenheit(self):
-
-        self.__getValidData()
-        return str((float(self.__temperature) * 9 /5.0 ) + 32)
-
-            
-    def getTemperatureInKelvin(self):
-        self.__getValidData()
-        return str((float(self.__temperature) + 273.15))'''
-
     def __readData(self):
         self.__data = []
         GPIO.setmode(GPIO.BCM)
-        GPIO.setup(23,GPIO.OUT)
-        GPIO.output(23,GPIO.HIGH)
+        GPIO.setup(self.__pin,GPIO.OUT)
+        GPIO.output(self.__pin,GPIO.HIGH)
         time.sleep(0.025)
-        GPIO.output(23,GPIO.LOW)
+        GPIO.output(self.__pin,GPIO.LOW)
         time.sleep(0.02)
 
-        GPIO.setup(23, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+        GPIO.setup(self.__pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
         for i in range(0,500):
             self.__data.append(GPIO.input(23))
@@ -130,8 +121,4 @@ class DHT11Temperature(TemperatureSensor):
         self.__temperature = self._bin2dec(temperatureBit)
         self.__crc = self._bin2dec(crc)
         return True
-        
-     
-        
-        
-        
+

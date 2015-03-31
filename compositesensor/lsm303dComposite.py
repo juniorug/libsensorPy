@@ -1,7 +1,7 @@
 '''
 Created on 16/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 from abstractclass.accelerometerSensor import AccelerometerSensor
 from abstractclass.magnetometerSensor import MagnetometerSensor
@@ -28,14 +28,12 @@ class LSM303DComposite(AccelerometerSensor,MagnetometerSensor):
         pass
 
     def getMagnetic(self):
-        """Retrieve data from the input source and return an object."""
+        """Return the magnetic measured from the sensor."""
         return self.__lsm303dMag.getMagnetic()
 
-
     def getAxes(self):
-        """Retrieve data from the input source and return an object."""
+        """Return the axes measured from the sensor."""
         return self.__lsm303dAcc.getAxes()
-
 
     def add(self,sensor):
         if ( isinstance(sensor, LSM303DAccelerometer)):

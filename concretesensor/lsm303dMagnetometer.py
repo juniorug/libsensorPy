@@ -1,19 +1,15 @@
 '''
 Created on 16/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 from smbus import SMBus
 from abstractclass.magnetometerSensor import MagnetometerSensor
 
 class LSM303DMagnetometer(MagnetometerSensor):
 
-    busNum = 1
-
     LSM = 0x1d
-
     LSM_WHOAMI = 0b1001001 #Device self-id
-
 
     #Control register addresses -- from LSM303D datasheet
 
@@ -54,14 +50,15 @@ class LSM303DMagnetometer(MagnetometerSensor):
         self.setup()
 
     def setup(self):
+        self.__busNum = 0
         try:
-            self.b = SMBus(self.busNum)
+            self.b = SMBus(self.__busNum)
         except:
             print "no device connected"
             exit(0)
 
-        self.detect(self)
-        self.configure(self)
+        self.__detect(self)
+        self.__configure(self)
 
     def __twos_comp_combine(msb, lsb):
         twos_comp = 256 * msb + lsb
@@ -70,13 +67,13 @@ class LSM303DMagnetometer(MagnetometerSensor):
         else:
             return twos_comp
 
-    def detect(self):
+    def __detect(self):
         if (self.b.read_byte_data(self.LSM, 0x0f) == self.LSM_WHOAMI):
             print 'LSM303D detected successfully.'
         else:
-            print 'No LSM303D detected on bus '+ str(self.busNum)+'.'
+            print 'No LSM303D detected on bus '+ str(self.__busNum)+'.'
 
-    def configure(self):
+    def __configure(self):
         self.b.write_byte_data(self.LSM, self.CTRL_1, 0b1010111) # enable accelerometer, 50 hz sampling
         self.b.write_byte_data(self.LSM, self.CTRL_2, 0x00) #set +/- 2g full scale
         self.b.write_byte_data(self.LSM, self.CTRL_5, 0b01100100) #high resolution mode, thermometer off, 6.25hz ODR

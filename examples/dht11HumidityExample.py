@@ -1,7 +1,7 @@
 '''
 Created on 16/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 
 from concretefactory.humiditySensorFactory import HumididtySensorFactory

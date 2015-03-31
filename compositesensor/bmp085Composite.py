@@ -1,7 +1,7 @@
 '''
 Created on 16/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 from abstractclass.altitudeSensor import AltitudeSensor
 from abstractclass.pressureSensor import PressureSensor
@@ -15,7 +15,6 @@ class BMP085Composite(AltitudeSensor,PressureSensor,TemperatureSensor):
     classdocs
     '''
 
-
     def __init__(self):
         '''
         Constructor
@@ -27,30 +26,27 @@ class BMP085Composite(AltitudeSensor,PressureSensor,TemperatureSensor):
         self.__bmp085Press = BMP085Pressure()
         self.__bmp085Temp = BMP085Temperature()
 
-
     def setup(self):
         pass
 
     def getAltitude(self,seaLevelPressure):
-        """Retrieve data from the input source and return an object."""
+        """Return the altitude measured from the sensor."""
         return self.__bmp085Alt.getAltitude(seaLevelPressure)
 
-
     def getPressure(self):
-        """Retrieve data from the input source and return an object."""
+        """Return the pressure measured from the sensor."""
         return self.__bmp085Press.getPressure()
 
     def getTemperature(self):
-        """Retrieve data from the input source and return an object."""
+        """Return the temperature in Celsius measured from the sensor."""
         return self.__bmp085Temp.getTemperature()
 
     def getTemperatureInFahrenheit(self):
-        """Retrieve data from the input source and return an object."""
+        """Return the temperature in Fahrenheit measured from the sensor."""
         return self.__bmp085Temp.getTemperatureInFahrenheit()
 
-
     def getTemperatureInKelvin(self):
-        """Retrieve data from the input source and return an object."""
+        """Return the temperature in Kelvin measured from the sensor."""
         return self.__bmp085Temp.getTemperatureInKelvin()
 
     def add(self,sensor):
@@ -62,4 +58,3 @@ class BMP085Composite(AltitudeSensor,PressureSensor,TemperatureSensor):
             self.__bmp085Temp = sensor
         else:
             assert 0, "Bad sensor creation. "
-

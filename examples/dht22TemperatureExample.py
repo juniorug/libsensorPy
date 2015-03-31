@@ -1,7 +1,7 @@
 '''
 Created on 22/02/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 
 from concretefactory.temperatureSensorFactory import TemperatureSensorFactory

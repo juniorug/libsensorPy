@@ -1,7 +1,7 @@
 '''
 Created on 18/03/2015
 
-@author: Junior
+@author: Junior Mascarenhas
 '''
 from concretefactory.magnetometerSensorFactory import MagnetometerSensorFactory
 

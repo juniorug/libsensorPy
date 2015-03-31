@@ -1,7 +1,7 @@
 '''
 Created on 17/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
@@ -11,7 +11,6 @@ class AltitudeSensorFactory(AbstractSensorFactory):
     '''
     classdocs
     '''
-
 
     def __init__(self):
         '''

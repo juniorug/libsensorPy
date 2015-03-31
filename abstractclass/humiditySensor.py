@@ -1,7 +1,7 @@
 '''
 Created on 10/02/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 import abc
 from sensor import Sensor
@@ -11,7 +11,6 @@ class HumiditySensor(Sensor):
     classdocs
     '''
     __metaclass__ = abc.ABCMeta
-
 
     def __init__(self):
         '''
@@ -25,8 +24,9 @@ class HumiditySensor(Sensor):
 
     @abc.abstractmethod
     def getHumidity(self):
-        """Retrieve data from the input source and return an object."""
+        ''' Get the humidity value'''
         pass
 
     def _bin2dec(self,string_num):
+        ''' Convert the value to String'''
         return str(int(string_num, 2))

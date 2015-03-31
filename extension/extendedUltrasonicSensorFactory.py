@@ -1,7 +1,7 @@
 '''
 Created on 29/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory

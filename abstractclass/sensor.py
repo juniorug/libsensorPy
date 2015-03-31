@@ -19,8 +19,13 @@ class Sensor(object):
      
     @abc.abstractmethod
     def setup(self):
-        """Retrieve data from the input source and return an object."""
-        pass   
+        """Setup the GPIO."""
+        pass
+
+    @abc.abstractmethod
+    def changeSetup(self):
+        """changes GPIO setup ."""
+        pass
 
     def __del__(self):
         # we're no longer using the GPIO, so tell software we're done

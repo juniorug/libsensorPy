@@ -1,21 +1,15 @@
 '''
 Created on 16/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 from smbus import SMBus
 from abstractclass.accelerometerSensor import AccelerometerSensor
 
-
-
 class LSM303DAccelerometer(AccelerometerSensor):
 
-    busNum = 1
-
     LSM = 0x1d
-
     LSM_WHOAMI = 0b1001001 #Device self-id
-
 
     #Control register addresses -- from LSM303D datasheet
 
@@ -56,14 +50,15 @@ class LSM303DAccelerometer(AccelerometerSensor):
         self.setup()
 
     def setup(self):
+        self.__busNum = 0
         try:
-            self.b = SMBus(self.busNum)
+            self.__b = SMBus(self.__busNum)
         except:
             print "no device connected"
             exit(0)
 
-        self.detect(self)
-        self.configure(self)
+        self.__detect(self)
+        self.__configure(self)
 
     def __twos_comp_combine(msb, lsb):
         twos_comp = 256 * msb + lsb
@@ -72,22 +67,22 @@ class LSM303DAccelerometer(AccelerometerSensor):
         else:
             return twos_comp
 
-    def detect(self):
-        if (self.b.read_byte_data(self.LSM, 0x0f) == self.LSM_WHOAMI):
+    def __detect(self):
+        if (self.__b.read_byte_data(self.LSM, 0x0f) == self.LSM_WHOAMI):
             print 'LSM303D detected successfully.'
         else:
-            print 'No LSM303D detected on bus '+ str(self.busNum)+'.'
+            print 'No LSM303D detected on bus '+ str(self.__busNum)+'.'
 
-    def configure(self):
-        self.b.write_byte_data(self.LSM, self.CTRL_1, 0b1010111) # enable accelerometer, 50 hz sampling
-        self.b.write_byte_data(self.LSM, self.CTRL_2, 0x00) #set +/- 2g full scale
-        self.b.write_byte_data(self.LSM, self.CTRL_5, 0b01100100) #high resolution mode, thermometer off, 6.25hz ODR
-        self.b.write_byte_data(self.LSM, self.CTRL_6, 0b00100000) # set +/- 4 gauss full scale
-        self.b.write_byte_data(self.LSM, self.CTRL_7, 0x00) #get magnetometer out of low power mode
+    def __configure(self):
+        self.__b.write_byte_data(self.LSM, self.CTRL_1, 0b1010111) # enable accelerometer, 50 hz sampling
+        self.__b.write_byte_data(self.LSM, self.CTRL_2, 0x00) #set +/- 2g full scale
+        self.__b.write_byte_data(self.LSM, self.CTRL_5, 0b01100100) #high resolution mode, thermometer off, 6.25hz ODR
+        self.__b.write_byte_data(self.LSM, self.CTRL_6, 0b00100000) # set +/- 4 gauss full scale
+        self.__b.write_byte_data(self.LSM, self.CTRL_7, 0x00) #get magnetometer out of low power mode
 
-    def getAxes(self, gforce = False):
-        x = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.ACC_X_MSB), self.b.read_byte_data(self.LSM, self.ACC_X_LSB))
-        y = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.ACC_Y_MSB), self.b.read_byte_data(self.LSM, self.ACC_Y_LSB))
-        z = self.__twos_comp_combine(self.b.read_byte_data(self.LSM, self.ACC_Z_MSB), self.b.read_byte_data(self.LSM, self.ACC_Z_LSB))
+    def getAxes(self):
+        x = self.__twos_comp_combine(self.__b.read_byte_data(self.LSM, self.ACC_X_MSB), self.__b.read_byte_data(self.LSM, self.ACC_X_LSB))
+        y = self.__twos_comp_combine(self.__b.read_byte_data(self.LSM, self.ACC_Y_MSB), self.__b.read_byte_data(self.LSM, self.ACC_Y_LSB))
+        z = self.__twos_comp_combine(self.__b.read_byte_data(self.LSM, self.ACC_Z_MSB), self.__b.read_byte_data(self.LSM, self.ACC_Z_LSB))
         return {"x": x, "y": y, "z": z}
 

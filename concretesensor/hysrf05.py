@@ -1,7 +1,7 @@
 '''
 Created on 04/02/2015
 
-@author: Junior
+@author: Junior Mascarenhas
 '''
 import RPi.GPIO as GPIO
 import time
@@ -12,79 +12,39 @@ class HYSRF05(UltrasonicSensor):
     classdocs
     '''
 
-
     def __init__(self,trigger=18,echo=27):
         '''
         Constructor
         '''
         UltrasonicSensor.__init__(self)
-        self.__distance = ""
-        self.trigger = trigger
-        self.echo = echo
+        self.__trigger = trigger
+        self.__echo = echo
         self.setup()
         
     def setup(self):
         GPIO.setmode(GPIO.BCM)
-        # Disable any warning message such as GPIO pins in use
         GPIO.setwarnings(False) 
-      
+        self.__distance = ""
+
+    def changeSetup(self, trigger, echo):
+        self.__trigger = trigger
+        self.__echo = echo
+
     def distance_in_cm(self):
 
-        # point the software to the GPIO pins the sensor is using
-        # change these values to the pins you are using
-        # GPIO output = the pin that's connected to "Trig" on the sensor
-        # GPIO input = the pin that's connected to "Echo" on the sensor
-        GPIO.setup(self.trigger,GPIO.OUT)
-        GPIO.setup(self.echo,GPIO.IN)
-        GPIO.output(self.trigger, GPIO.LOW)
-
-        # found that the sensor can crash if there isn't a delay here
-        # no idea why. If you have odd crashing issues, increase delay
+        GPIO.setup(self.__trigger,GPIO.OUT)
+        GPIO.setup(self.__echo,GPIO.IN)
+        GPIO.output(self.__trigger, GPIO.LOW)
         time.sleep(0.3)
-
-        # sensor manual says a pulse ength of 10Us will trigger the
-        # sensor to transmit 8 cycles of ultrasonic burst at 40kHz and
-        # wait for the reflected ultrasonic burst to be received
-
-        # to get a pulse length of 10Us we need to start the pulse, then
-        # wait for 10 microseconds, then stop the pulse. This will
-        # result in the pulse length being 10Us.
-
-        # start the pulse on the GPIO pin
-        # change this value to the pin you are using
-        # GPIO output = the pin that's connected to "Trig" on the sensor
-        GPIO.output(self.trigger, True)
-
-        # wait 10 micro seconds (this is 0.00001 seconds) so the pulse
-        # length is 10Us as the sensor expects
+        GPIO.output(self.__trigger, True)
         time.sleep(0.00001)
-
-        # stop the pulse after the time above has passed
-        # change this value to the pin you are using
-        # GPIO output = the pin that's connected to "Trig" on the sensor
-        GPIO.output(self.trigger, False)
-
-        # listen to the input pin. 0 means nothing is happening. Once a
-        # signal is received the value will be 1 so the while loop
-        # stops and has the last recorded time the signal was 0
-        # change this value to the pin you are using
-        # GPIO input = the pin that's connected to "Echo" on the sensor
-        while (GPIO.input(self.echo) == 0):
+        GPIO.output(self.__trigger, False)
+        while (GPIO.input(self.__echo) == 0):
             signaloff = time.time()
-
-        # listen to the input pin. Once a signal is received, record the
-        # time the signal came through
-        # change this value to the pin you are using
-        # GPIO input = the pin that's connected to "Echo" on the sensor
-        while GPIO.input(self.echo) == 1:
+        while GPIO.input(self.__echo) == 1:
             signalon = time.time()
 
-        # work out the difference in the two recorded times above to
-        # calculate the distance of an object in front of the sensor
         timepassed = signalon - signaloff
-
-        # we now have our distance but it's not in a useful unit of
-        # measurement. So now we convert this distance into centimetres
         self.__distance = timepassed * 17000
 
         # return the distance of an object in front of the sensor in cm

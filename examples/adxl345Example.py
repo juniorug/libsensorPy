@@ -1,7 +1,7 @@
 '''
 Created on 16/03/2015
 
-@author: Junior
+@author: Junior Mascarenhas
 '''
 from concretefactory.accelerometerSensorFactory import AccelerometerSensorFactory
 

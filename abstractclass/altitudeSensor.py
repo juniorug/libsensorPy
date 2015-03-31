@@ -1,7 +1,7 @@
 '''
 Created on 17/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 import abc
 from sensor import Sensor
@@ -11,7 +11,6 @@ class AltitudeSensor(Sensor):
     classdocs
     '''
     __metaclass__ = abc.ABCMeta
-
 
     def __init__(self):
         '''
@@ -25,6 +24,6 @@ class AltitudeSensor(Sensor):
 
     @abc.abstractmethod
     def getAltitude(self,seaLevelPressure):
-        """Retrieve data from the input source and return an object."""
+        ''' Get the altitude value'''
         pass
 

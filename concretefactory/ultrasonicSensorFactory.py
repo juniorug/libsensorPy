@@ -1,7 +1,7 @@
 '''
 Created on 11/02/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 
 from abstractclass.abstractSensorFactory import AbstractSensorFactory
@@ -16,13 +16,13 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
     classdocs
     '''
 
-
     def __init__(self):
         '''
         Constructor
         '''
+
     @staticmethod
-    def createSensor(sensorType): 
+    def createSensor(sensorType):
 	if (sensorType == "HYSRF05"):
 		return HYSRF05()
     	elif (sensorType == "ParallaxPing"):

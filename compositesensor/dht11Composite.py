@@ -1,7 +1,7 @@
 '''
 Created on 16/03/2015
 
-@author: zeus
+@author: Junior Mascarenhas
 '''
 from abstractclass.humiditySensor import HumiditySensor
 from abstractclass.temperatureSensor import TemperatureSensor
@@ -12,8 +12,7 @@ class DHT11Composite(TemperatureSensor,HumiditySensor):
     '''
     classdocs
     '''
-    
-      
+
     def __init__(self):
         '''
         Constructor
@@ -27,21 +26,19 @@ class DHT11Composite(TemperatureSensor,HumiditySensor):
         pass
 
     def getTemperature(self):
-        """Retrieve data from the input source and return an object."""
+        """"Return the temperature in Celsius measured from the sensor."""
         return self.__dht11Temp.getTemperature()
 
-
     def getTemperatureInFahrenheit(self):
-        """Retrieve data from the input source and return an object."""
+        """Return the temperature in Fahrenheit measured from the sensor."""
         return self.__dht11Temp.getTemperatureInFahrenheit()
 
-
     def getTemperatureInKelvin(self):
-        """Retrieve data from the input source and return an object."""
+        """Return the temperature in Kelvin measured from the sensor."""
         return self.__dht11Temp.getTemperatureInKelvin()
 
     def getHumidity(self):
-        """Retrieve data from the input source and return an object."""
+        """Return the humidity measured from the sensor."""
         return self.__dht11Hum.getHumidity()
 
     def add(self,sensor):
