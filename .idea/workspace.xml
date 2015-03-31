@@ -2,74 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f27477-73e1-41db-9f9a-08559e3195de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/__init__.py" afterPath="$PROJECT_DIR$/abstractclass/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretefactory/__init__.py" afterPath="$PROJECT_DIR$/concretefactory/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/__init__.py" afterPath="$PROJECT_DIR$/concretesensor/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/__init__.py" afterPath="$PROJECT_DIR$/examples/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/abstractSensorFactory.py" afterPath="$PROJECT_DIR$/abstractclass/abstractSensorFactory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/accelerometerSensor.py" afterPath="$PROJECT_DIR$/abstractclass/accelerometerSensor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretefactory/accelerometerSensorFactory.py" afterPath="$PROJECT_DIR$/concretefactory/accelerometerSensorFactory.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/licenses/License_Pimoroni" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/licenses/Lincense_Adafruit" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/adxl345.py" afterPath="$PROJECT_DIR$/concretesensor/adxl345.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/adxl345Example.py" afterPath="$PROJECT_DIR$/examples/adxl345Example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/altitudeSensor.py" afterPath="$PROJECT_DIR$/abstractclass/altitudeSensor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretefactory/altitudeSensorFactory.py" afterPath="$PROJECT_DIR$/concretefactory/altitudeSensorFactory.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/bmp085Altitude.py" afterPath="$PROJECT_DIR$/concretesensor/bmp085Altitude.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bmp085AltitudeExample.py" afterPath="$PROJECT_DIR$/examples/bmp085AltitudeExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compositesensor/bmp085Composite.py" afterPath="$PROJECT_DIR$/compositesensor/bmp085Composite.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bmp085CompositeExample.py" afterPath="$PROJECT_DIR$/examples/bmp085CompositeExample.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/bmp085Pressure.py" afterPath="$PROJECT_DIR$/concretesensor/bmp085Pressure.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bmp085PressureExample.py" afterPath="$PROJECT_DIR$/examples/bmp085PressureExample.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/bmp085Temperature.py" afterPath="$PROJECT_DIR$/concretesensor/bmp085Temperature.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/bmp085TemperatureExample.py" afterPath="$PROJECT_DIR$/examples/bmp085TemperatureExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretefactory/compositeSensorFactory.py" afterPath="$PROJECT_DIR$/concretefactory/compositeSensorFactory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compositesensor/dht11Composite.py" afterPath="$PROJECT_DIR$/compositesensor/dht11Composite.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/dht11CompositeExample.py" afterPath="$PROJECT_DIR$/examples/dht11CompositeExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/dht11Humidity.py" afterPath="$PROJECT_DIR$/concretesensor/dht11Humidity.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/dht11HumidityExample.py" afterPath="$PROJECT_DIR$/examples/dht11HumidityExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/dht11Temperature.py" afterPath="$PROJECT_DIR$/concretesensor/dht11Temperature.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/dht11TemperatureExample.py" afterPath="$PROJECT_DIR$/examples/dht11TemperatureExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compositesensor/dht22Composite.py" afterPath="$PROJECT_DIR$/compositesensor/dht22Composite.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/dht22CompositeExample.py" afterPath="$PROJECT_DIR$/examples/dht22CompositeExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/dht22Humidity.py" afterPath="$PROJECT_DIR$/concretesensor/dht22Humidity.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/dht22HumidityExample.py" afterPath="$PROJECT_DIR$/examples/dht22HumidityExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/dht22Temperature.py" afterPath="$PROJECT_DIR$/concretesensor/dht22Temperature.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/dht22TemperatureExample.py" afterPath="$PROJECT_DIR$/examples/dht22TemperatureExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extension/extendedUltrasonicSensorFactory.py" afterPath="$PROJECT_DIR$/extension/extendedUltrasonicSensorFactory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extension/hcsr04.py" afterPath="$PROJECT_DIR$/extension/hcsr04.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extension/hcsr04ExtensionExample.py" afterPath="$PROJECT_DIR$/extension/hcsr04ExtensionExample.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/hmc5883l.py" afterPath="$PROJECT_DIR$/concretesensor/hmc5883l.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/hmc5883lExample.py" afterPath="$PROJECT_DIR$/examples/hmc5883lExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/humiditySensor.py" afterPath="$PROJECT_DIR$/abstractclass/humiditySensor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretefactory/humiditySensorFactory.py" afterPath="$PROJECT_DIR$/concretefactory/humiditySensorFactory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/hysrf05.py" afterPath="$PROJECT_DIR$/concretesensor/hysrf05.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/hysrf05Example.py" afterPath="$PROJECT_DIR$/examples/hysrf05Example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py" afterPath="$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/lsm303dAccelerometerExample.py" afterPath="$PROJECT_DIR$/examples/lsm303dAccelerometerExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/compositesensor/lsm303dComposite.py" afterPath="$PROJECT_DIR$/compositesensor/lsm303dComposite.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/lsm303dCompositeExample.py" afterPath="$PROJECT_DIR$/examples/lsm303dCompositeExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py" afterPath="$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/lsm303dMagnetometerExample.py" afterPath="$PROJECT_DIR$/examples/lsm303dMagnetometerExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/magnetometerSensor.py" afterPath="$PROJECT_DIR$/abstractclass/magnetometerSensor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretefactory/magnetometerSensorFactory.py" afterPath="$PROJECT_DIR$/concretefactory/magnetometerSensorFactory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/motionSensor.py" afterPath="$PROJECT_DIR$/abstractclass/motionSensor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretefactory/motionSensorFactory.py" afterPath="$PROJECT_DIR$/concretefactory/motionSensorFactory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/parallaxPing.py" afterPath="$PROJECT_DIR$/concretesensor/parallaxPing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/parallaxPingExample.py" afterPath="$PROJECT_DIR$/examples/parallaxPingExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/pir.py" afterPath="$PROJECT_DIR$/concretesensor/pir.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/pirExample.py" afterPath="$PROJECT_DIR$/examples/pirExample.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/pressureSensor.py" afterPath="$PROJECT_DIR$/abstractclass/pressureSensor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretefactory/pressureSensorFactory.py" afterPath="$PROJECT_DIR$/concretefactory/pressureSensorFactory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/sensor.py" afterPath="$PROJECT_DIR$/abstractclass/sensor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/srf04.py" afterPath="$PROJECT_DIR$/concretesensor/srf04.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/srf04Example.py" afterPath="$PROJECT_DIR$/examples/srf04Example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/srf05.py" afterPath="$PROJECT_DIR$/concretesensor/srf05.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/srf05Example.py" afterPath="$PROJECT_DIR$/examples/srf05Example.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/temperatureSensor.py" afterPath="$PROJECT_DIR$/abstractclass/temperatureSensor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretefactory/temperatureSensorFactory.py" afterPath="$PROJECT_DIR$/concretefactory/temperatureSensorFactory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abstractclass/ultrasonicSensor.py" afterPath="$PROJECT_DIR$/abstractclass/ultrasonicSensor.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretefactory/ultrasonicSensorFactory.py" afterPath="$PROJECT_DIR$/concretefactory/ultrasonicSensorFactory.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/urm37.py" afterPath="$PROJECT_DIR$/concretesensor/urm37.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/urm37Example.py" afterPath="$PROJECT_DIR$/examples/urm37Example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="libsensorPy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,81 +33,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pycomms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/pycomms.py">
+      <file leaf-file-name="bmp085Pressure.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concretesensor/bmp085Pressure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2565">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.0526314" vertical-offset="135" max-vertical-offset="2385">
+              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extendedUltrasonicSensorFactory.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extension/extendedUltrasonicSensorFactory.py">
+      <file leaf-file-name="hmc5883l.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concretesensor/hmc5883l.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="570">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state vertical-scroll-proportion="13.350877" vertical-offset="1016" max-vertical-offset="1800">
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hcsr04.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/extension/hcsr04.py">
+      <file leaf-file-name="hysrf05.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concretesensor/hysrf05.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56442416" vertical-offset="0" max-vertical-offset="877">
-              <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hcsr04ExtensionExample.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extension/hcsr04ExtensionExample.py">
+      <file leaf-file-name="lsm303dAccelerometer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1395">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bmp085Altitude.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concretesensor/bmp085Altitude.py">
+      <file leaf-file-name="lsm303dMagnetometer.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2505">
-              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="1395">
+              <caret line="85" column="19" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bmp085Temperature.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concretesensor/bmp085Temperature.py">
+      <file leaf-file-name="parallaxPing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concretesensor/parallaxPing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1620">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dht11Humidity.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concretesensor/dht11Humidity.py">
+      <file leaf-file-name="pir.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concretesensor/pir.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1920">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dht11Temperature.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
+      <file leaf-file-name="srf04.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concretesensor/srf04.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1950">
-              <caret line="49" column="18" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1380">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="srf05.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/concretesensor/srf05.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1380">
+              <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urm37.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/concretesensor/urm37.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.47423887" vertical-offset="90" max-vertical-offset="1395">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -181,15 +141,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/concretefactory/compositeSensorFactory.py" />
-        <option value="$PROJECT_DIR$/concretefactory/humiditySensorFactory.py" />
         <option value="$PROJECT_DIR$/concretefactory/temperatureSensorFactory.py" />
         <option value="$PROJECT_DIR$/concretefactory/altitudeSensorFactory.py" />
         <option value="$PROJECT_DIR$/compositesensor/dht11Composite.py" />
-        <option value="$PROJECT_DIR$/concretesensor/adxl345.py" />
-        <option value="$PROJECT_DIR$/concretesensor/bmp085Pressure.py" />
-        <option value="$PROJECT_DIR$/concretesensor/bmp085Temperature.py" />
-        <option value="$PROJECT_DIR$/concretesensor/bmp085Altitude.py" />
         <option value="$PROJECT_DIR$/concretesensor/dht11Humidity.py" />
         <option value="$PROJECT_DIR$/concretesensor/dht11Temperature.py" />
         <option value="$PROJECT_DIR$/examples/ultrasonicExample.py" />
@@ -200,7 +154,6 @@
         <option value="$PROJECT_DIR$/concretefactory/pressureSensorFactory.py" />
         <option value="$PROJECT_DIR$/examples/bmp085PressureExample.py" />
         <option value="$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py" />
-        <option value="$PROJECT_DIR$/abstractclass/ultrasonicSensor.py" />
         <option value="$PROJECT_DIR$/concretesensor/parallaxPing.py" />
         <option value="$PROJECT_DIR$/concretesensor/srf04.py" />
         <option value="$PROJECT_DIR$/concretesensor/srf05.py" />
@@ -212,7 +165,6 @@
         <option value="$PROJECT_DIR$/examples/dht22CompositeExample.py" />
         <option value="$PROJECT_DIR$/examples/dht22HumidityExample.py" />
         <option value="$PROJECT_DIR$/examples/dht22TemperatureExample.py" />
-        <option value="$PROJECT_DIR$/concretesensor/hmc5883l.py" />
         <option value="$PROJECT_DIR$/concretefactory/magnetometerSensorFactory.py" />
         <option value="$PROJECT_DIR$/examples/hmc5883lExample.py" />
         <option value="$PROJECT_DIR$/concretesensor/pir.py" />
@@ -232,6 +184,14 @@
         <option value="$PROJECT_DIR$/extension/extendedUltrasonicSensorFactory.py" />
         <option value="$PROJECT_DIR$/extension/hcsr04Example.py" />
         <option value="$PROJECT_DIR$/extension/hcsr04.py" />
+        <option value="$PROJECT_DIR$/abstractclass/ultrasonicSensor.py" />
+        <option value="$PROJECT_DIR$/licenses/License_Pimoroni" />
+        <option value="$PROJECT_DIR$/concretesensor/adxl345.py" />
+        <option value="$PROJECT_DIR$/licenses/Lincense_Adafruit" />
+        <option value="$PROJECT_DIR$/concretesensor/bmp085Altitude.py" />
+        <option value="$PROJECT_DIR$/concretesensor/bmp085Temperature.py" />
+        <option value="$PROJECT_DIR$/concretesensor/bmp085Pressure.py" />
+        <option value="$PROJECT_DIR$/concretesensor/hmc5883l.py" />
       </list>
     </option>
   </component>
@@ -634,14 +594,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="25" width="1282" height="1000" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25253206" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26640624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2660842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -653,10 +613,32 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28650442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25253206" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26640624" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28650442" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -690,21 +672,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="2115">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/srf05Example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/parallaxPingExample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20524515" vertical-offset="0" max-vertical-offset="877">
@@ -880,14 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abstractclass/ultrasonicSensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/adxl345Example.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875">
@@ -903,35 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concretefactory/ultrasonicSensorFactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/adxl345.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72" vertical-offset="0" max-vertical-offset="1695">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/bmp085Pressure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.30857143" vertical-offset="270" max-vertical-offset="2460">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/bmp085Altitude.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="705" max-vertical-offset="2505">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="735" max-vertical-offset="1950">
@@ -940,90 +870,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/bmp085Temperature.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concretesensor/dht22Humidity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.0182858" vertical-offset="4" max-vertical-offset="2760">
           <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/hmc5883l.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5485714" vertical-offset="585" max-vertical-offset="1935">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/hysrf05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20571429" vertical-offset="45" max-vertical-offset="1530">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3942857" vertical-offset="480" max-vertical-offset="1470">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8971428" vertical-offset="475" max-vertical-offset="1440">
-          <caret line="85" column="19" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/parallaxPing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6342857" vertical-offset="0" max-vertical-offset="1590">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/pir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6" vertical-offset="0" max-vertical-offset="875">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/srf04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25714287" vertical-offset="0" max-vertical-offset="1335">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/srf05.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49714285" vertical-offset="75" max-vertical-offset="1335">
-          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/dht11Humidity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1890">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/urm37.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.017142856" vertical-offset="90" max-vertical-offset="1350">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1053,8 +903,152 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/extension/hcsr04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56442416" vertical-offset="0" max-vertical-offset="877">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
           <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretefactory/ultrasonicSensorFactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abstractclass/ultrasonicSensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/dht11Humidity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.051311288" vertical-offset="45" max-vertical-offset="1890">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/licenses/License_Pimoroni">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42759407" vertical-offset="0" max-vertical-offset="877">
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/licenses/Lincense_Adafruit">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31615925" vertical-offset="0" max-vertical-offset="854">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/adxl345.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1545">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/bmp085Temperature.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.9122806" vertical-offset="80" max-vertical-offset="1665">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/bmp085Altitude.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="12.631579" vertical-offset="720" max-vertical-offset="2505">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/bmp085Pressure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0526314" vertical-offset="135" max-vertical-offset="2385">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/hmc5883l.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="13.350877" vertical-offset="1016" max-vertical-offset="1800">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/hysrf05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/lsm303dAccelerometer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1395">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/lsm303dMagnetometer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="1395">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/parallaxPing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/pir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/srf04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5" max-vertical-offset="1380">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/srf05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="1380">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/urm37.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47423887" vertical-offset="90" max-vertical-offset="1395">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>

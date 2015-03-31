@@ -2,6 +2,9 @@
 Created on 16/03/2015
 
 @author: Junior Mascarenhas
+based on earlyer version from
+the one written by Jonathan Williamson
+SEE License_Pimoroni.txt included in this package
 '''
 
 import smbus
