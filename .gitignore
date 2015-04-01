@@ -19,3 +19,6 @@ nbproject/private/
 *.swp
 *.out
 target/
+build/
+dist/
+libsensorPy.egg-info/
