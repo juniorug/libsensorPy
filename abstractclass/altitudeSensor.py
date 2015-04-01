@@ -11,6 +11,7 @@ class AltitudeSensor(Sensor):
     classdocs
     '''
     __metaclass__ = abc.ABCMeta
+    _SEA_LEVEL_PRESSURE = 101325  # sea level pressure in kPa
 
     def __init__(self):
         '''
@@ -23,7 +24,10 @@ class AltitudeSensor(Sensor):
         pass
 
     @abc.abstractmethod
-    def getAltitude(self,seaLevelPressure):
-        ''' Get the altitude value'''
+    def getAltitude(self):
+        ''' Get the altitude value in meters'''
         pass
 
+    def getAltitudeInCm(self):
+        ''' Get the altitude value in centimeters'''
+        return self.getAltitude() * 100

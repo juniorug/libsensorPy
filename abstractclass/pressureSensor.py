@@ -24,6 +24,21 @@ class PressureSensor(Sensor):
 
     @abc.abstractmethod
     def getPressure(self):
-        """Retrieve data from the input source and return an object."""
+        """Return the pressure in hPa."""
         pass
 
+    def getPressureInPsi(self):
+        """Return the pressure in psi."""
+        return self.getPressure() * 0.014503773773
+
+    def getPressureInBar(self):
+        """Return the pressure in psi."""
+        return self.getPressure() * 0.001
+
+    def getPressureInMmhg(self):
+        """Return the pressure in psi."""
+        return self.getPressure() * 0.7500637554192
+
+    def getPressureInNm2(self):
+        """Return the pressure in psi."""
+        return self.getPressure() * 100

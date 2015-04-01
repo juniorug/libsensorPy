@@ -155,7 +155,7 @@ class BMP085Altitude(AltitudeSensor):
 
         return p
 
-    def getAltitude(self, seaLevelPressure = 101325):
+    def getAltitude(self, seaLevelPressure = super._SEA_LEVEL_PRESSURE):
         # Calculates the altitude in meters
         altitude = 0.0
         pressure = float(self.__readPressure())
