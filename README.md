@@ -1,4 +1,4 @@
-# libsensorPy
+# LibsensorPy
 An extendable python library to manipulate sensors coupled to the Raspberry Pi
 
 ###### WHAT IS NEEDED BEFORE INSTALL?
@@ -35,7 +35,7 @@ and then reboot.
 * $ sudo make install
  
  
-##### HOW TO INSTALL libsensorPy:
+###### How to install LibsensorPy:
 
 * $ git clone https://github.com/juniorug/libsensorPy.git
 
