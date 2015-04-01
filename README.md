@@ -35,7 +35,7 @@ and then reboot.
 * $ sudo make install
  
  
-###### HOW INSTALL LIBSENSORPY:
+#### HOW INSTALL LIBSENSORPY:
 
 * $ git clone https://github.com/juniorug/libsensorPy.git
 
