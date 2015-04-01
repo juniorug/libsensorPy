@@ -12,7 +12,7 @@ An extendable python library to manipulate sensors coupled to the Raspberry Pi
 
 * $ sudo nano /etc/modprobe.d/raspi-blacklist.conf 
 
-and adding a # (if its not there). 
+And adding a # (if its not there). 
 
 * \# blacklist i2c-bcm2708 
 
@@ -24,7 +24,7 @@ and adding a # (if its not there).
 * i2c-bcm2708
 * spi-bcm2708
 
-and then reboot.
+And then reboot.
 
 3) Install pigpio:
 
