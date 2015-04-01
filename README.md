@@ -14,8 +14,8 @@ and adding a # (if its not there).
 
 $sudo nano /etc/modprobe.d/raspi-blacklist.conf
 
-\0#blacklist i2c-bcm2708
-\0#blacklist spi-bcm2708
+\#blacklist i2c-bcm2708
+\#blacklist spi-bcm2708
 
 2.2) For Wheezy or something-other-than-Occidentalis, add the following lines to /etc/modules: 
  
