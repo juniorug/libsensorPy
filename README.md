@@ -35,11 +35,10 @@ And then reboot.
 * $ sudo make install
  
  
-##### How to install LibsensorPy:
+##### How to download and install LibsensorPy:
 
-* $ git clone https://github.com/juniorug/libsensorPy.git
-
-* $ cd libsensorPy/
-
+* $ wget https://pypi.python.org/packages/source/l/libsensorPy/libsensorPy-0.0.1.tar.gz
+* $ tar -zxvf libsensorPy-0.0.1.tar.gz
+* $ cd libsensorPy-0.0.1/
 * $ sudo python setup.py install
 
