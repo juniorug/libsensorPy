@@ -16,4 +16,3 @@ if __name__ == '__main__':
         print "Color Temperature: %.3f C" % colorTemp
 
     print "Luminosity: %%.3f lux" %  tcs34725.calculateLux()
-
