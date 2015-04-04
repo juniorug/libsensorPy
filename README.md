@@ -34,7 +34,9 @@ And then reboot.
 * $ sudo make
 * $ sudo make install
  
- 
+4) Install setuptools:
+* sudo apt-get install python-setuptools
+* 
 ##### How to download and install LibsensorPy:
 
 * $ wget https://pypi.python.org/packages/source/l/libsensorPy/libsensorPy-0.0.1.tar.gz
