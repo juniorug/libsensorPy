@@ -10,7 +10,7 @@ def read(fname):
 
 setup(
     name = "libsensorPy",
-    version = "0.0.1",
+    version = "0.0.2",
     author = "Junior Mascarenhas",
     author_email = "juniorug@gmail.com",
     description = ("An extendable python library to manipulate sensors coupled to the Raspberry Pi"),
