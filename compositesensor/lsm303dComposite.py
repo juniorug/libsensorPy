@@ -24,9 +24,6 @@ class LSM303DComposite(AccelerometerSensor,MagnetometerSensor):
         self.__lsm303dAcc = LSM303DAccelerometer()
         self.__lsm303dMag = LSM303DMagnetometer()
 
-    def setup(self):
-        pass
-
     def getMagnetic(self):
         """Return the magnetic measured from the sensor."""
         return self.__lsm303dMag.getMagnetic()

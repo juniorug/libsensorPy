@@ -22,9 +22,6 @@ class DHT22Composite(TemperatureSensor,HumiditySensor):
         self.__dht22Temp = DHT22Temperature()
         self.__dht22Hum = DHT22Humidity()
 
-    def setup(self):
-        pass
-
     def getTemperature(self):
         """"Return the temperature in Celsius measured from the sensor."""
         return self.__dht122Temp.getTemperature()
