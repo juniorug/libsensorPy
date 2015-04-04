@@ -22,6 +22,14 @@ class DHT22Composite(TemperatureSensor,HumiditySensor):
         self.__dht22Temp = DHT22Temperature()
         self.__dht22Hum = DHT22Humidity()
 
+    def setup(self):
+        """Setup the GPIO."""
+        self.__dht22Temp.setup()
+
+    def changeSetup(self,pin):
+        """changes GPIO setup ."""
+        self.__dht22Temp.changeSetup(self,pin)
+
     def getTemperature(self):
         """"Return the temperature in Celsius measured from the sensor."""
         return self.__dht122Temp.getTemperature()

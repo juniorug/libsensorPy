@@ -26,6 +26,15 @@ class BMP085Composite(AltitudeSensor,PressureSensor,TemperatureSensor):
         self.__bmp085Press = BMP085Pressure()
         self.__bmp085Temp = BMP085Temperature()
 
+    def setup(self):
+        """Setup the GPIO."""
+        self.__bmp085Alt.setup(self)
+
+    def changeSetup(self):
+        """changes GPIO setup ."""
+        self.__bmp085Alt.changeSetup(self)
+
+
     def getAltitude(self,seaLevelPressure):
         """Return the altitude measured from the sensor."""
         return self.__bmp085Alt.getAltitude(seaLevelPressure)

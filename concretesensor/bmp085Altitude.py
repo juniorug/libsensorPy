@@ -65,6 +65,10 @@ class BMP085Altitude(AltitudeSensor):
         # Read the calibration data
         self.__readCalibrationData()
 
+    def changeSetup(self):
+        """changes GPIO setup ."""
+        pass
+
     def __readCalibrationData(self):
         # Reads the calibration data from the IC
         self.__cal_AC1 = self.__i2c.readS16(self.__CAL_AC1)   # INT16

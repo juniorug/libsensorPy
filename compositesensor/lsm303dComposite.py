@@ -24,6 +24,14 @@ class LSM303DComposite(AccelerometerSensor,MagnetometerSensor):
         self.__lsm303dAcc = LSM303DAccelerometer()
         self.__lsm303dMag = LSM303DMagnetometer()
 
+    def setup(self):
+        """Setup the GPIO."""
+        self.__lsm303dAcc.setup()
+
+    def changeSetup(self):
+        """changes GPIO setup ."""
+        self.__lsm303dAcc.changeSetup()
+
     def getMagnetic(self):
         """Return the magnetic measured from the sensor."""
         return self.__lsm303dMag.getMagnetic()

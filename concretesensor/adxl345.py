@@ -56,6 +56,10 @@ class ADXL345(AccelerometerSensor):
         self.setSensitivity(ADXL345.RANGE_2G)
         self.__enableMeasurement()
 
+    def changeSetup(self):
+        """changes GPIO setup ."""
+        pass
+
     def __enableMeasurement(self):
         self.__bus.write_byte_data(ADXL345.address, ADXL345.POWER_CTL, ADXL345.MEASURE)
 

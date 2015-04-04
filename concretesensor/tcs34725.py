@@ -110,6 +110,10 @@ class TCS34725(LightSensor):
         self.__setInterrupt(False)
         time.sleep(1)
 
+    def changeSetup(self):
+        """changes GPIO setup ."""
+        pass
+
     def __readU8(self, reg):
         return self.__i2c.readU8(self.__COMMAND_BIT | reg)
 

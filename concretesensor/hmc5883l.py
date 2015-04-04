@@ -91,6 +91,10 @@ class HMC5883L(MagnetometerSensor):
         # write MODE register
         self.__setMode(self.MODE_SINGLE);
 
+    def changeSetup(self):
+        """changes GPIO setup ."""
+        pass
+
     def __setGain(self, value):
         self.__i2c.write8(self.RA_CONFIG_B, value << (self.CRB_GAIN_BIT - self.CRB_GAIN_LENGTH + 1))
 

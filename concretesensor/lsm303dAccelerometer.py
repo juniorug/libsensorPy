@@ -60,6 +60,10 @@ class LSM303DAccelerometer(AccelerometerSensor):
         self.__detect(self)
         self.__configure(self)
 
+    def changeSetup(self):
+        """changes GPIO setup ."""
+        pass
+
     def __twos_comp_combine(msb, lsb):
         twos_comp = 256 * msb + lsb
         if twos_comp >= 32768:
