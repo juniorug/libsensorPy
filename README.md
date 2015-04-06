@@ -38,9 +38,12 @@ And then reboot.
 * sudo apt-get install python-setuptools
 
 ##### How to download and install LibsensorPy:
+1) Via pip:
+* sudo pip install libsensorPy 
 
-* $ wget https://pypi.python.org/packages/source/l/libsensorPy/libsensorPy-0.0.1.tar.gz
-* $ tar -zxvf libsensorPy-0.0.1.tar.gz
-* $ cd libsensorPy-0.0.1/
+2) Via wget:
+* $ wget https://pypi.python.org/packages/source/l/libsensorPy/libsensorPy-0.0.4.tar.gz
+* $ tar -zxvf libsensorPy-0.0.4.tar.gz
+* $ cd libsensorPy-0.0.4/
 * $ sudo python setup.py install
 
