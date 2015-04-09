@@ -34,8 +34,8 @@ class DHT11Temperature(TemperatureSensor):
 
     def changeSetup(self, pin):
         """
-        @param pin:
-        @return:
+        @param pin: the pin used 
+        @return: void
         """
         self.__pin = pin
 
