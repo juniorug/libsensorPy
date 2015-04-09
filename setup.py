@@ -17,7 +17,7 @@ setup(
     license = "BSD",
     keywords = "example documentation tutorial",
     url = "https://github.com/juniorug/libsensorPy",
-    packages=['abstractclass', 'compositesensor', 'concreteactuator','concretefactory', 'concretesensor', 'examples', 'extension', 'utils'],
+    packages=['abstractclass', 'compositesensor', 'concreteactuator','concreteevent','concretefactory','concreteobserver','concretesensor', 'examples', 'extension', 'utils'],
     long_description=read('README'),
     classifiers=[
         "Development Status :: 3 - Alpha",

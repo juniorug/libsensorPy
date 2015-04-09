@@ -8,7 +8,7 @@ from abstractclass.abstractSensorFactory import AbstractSensorFactory
 from concretesensor.dht11Temperature import DHT11Temperature
 from concretesensor.dht22Temperature import DHT22Temperature
 from concretesensor.bmp085Temperature import BMP085Temperature
-
+from concreteevent.temperatureEvent import TemperatureEvent
 class TemperatureSensorFactory(AbstractSensorFactory):
     '''
     classdocs
@@ -31,5 +31,5 @@ class TemperatureSensorFactory(AbstractSensorFactory):
             assert 0, "Bad sensor creation: " + sensorType
 
     @staticmethod
-    def createEvent(sensorType):
-        pass
+    def createEvent(sensor):
+        return TemperatureEvent(sensor)
