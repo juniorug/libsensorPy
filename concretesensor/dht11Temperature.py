@@ -32,16 +32,26 @@ class DHT11Temperature(TemperatureSensor):
         self.__humidity = ""
         self.__temperature = ""
 
+    ##
+    # @param pin: the GPIO pin used to wire the sensor
+    # @return: void
     def changeSetup(self, pin):
         """
-        @param pin: the pin used 
+        @param pin: the GPIO pin used to wire the sensor
         @return: void
         """
         self.__pin = pin
 
     def __checkValidData(self):
+        """
+
+        @return: void
+        """
         return (int(self.__humidity) + int(self.__temperature) - int(self.__crc) == 0)
 
+    ## gets the valid data from the sensor
+    #
+    # @return: void
     def __getValidData(self):
 
         dataRead = False
@@ -53,10 +63,18 @@ class DHT11Temperature(TemperatureSensor):
                 time.sleep(0.5)
 
     def getTemperature(self):
+        """
+
+        @return:the temperature read
+        """
         self.__getValidData()
         return self.__temperature
 
     def __readData(self):
+        """
+
+        @return: boolean
+        """
         self.__data = []
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(self.__pin,GPIO.OUT)
