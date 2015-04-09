@@ -16,32 +16,26 @@ class AbstractEvent(object):
         Constructor
         '''
         self._sensor = sensor
+        self._observer_list = []
         
     def attach(self, observer):
         """Registers an observer with temperatureSensor if the observer is not
         already registered."""
-        try:
-            if observer not in self._observer_list:
-                self._observer_list.append(observer)
-                observer.register_event(self)
-            else:
-                raise ValueError
-        except ValueError:
-            print "ERROR: Observer already subscribed to this event!"
-            raise ValueError
+        if observer not in self._observer_list:
+            self._observer_list.append(observer)
+            observer.register_event(self)
+        else:
+            raise Exception("ERROR: Observer already subscribed to this event!")
+
 
     def detach(self, observer):
         """Removes an observer from WeatherData if the observer is currently
         subscribed to WeatherData."""
-        try:
-            if observer in self._observer_list:
-                observer.remove_event()
-                self._observer_list.remove(observer)
-            else:
-                raise ValueError
-        except ValueError:
-            print "ERROR: Observer currently not subscribed to Subject!"
-            raise ValueError
+        if observer in self._observer_list:
+            observer.remove_event()
+            self._observer_list.remove(observer)
+        else:
+            raise Exception("ERROR: Observer currently not subscribed to this event!")
 
     def notify_observers(self):
         """Notifies subscribed observers of change in WeatherData data."""

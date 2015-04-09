@@ -9,14 +9,13 @@ class CurrentConditionDisplay(EventObserver):
     """Returns the current temperature and humidity."""
 
     def __init__(self,temperatureEvent):
-        EventObserver.__init__(self)
-        self.temperatureEvent = temperatureEvent
-        self.current_temperature = self.temperatureEvent.getTemperature()
+        EventObserver.__init__(self,temperatureEvent)
+        self.current_temperature = self._event.getTemperature()
 
 
     def update(self):
         self.last_temperature = self.current_temperature
-        self.current_temperature = self.temperatureEvent.getTemperature()
+        self.current_temperature = self._event.getTemperature()
         self.display()
 
     def display(self):

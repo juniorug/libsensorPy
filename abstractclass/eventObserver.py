@@ -15,7 +15,7 @@ class EventObserver(object):
         '''
         Constructor
         '''
-        self.__event = event
+        self._event = event
 
     @abc.abstractmethod
     def update(self):
@@ -23,8 +23,8 @@ class EventObserver(object):
 
     def register_event(self, event):
         """Observer saves reference to Subject."""
-        self.__event = event
+        self._event = event
 
     def remove_event(self):
         """Observer replaces Subject reference to None."""
-        self.__event  = None
+        self._event  = None
