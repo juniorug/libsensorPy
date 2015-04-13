@@ -11,6 +11,12 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
+.. automodule:: dht11Humidity
+    :members:
+    :undoc-members:
+    :inherited-members:
+    :show-inheritance:
+
 
 
 Indices and tables

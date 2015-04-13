@@ -27,6 +27,14 @@ class Stepper28BJY48 (StepperMotorActuator):
         self.setup(stepDir, waitTime)
 
     def setup(self,stepDir = 2,waitTime = 10):
+        """
+        Setup the Actuator
+        @param stepDir: The direction and velocity of rotation
+        @type stepDir: int8
+        @param waitTime: The time that the motor wil rotate
+        @type waitTime: float
+        """      
+        
         GPIO.setmode(GPIO.BCM)
         GPIO.setwarnings(False)
         # GPIO17,GPIO22,GPIO23,GPIO24
@@ -50,20 +58,47 @@ class Stepper28BJY48 (StepperMotorActuator):
         self.__stepCounter = 0
 
     def changeSetup(self,stepDir = 2,waitTime = 10):
-        """changes GPIO setup ."""
+        """
+        Changes the Actuator's setup 
+        @param stepDir: The direction and velocity of rotation
+        @type stepDir: int8
+        @param waitTime: The time that the motor wil rotate
+        @type waitTime: float
+        """  
         self.__stepDir = stepDir
         self.__waitTime = waitTime / float(1000)
 
     def setWaitTime(self,waitTime = 10):
+        """
+        Sets the time that the motor wil rotate
+        @param waitTime: The time that the motor wil rotate
+        @type waitTime: float
+        """
         self.__waitTime = waitTime
 
     def setStepSequence(self, stepSequence = 8):
+        """
+        Sets the sequence: 4 or 8 steps
+        @param stepSequence: The step sequence
+        @type stepSequence: int8
+        """
         self.__stepCount = stepSequence
 
     def setDirectionAndVelocity(self,stepDir = 2):
+        """ 
+        Sets the rotation's direction and velocity
+        @param stepDir: 1 = clockwise, 2 = fast-clockwise, -1 = anti-clockwise,-2 = fast-anti-clockwise  
+        @type direction: int8
+        """
         self.__stepDir = stepDir
 
     def rotate(self,waitTime = 10):
+        """
+        Rotates the Motor
+        @param waitTime: The time that the motor wil rotate
+        @type waitTime: float
+        """
+
         self.setWaitTime(waitTime)
         for pin in range(0, 4):
             pinX = self.__stepPins[pin]

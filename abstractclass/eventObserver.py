@@ -14,17 +14,29 @@ class EventObserver(object):
     def __init__(self,event):
         '''
         Constructor
+        @param event: The event to be observed
+        @type event: Event
         '''
         self._event = event
 
     @abc.abstractmethod
     def update(self):
-        pass
+        """
+        Updates the Observer
+        """
 
     def register_event(self, event):
-        """Observer saves reference to Subject."""
+        """
+        Observer saves reference to Subject.
+        @param event: The event to be registered
+        @type event: Event 
+        """
+
         self._event = event
 
     def remove_event(self):
-        """Observer replaces Subject reference to None."""
+        """Observer replaces Subject reference to None.
+        @param event: The event to be removed
+        @type event: Event
+        """
         self._event  = None

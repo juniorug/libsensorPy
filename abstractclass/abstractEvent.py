@@ -11,7 +11,7 @@ class AbstractEvent(object):
     '''
     __metaclass__ = abc.ABCMeta
 
-    def __init__(self,sensor):
+    def __init__(self, sensor):
         '''
         Constructor
         '''
@@ -20,7 +20,11 @@ class AbstractEvent(object):
         
     def attach(self, observer):
         """Registers an observer with temperatureSensor if the observer is not
-        already registered."""
+        already registered.
+        @param observer: The observer instance
+        @type observer: SensorObserver
+        """
+        
         if observer not in self._observer_list:
             self._observer_list.append(observer)
             observer.register_event(self)
@@ -30,7 +34,10 @@ class AbstractEvent(object):
 
     def detach(self, observer):
         """Removes an observer from WeatherData if the observer is currently
-        subscribed to WeatherData."""
+        subscribed to WeatherData.
+        @param observer: The observer instance
+        @type observer: SensorObserver
+        """
         if observer in self._observer_list:
             observer.remove_event()
             self._observer_list.remove(observer)

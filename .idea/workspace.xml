@@ -2,625 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21f27477-73e1-41db-9f9a-08559e3195de" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/Stepper28BJY48Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/Stepper28BJY48Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractActuatorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractActuatorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractEvent_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractEvent_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2abstractSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2abstractSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2accelerometerSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2accelerometerSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2altitudeSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2altitudeSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2humiditySensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2humiditySensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2magnetometerSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2magnetometerSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2motionSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2motionSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2pressureSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2pressureSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2sensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2sensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2temperatureSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2temperatureSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/abstractclass_2ultrasonicSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/abstractclass_2ultrasonicSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/actuator_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/actuator_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/annotated.html" afterPath="$PROJECT_DIR$/Documentation/html/annotated.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2abstractSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2abstractSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2accelerometerSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2accelerometerSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2altitudeSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2altitudeSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2humiditySensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2humiditySensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2magnetometerSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2magnetometerSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2motionSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2motionSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2pressureSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2pressureSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2sensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2sensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2temperatureSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2temperatureSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2ultrasonicSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2abstractclass_2ultrasonicSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2compositesensor_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2compositesensor_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2compositesensor_2bmp085Composite_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2compositesensor_2bmp085Composite_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2compositesensor_2dht11Composite_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2compositesensor_2dht11Composite_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2compositesensor_2dht22Composite_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2compositesensor_2dht22Composite_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2compositesensor_2lsm303dComposite_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2compositesensor_2lsm303dComposite_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concreteactuator_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concreteactuator_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2accelerometerSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2accelerometerSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2altitudeSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2altitudeSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2compositeSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2compositeSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2humiditySensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2humiditySensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2magnetometerSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2magnetometerSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2motionSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2motionSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2pressureSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2pressureSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2temperatureSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2temperatureSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2ultrasonicSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretefactory_2ultrasonicSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2adxl345_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2adxl345_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2bmp085Altitude_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2bmp085Altitude_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2bmp085Pressure_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2bmp085Pressure_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2bmp085Temperature_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2bmp085Temperature_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2dht11Humidity_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2dht11Humidity_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2dht11Temperature_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2dht11Temperature_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2dht22Humidity_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2dht22Humidity_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2dht22Temperature_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2dht22Temperature_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2hmc5883l_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2hmc5883l_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2hysrf05_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2hysrf05_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2lsm303dAccelerometer_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2lsm303dAccelerometer_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2lsm303dMagnetometer_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2lsm303dMagnetometer_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2parallaxPing_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2parallaxPing_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2pir_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2pir_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2srf04_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2srf04_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2srf05_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2srf05_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2urm37_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2concretesensor_2urm37_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2adxl345Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2adxl345Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2bmp085AltitudeExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2bmp085AltitudeExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2bmp085CompositeExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2bmp085CompositeExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2bmp085PressureExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2bmp085PressureExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2bmp085TemperatureExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2bmp085TemperatureExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht11CompositeExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht11CompositeExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht11HumidityExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht11HumidityExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht11TemperatureExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht11TemperatureExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht22CompositeExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht22CompositeExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht22HumidityExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht22HumidityExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht22TemperatureExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2dht22TemperatureExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2hmc5883lExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2hmc5883lExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2hysrf05Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2hysrf05Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2lsm303dAccelerometerExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2lsm303dAccelerometerExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2lsm303dCompositeExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2lsm303dCompositeExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2lsm303dMagnetometerExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2lsm303dMagnetometerExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2parallaxPingExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2parallaxPingExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2pirExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2pirExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2srf04Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2srf04Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2srf05Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2srf05Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2urm37Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2examples_2urm37Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2extension_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2extension_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2extension_2extendedUltrasonicSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2extension_2extendedUltrasonicSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2extension_2hcsr04ExtensionExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2extension_2hcsr04ExtensionExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2extension_2hcsr04_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2extension_2hcsr04_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2utils_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2utils_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2utils_2pycomms_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/build_2lib_8linux-x86__64-2_87_2utils_2pycomms_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1abstractSensorFactory_1_1AbstractSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1abstractSensorFactory_1_1AbstractSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1abstractSensorFactory_1_1AbstractSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1abstractSensorFactory_1_1AbstractSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1accelerometerSensor_1_1AccelerometerSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1accelerometerSensor_1_1AccelerometerSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1accelerometerSensor_1_1AccelerometerSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1accelerometerSensor_1_1AccelerometerSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1altitudeSensor_1_1AltitudeSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1altitudeSensor_1_1AltitudeSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1altitudeSensor_1_1AltitudeSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1altitudeSensor_1_1AltitudeSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1humiditySensor_1_1HumiditySensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1humiditySensor_1_1HumiditySensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1humiditySensor_1_1HumiditySensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1humiditySensor_1_1HumiditySensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1magnetometerSensor_1_1MagnetometerSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1magnetometerSensor_1_1MagnetometerSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1magnetometerSensor_1_1MagnetometerSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1magnetometerSensor_1_1MagnetometerSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1motionSensor_1_1MotionSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1motionSensor_1_1MotionSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1motionSensor_1_1MotionSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1motionSensor_1_1MotionSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1pressureSensor_1_1PressureSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1pressureSensor_1_1PressureSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1pressureSensor_1_1PressureSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1pressureSensor_1_1PressureSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1sensor_1_1Sensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1sensor_1_1Sensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1sensor_1_1Sensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1sensor_1_1Sensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1temperatureSensor_1_1TemperatureSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1temperatureSensor_1_1TemperatureSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1temperatureSensor_1_1TemperatureSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1temperatureSensor_1_1TemperatureSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1ultrasonicSensor_1_1UltrasonicSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1ultrasonicSensor_1_1UltrasonicSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1ultrasonicSensor_1_1UltrasonicSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classabstractclass_1_1ultrasonicSensor_1_1UltrasonicSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1bmp085Composite_1_1BMP085Composite-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1bmp085Composite_1_1BMP085Composite-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1bmp085Composite_1_1BMP085Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1bmp085Composite_1_1BMP085Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1dht11Composite_1_1DHT11Composite-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1dht11Composite_1_1DHT11Composite-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1dht11Composite_1_1DHT11Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1dht11Composite_1_1DHT11Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1dht22Composite_1_1DHT22Composite-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1dht22Composite_1_1DHT22Composite-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1dht22Composite_1_1DHT22Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1dht22Composite_1_1DHT22Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1lsm303dComposite_1_1LSM303DComposite-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1lsm303dComposite_1_1LSM303DComposite-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1lsm303dComposite_1_1LSM303DComposite.html" afterPath="$PROJECT_DIR$/Documentation/html/classcompositesensor_1_1lsm303dComposite_1_1LSM303DComposite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1accelerometerSensorFactory_1_1AccelerometerSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1accelerometerSensorFactory_1_1AccelerometerSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1accelerometerSensorFactory_1_1AccelerometerSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1accelerometerSensorFactory_1_1AccelerometerSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1altitudeSensorFactory_1_1AltitudeSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1altitudeSensorFactory_1_1AltitudeSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1altitudeSensorFactory_1_1AltitudeSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1altitudeSensorFactory_1_1AltitudeSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1compositeSensorFactory_1_1CompositeSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1compositeSensorFactory_1_1CompositeSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1compositeSensorFactory_1_1CompositeSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1compositeSensorFactory_1_1CompositeSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1humiditySensorFactory_1_1HumididtySensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1humiditySensorFactory_1_1HumididtySensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1humiditySensorFactory_1_1HumididtySensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1humiditySensorFactory_1_1HumididtySensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1magnetometerSensorFactory_1_1MagnetometerSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1magnetometerSensorFactory_1_1MagnetometerSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1magnetometerSensorFactory_1_1MagnetometerSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1magnetometerSensorFactory_1_1MagnetometerSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1motionSensorFactory_1_1MotionSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1motionSensorFactory_1_1MotionSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1motionSensorFactory_1_1MotionSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1motionSensorFactory_1_1MotionSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1pressureSensorFactory_1_1PressureSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1pressureSensorFactory_1_1PressureSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1pressureSensorFactory_1_1PressureSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1pressureSensorFactory_1_1PressureSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1temperatureSensorFactory_1_1TemperatureSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1temperatureSensorFactory_1_1TemperatureSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1temperatureSensorFactory_1_1TemperatureSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1temperatureSensorFactory_1_1TemperatureSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1ultrasonicSensorFactory_1_1UltrasonicSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1ultrasonicSensorFactory_1_1UltrasonicSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1ultrasonicSensorFactory_1_1UltrasonicSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretefactory_1_1ultrasonicSensorFactory_1_1UltrasonicSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1adxl345_1_1ADXL345-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1adxl345_1_1ADXL345-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1adxl345_1_1ADXL345.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1adxl345_1_1ADXL345.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Altitude_1_1BMP085Altitude-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Altitude_1_1BMP085Altitude-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Altitude_1_1BMP085Altitude.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Altitude_1_1BMP085Altitude.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Pressure_1_1BMP085Pressure-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Pressure_1_1BMP085Pressure-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Pressure_1_1BMP085Pressure.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Pressure_1_1BMP085Pressure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Temperature_1_1BMP085Temperature-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Temperature_1_1BMP085Temperature-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Temperature_1_1BMP085Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1bmp085Temperature_1_1BMP085Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht11Humidity_1_1DHT11Humidity-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht11Humidity_1_1DHT11Humidity-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht11Humidity_1_1DHT11Humidity.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht11Humidity_1_1DHT11Humidity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht11Temperature_1_1DHT11Temperature-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht11Temperature_1_1DHT11Temperature-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht11Temperature_1_1DHT11Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht11Temperature_1_1DHT11Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht22Humidity_1_1DHT22Humidity-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht22Humidity_1_1DHT22Humidity-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht22Humidity_1_1DHT22Humidity.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht22Humidity_1_1DHT22Humidity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht22Temperature_1_1DHT22Temperature-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht22Temperature_1_1DHT22Temperature-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht22Temperature_1_1DHT22Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1dht22Temperature_1_1DHT22Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1hmc5883l_1_1HMC5883L-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1hmc5883l_1_1HMC5883L-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1hmc5883l_1_1HMC5883L.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1hmc5883l_1_1HMC5883L.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1hysrf05_1_1HYSRF05-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1hysrf05_1_1HYSRF05-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1hysrf05_1_1HYSRF05.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1hysrf05_1_1HYSRF05.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1lsm303dAccelerometer_1_1LSM303DAccelerometer-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1lsm303dAccelerometer_1_1LSM303DAccelerometer-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1lsm303dAccelerometer_1_1LSM303DAccelerometer.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1lsm303dAccelerometer_1_1LSM303DAccelerometer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1lsm303dMagnetometer_1_1LSM303DMagnetometer-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1lsm303dMagnetometer_1_1LSM303DMagnetometer-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1lsm303dMagnetometer_1_1LSM303DMagnetometer.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1lsm303dMagnetometer_1_1LSM303DMagnetometer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1parallaxPing_1_1ParallaxPing-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1parallaxPing_1_1ParallaxPing-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1parallaxPing_1_1ParallaxPing.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1parallaxPing_1_1ParallaxPing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1pir_1_1PIR-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1pir_1_1PIR-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1pir_1_1PIR.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1pir_1_1PIR.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1srf04_1_1SRF04-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1srf04_1_1SRF04-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1srf04_1_1SRF04.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1srf04_1_1SRF04.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1srf05_1_1SRF05-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1srf05_1_1SRF05-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1srf05_1_1SRF05.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1srf05_1_1SRF05.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1urm37_1_1URM37-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1urm37_1_1URM37-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1urm37_1_1URM37.html" afterPath="$PROJECT_DIR$/Documentation/html/classconcretesensor_1_1urm37_1_1URM37.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classes.html" afterPath="$PROJECT_DIR$/Documentation/html/classes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classextension_1_1extendedUltrasonicSensorFactory_1_1ExtendedUltrasonicSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classextension_1_1extendedUltrasonicSensorFactory_1_1ExtendedUltrasonicSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classextension_1_1extendedUltrasonicSensorFactory_1_1ExtendedUltrasonicSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classextension_1_1extendedUltrasonicSensorFactory_1_1ExtendedUltrasonicSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classextension_1_1hcsr04_1_1HCSR04-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classextension_1_1hcsr04_1_1HCSR04-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classextension_1_1hcsr04_1_1HCSR04.html" afterPath="$PROJECT_DIR$/Documentation/html/classextension_1_1hcsr04_1_1HCSR04.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractActuatorFactory_1_1AbstractActuatorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractActuatorFactory_1_1AbstractActuatorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractActuatorFactory_1_1AbstractActuatorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractActuatorFactory_1_1AbstractActuatorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractEvent_1_1AbstractEvent-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractEvent_1_1AbstractEvent-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractEvent_1_1AbstractEvent.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractEvent_1_1AbstractEvent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractSensorFactory_1_1AbstractSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractSensorFactory_1_1AbstractSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractSensorFactory_1_1AbstractSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1abstractSensorFactory_1_1AbstractSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1accelerometerSensor_1_1AccelerometerSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1accelerometerSensor_1_1AccelerometerSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1accelerometerSensor_1_1AccelerometerSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1accelerometerSensor_1_1AccelerometerSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1actuator_1_1Actuator-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1actuator_1_1Actuator-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1actuator_1_1Actuator.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1actuator_1_1Actuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1altitudeSensor_1_1AltitudeSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1altitudeSensor_1_1AltitudeSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1altitudeSensor_1_1AltitudeSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1altitudeSensor_1_1AltitudeSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1dcMotorActuator_1_1DCMotorActuator-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1dcMotorActuator_1_1DCMotorActuator-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1dcMotorActuator_1_1DCMotorActuator.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1dcMotorActuator_1_1DCMotorActuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1eventObserver_1_1EventObserver-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1eventObserver_1_1EventObserver-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1eventObserver_1_1EventObserver.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1eventObserver_1_1EventObserver.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1humiditySensor_1_1HumiditySensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1humiditySensor_1_1HumiditySensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1humiditySensor_1_1HumiditySensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1humiditySensor_1_1HumiditySensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1lightSensor_1_1LightSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1lightSensor_1_1LightSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1lightSensor_1_1LightSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1lightSensor_1_1LightSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1magnetometerSensor_1_1MagnetometerSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1magnetometerSensor_1_1MagnetometerSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1magnetometerSensor_1_1MagnetometerSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1magnetometerSensor_1_1MagnetometerSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1motionSensor_1_1MotionSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1motionSensor_1_1MotionSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1motionSensor_1_1MotionSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1motionSensor_1_1MotionSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1motorActuator_1_1MotorActuator-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1motorActuator_1_1MotorActuator-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1motorActuator_1_1MotorActuator.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1motorActuator_1_1MotorActuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1pressureSensor_1_1PressureSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1pressureSensor_1_1PressureSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1pressureSensor_1_1PressureSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1pressureSensor_1_1PressureSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1sensor_1_1Sensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1sensor_1_1Sensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1sensor_1_1Sensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1sensor_1_1Sensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1servoMotorActuator_1_1ServoMotorActuator-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1servoMotorActuator_1_1ServoMotorActuator-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1servoMotorActuator_1_1ServoMotorActuator.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1servoMotorActuator_1_1ServoMotorActuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1stepperMotorActuator_1_1StepperMotorActuator-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1stepperMotorActuator_1_1StepperMotorActuator-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1stepperMotorActuator_1_1StepperMotorActuator.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1stepperMotorActuator_1_1StepperMotorActuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1temperatureSensor_1_1TemperatureSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1temperatureSensor_1_1TemperatureSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1temperatureSensor_1_1TemperatureSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1temperatureSensor_1_1TemperatureSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1ultrasonicSensor_1_1UltrasonicSensor-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1ultrasonicSensor_1_1UltrasonicSensor-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1ultrasonicSensor_1_1UltrasonicSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1abstractclass_1_1ultrasonicSensor_1_1UltrasonicSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1bmp085Composite_1_1BMP085Composite-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1bmp085Composite_1_1BMP085Composite-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1bmp085Composite_1_1BMP085Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1bmp085Composite_1_1BMP085Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1dht11Composite_1_1DHT11Composite-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1dht11Composite_1_1DHT11Composite-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1dht11Composite_1_1DHT11Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1dht11Composite_1_1DHT11Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1dht22Composite_1_1DHT22Composite-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1dht22Composite_1_1DHT22Composite-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1dht22Composite_1_1DHT22Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1dht22Composite_1_1DHT22Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1lsm303dComposite_1_1LSM303DComposite-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1lsm303dComposite_1_1LSM303DComposite-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1lsm303dComposite_1_1LSM303DComposite.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1compositesensor_1_1lsm303dComposite_1_1LSM303DComposite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteactuator_1_1stepper28BJY48_1_1Stepper28BJY48-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteactuator_1_1stepper28BJY48_1_1Stepper28BJY48-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteactuator_1_1stepper28BJY48_1_1Stepper28BJY48.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteactuator_1_1stepper28BJY48_1_1Stepper28BJY48.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteevent_1_1temperatureEvent_1_1TemperatureEvent-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteevent_1_1temperatureEvent_1_1TemperatureEvent-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteevent_1_1temperatureEvent_1_1TemperatureEvent.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteevent_1_1temperatureEvent_1_1TemperatureEvent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1accelerometerSensorFactory_1_1AccelerometerSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1accelerometerSensorFactory_1_1AccelerometerSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1accelerometerSensorFactory_1_1AccelerometerSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1accelerometerSensorFactory_1_1AccelerometerSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1altitudeSensorFactory_1_1AltitudeSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1altitudeSensorFactory_1_1AltitudeSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1altitudeSensorFactory_1_1AltitudeSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1altitudeSensorFactory_1_1AltitudeSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1compositeSensorFactory_1_1CompositeSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1compositeSensorFactory_1_1CompositeSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1compositeSensorFactory_1_1CompositeSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1compositeSensorFactory_1_1CompositeSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1humiditySensorFactory_1_1HumididtySensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1humiditySensorFactory_1_1HumididtySensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1humiditySensorFactory_1_1HumididtySensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1humiditySensorFactory_1_1HumididtySensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1lightSensorFactory_1_1LightSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1lightSensorFactory_1_1LightSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1lightSensorFactory_1_1LightSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1lightSensorFactory_1_1LightSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1magnetometerSensorFactory_1_1MagnetometerSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1magnetometerSensorFactory_1_1MagnetometerSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1magnetometerSensorFactory_1_1MagnetometerSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1magnetometerSensorFactory_1_1MagnetometerSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1motionSensorFactory_1_1MotionSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1motionSensorFactory_1_1MotionSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1motionSensorFactory_1_1MotionSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1motionSensorFactory_1_1MotionSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1pressureSensorFactory_1_1PressureSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1pressureSensorFactory_1_1PressureSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1pressureSensorFactory_1_1PressureSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1pressureSensorFactory_1_1PressureSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1stepperMotorActuatorFactory_1_1StepperMotorActuatorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1stepperMotorActuatorFactory_1_1StepperMotorActuatorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1stepperMotorActuatorFactory_1_1StepperMotorActuatorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1stepperMotorActuatorFactory_1_1StepperMotorActuatorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1temperatureSensorFactory_1_1TemperatureSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1temperatureSensorFactory_1_1TemperatureSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1temperatureSensorFactory_1_1TemperatureSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1temperatureSensorFactory_1_1TemperatureSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1ultrasonicSensorFactory_1_1UltrasonicSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1ultrasonicSensorFactory_1_1UltrasonicSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1ultrasonicSensorFactory_1_1UltrasonicSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretefactory_1_1ultrasonicSensorFactory_1_1UltrasonicSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteobserver_1_1currentConditionDisplay_1_1CurrentConditionDisplay-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteobserver_1_1currentConditionDisplay_1_1CurrentConditionDisplay-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteobserver_1_1currentConditionDisplay_1_1CurrentConditionDisplay.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concreteobserver_1_1currentConditionDisplay_1_1CurrentConditionDisplay.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1adxl345_1_1ADXL345-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1adxl345_1_1ADXL345-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1adxl345_1_1ADXL345.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1adxl345_1_1ADXL345.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Altitude_1_1BMP085Altitude-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Altitude_1_1BMP085Altitude-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Altitude_1_1BMP085Altitude.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Altitude_1_1BMP085Altitude.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Pressure_1_1BMP085Pressure-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Pressure_1_1BMP085Pressure-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Pressure_1_1BMP085Pressure.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Pressure_1_1BMP085Pressure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Temperature_1_1BMP085Temperature-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Temperature_1_1BMP085Temperature-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Temperature_1_1BMP085Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1bmp085Temperature_1_1BMP085Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht11Humidity_1_1DHT11Humidity-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht11Humidity_1_1DHT11Humidity-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht11Humidity_1_1DHT11Humidity.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht11Humidity_1_1DHT11Humidity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht11Temperature_1_1DHT11Temperature-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht11Temperature_1_1DHT11Temperature-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht11Temperature_1_1DHT11Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht11Temperature_1_1DHT11Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/latex/classlibsensorPy_1_1concretesensor_1_1dht11Temperature_1_1DHT11Temperature.tex" afterPath="$PROJECT_DIR$/Documentation/latex/classlibsensorPy_1_1concretesensor_1_1dht11Temperature_1_1DHT11Temperature.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht22Humidity_1_1DHT22Humidity-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht22Humidity_1_1DHT22Humidity-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht22Humidity_1_1DHT22Humidity.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht22Humidity_1_1DHT22Humidity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht22Temperature_1_1DHT22Temperature-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht22Temperature_1_1DHT22Temperature-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht22Temperature_1_1DHT22Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1dht22Temperature_1_1DHT22Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1hmc5883l_1_1HMC5883L-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1hmc5883l_1_1HMC5883L-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1hmc5883l_1_1HMC5883L.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1hmc5883l_1_1HMC5883L.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1hysrf05_1_1HYSRF05-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1hysrf05_1_1HYSRF05-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1hysrf05_1_1HYSRF05.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1hysrf05_1_1HYSRF05.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1lsm303dAccelerometer_1_1LSM303DAccelerometer-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1lsm303dAccelerometer_1_1LSM303DAccelerometer-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1lsm303dAccelerometer_1_1LSM303DAccelerometer.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1lsm303dAccelerometer_1_1LSM303DAccelerometer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1lsm303dMagnetometer_1_1LSM303DMagnetometer-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1lsm303dMagnetometer_1_1LSM303DMagnetometer-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1lsm303dMagnetometer_1_1LSM303DMagnetometer.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1lsm303dMagnetometer_1_1LSM303DMagnetometer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1parallaxPing_1_1ParallaxPing-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1parallaxPing_1_1ParallaxPing-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1parallaxPing_1_1ParallaxPing.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1parallaxPing_1_1ParallaxPing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1pir_1_1PIR-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1pir_1_1PIR-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1pir_1_1PIR.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1pir_1_1PIR.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1srf04_1_1SRF04-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1srf04_1_1SRF04-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1srf04_1_1SRF04.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1srf04_1_1SRF04.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1srf05_1_1SRF05-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1srf05_1_1SRF05-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1srf05_1_1SRF05.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1srf05_1_1SRF05.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1tcs34725_1_1TCS34725-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1tcs34725_1_1TCS34725-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1tcs34725_1_1TCS34725.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1tcs34725_1_1TCS34725.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1urm37_1_1URM37-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1urm37_1_1URM37-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1urm37_1_1URM37.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1concretesensor_1_1urm37_1_1URM37.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1extension_1_1extendedUltrasonicSensorFactory_1_1ExtendedUltrasonicSensorFactory-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1extension_1_1extendedUltrasonicSensorFactory_1_1ExtendedUltrasonicSensorFactory-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1extension_1_1extendedUltrasonicSensorFactory_1_1ExtendedUltrasonicSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1extension_1_1extendedUltrasonicSensorFactory_1_1ExtendedUltrasonicSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1extension_1_1hcsr04_1_1HCSR04-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1extension_1_1hcsr04_1_1HCSR04-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1extension_1_1hcsr04_1_1HCSR04.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1extension_1_1hcsr04_1_1HCSR04.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1utils_1_1pycomms_1_1PyComms-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1utils_1_1pycomms_1_1PyComms-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1utils_1_1pycomms_1_1PyComms.html" afterPath="$PROJECT_DIR$/Documentation/html/classlibsensorPy_1_1utils_1_1pycomms_1_1PyComms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classutils_1_1pycomms_1_1PyComms-members.html" afterPath="$PROJECT_DIR$/Documentation/html/classutils_1_1pycomms_1_1PyComms-members.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/classutils_1_1pycomms_1_1PyComms.html" afterPath="$PROJECT_DIR$/Documentation/html/classutils_1_1pycomms_1_1PyComms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/compositesensor_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/compositesensor_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/compositesensor_2bmp085Composite_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/compositesensor_2bmp085Composite_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/compositesensor_2dht11Composite_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/compositesensor_2dht11Composite_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/compositesensor_2dht22Composite_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/compositesensor_2dht22Composite_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/compositesensor_2lsm303dComposite_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/compositesensor_2lsm303dComposite_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concreteactuator_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concreteactuator_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concreteevent_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concreteevent_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretefactory_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretefactory_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretefactory_2accelerometerSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretefactory_2accelerometerSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretefactory_2altitudeSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretefactory_2altitudeSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretefactory_2compositeSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretefactory_2compositeSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretefactory_2humiditySensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretefactory_2humiditySensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretefactory_2magnetometerSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretefactory_2magnetometerSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretefactory_2motionSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretefactory_2motionSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretefactory_2pressureSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretefactory_2pressureSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretefactory_2temperatureSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretefactory_2temperatureSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretefactory_2ultrasonicSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretefactory_2ultrasonicSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concreteobserver_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concreteobserver_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2adxl345_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2adxl345_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2bmp085Altitude_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2bmp085Altitude_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2bmp085Pressure_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2bmp085Pressure_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2bmp085Temperature_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2bmp085Temperature_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2dht11Humidity_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2dht11Humidity_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2dht11Temperature_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2dht11Temperature_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2dht22Humidity_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2dht22Humidity_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2dht22Temperature_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2dht22Temperature_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2hmc5883l_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2hmc5883l_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2hysrf05_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2hysrf05_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2lsm303dAccelerometer_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2lsm303dAccelerometer_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2lsm303dMagnetometer_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2lsm303dMagnetometer_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2parallaxPing_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2parallaxPing_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2pir_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2pir_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2srf04_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2srf04_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2srf05_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2srf05_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/concretesensor_2urm37_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/concretesensor_2urm37_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/conf_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/conf_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/currentConditionDisplay_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/currentConditionDisplay_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dcMotorActuator_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/dcMotorActuator_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/concretesensor/dht11Temperature.py" afterPath="$PROJECT_DIR$/concretesensor/dht11Temperature.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_04553491d6621e8b480a2ba976692d16.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_04553491d6621e8b480a2ba976692d16.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_0b8ad2d2d5edc99c05315d465c40117a.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_0b8ad2d2d5edc99c05315d465c40117a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_0e9bf3269978124d9f8f4f85df5e703e.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_0e9bf3269978124d9f8f4f85df5e703e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_15279faf3b24c0f5fb10dc501bc1d92d.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_15279faf3b24c0f5fb10dc501bc1d92d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_244bdeca047cc903345ffb05c01282f8.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_244bdeca047cc903345ffb05c01282f8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_2dd085a9c2767f58c97a957f3f430898.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_2dd085a9c2767f58c97a957f3f430898.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_2e99ab16cbd74930c64121b00a08e22a.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_2e99ab16cbd74930c64121b00a08e22a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_5b1db439699086759c1aa2adcef3d8ed.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_5b1db439699086759c1aa2adcef3d8ed.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_6e9075713152a06b11b8d83724a219fd.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_6e9075713152a06b11b8d83724a219fd.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_7c181dbde1dbeb952078ea7c5ec0afa9.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_7c181dbde1dbeb952078ea7c5ec0afa9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_7e651d5791fbfb6ea061ea3e80d403b6.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_7e651d5791fbfb6ea061ea3e80d403b6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_926131f2afa45db105f93e5c14ea469f.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_926131f2afa45db105f93e5c14ea469f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_b3ffbbcbb597d883cb36d3fe18a618c2.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_b3ffbbcbb597d883cb36d3fe18a618c2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_be198d78fd8c2146a1888a8d3c9062ee.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_be198d78fd8c2146a1888a8d3c9062ee.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_c12b86d51f8b0e1aa6e7d109994ba0b8.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_c12b86d51f8b0e1aa6e7d109994ba0b8.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_e0586c97f787d6ed24ce04e6806b637c.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_e0586c97f787d6ed24ce04e6806b637c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_e81fd914debb97768bbf8c10161d49c5.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_e81fd914debb97768bbf8c10161d49c5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_f0682c231a3790f576e62ad2eea3b3e6.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_f0682c231a3790f576e62ad2eea3b3e6.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_f0b9cefd1b7d140e336bcdf5fe6af524.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_f0b9cefd1b7d140e336bcdf5fe6af524.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_f83c725bd4f2196396d7ccc3e360e7a2.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_f83c725bd4f2196396d7ccc3e360e7a2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/dir_fee2406719d9bf7c0b7fa88342209032.html" afterPath="$PROJECT_DIR$/Documentation/html/dir_fee2406719d9bf7c0b7fa88342209032.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/eventObserver_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/eventObserver_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2adxl345Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2adxl345Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2bmp085AltitudeExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2bmp085AltitudeExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2bmp085CompositeExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2bmp085CompositeExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2bmp085PressureExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2bmp085PressureExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2bmp085TemperatureExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2bmp085TemperatureExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2dht11CompositeExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2dht11CompositeExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2dht11HumidityExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2dht11HumidityExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2dht11TemperatureExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2dht11TemperatureExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2dht22CompositeExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2dht22CompositeExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2dht22HumidityExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2dht22HumidityExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2dht22TemperatureExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2dht22TemperatureExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2hmc5883lExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2hmc5883lExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2hysrf05Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2hysrf05Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2lsm303dAccelerometerExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2lsm303dAccelerometerExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2lsm303dCompositeExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2lsm303dCompositeExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2lsm303dMagnetometerExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2lsm303dMagnetometerExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2parallaxPingExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2parallaxPingExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2pirExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2pirExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2srf04Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2srf04Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2srf05Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2srf05Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/examples_2urm37Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/examples_2urm37Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/extension_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/extension_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/extension_2extendedUltrasonicSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/extension_2extendedUltrasonicSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/extension_2hcsr04ExtensionExample_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/extension_2hcsr04ExtensionExample_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/extension_2hcsr04_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/extension_2hcsr04_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/files.html" afterPath="$PROJECT_DIR$/Documentation/html/files.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions.html" afterPath="$PROJECT_DIR$/Documentation/html/functions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_a.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_b.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_c.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_d.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_e.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_f.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func_a.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func_c.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func_d.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func_g.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func_g.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func_i.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func_i.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func_n.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func_n.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func_r.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func_r.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func_s.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func_s.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func_u.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func_u.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_func_w.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_func_w.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_g.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_g.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_h.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_h.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_i.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_i.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_l.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_l.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_m.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_m.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_n.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_n.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_p.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_p.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_r.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_r.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_s.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_s.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_t.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_t.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_u.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_u.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_a.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_a.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_b.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_b.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_c.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_c.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_d.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_d.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_e.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_e.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_f.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_f.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_g.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_g.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_h.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_h.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_l.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_l.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_m.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_m.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_n.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_n.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_p.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_p.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_r.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_r.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_s.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_s.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_vars_t.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_vars_t.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/functions_w.html" afterPath="$PROJECT_DIR$/Documentation/html/functions_w.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/helloTest_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/helloTest_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/hierarchy.html" afterPath="$PROJECT_DIR$/Documentation/html/hierarchy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/index.html" afterPath="$PROJECT_DIR$/Documentation/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/lightSensorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/lightSensorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/lightSensor_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/lightSensor_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/motorActuator_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/motorActuator_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1abstractSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1abstractSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1accelerometerSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1accelerometerSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1altitudeSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1altitudeSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1humiditySensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1humiditySensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1magnetometerSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1magnetometerSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1motionSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1motionSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1pressureSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1pressureSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1sensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1sensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1temperatureSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1temperatureSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1ultrasonicSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceabstractclass_1_1ultrasonicSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacecompositesensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacecompositesensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacecompositesensor_1_1bmp085Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacecompositesensor_1_1bmp085Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacecompositesensor_1_1dht11Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacecompositesensor_1_1dht11Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacecompositesensor_1_1dht22Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacecompositesensor_1_1dht22Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacecompositesensor_1_1lsm303dComposite.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacecompositesensor_1_1lsm303dComposite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcreteactuator.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcreteactuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcreteactuator_1_1helloTest.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcreteactuator_1_1helloTest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1accelerometerSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1accelerometerSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1altitudeSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1altitudeSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1compositeSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1compositeSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1humiditySensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1humiditySensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1magnetometerSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1magnetometerSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1motionSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1motionSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1pressureSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1pressureSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1temperatureSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1temperatureSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1ultrasonicSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretefactory_1_1ultrasonicSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1adxl345.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1adxl345.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1bmp085Altitude.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1bmp085Altitude.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1bmp085Pressure.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1bmp085Pressure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1bmp085Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1bmp085Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1dht11Humidity.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1dht11Humidity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1dht11Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1dht11Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1dht22Humidity.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1dht22Humidity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1dht22Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1dht22Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1hmc5883l.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1hmc5883l.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1hysrf05.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1hysrf05.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1lsm303dAccelerometer.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1lsm303dAccelerometer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1lsm303dMagnetometer.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1lsm303dMagnetometer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1parallaxPing.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1parallaxPing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1pir.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1pir.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1srf04.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1srf04.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1srf05.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1srf05.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1urm37.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconcretesensor_1_1urm37.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceconf.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceconf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1adxl345Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1adxl345Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1bmp085AltitudeExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1bmp085AltitudeExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1bmp085CompositeExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1bmp085CompositeExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1bmp085PressureExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1bmp085PressureExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1bmp085TemperatureExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1bmp085TemperatureExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht11CompositeExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht11CompositeExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht11HumidityExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht11HumidityExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht11TemperatureExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht11TemperatureExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht22CompositeExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht22CompositeExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht22HumidityExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht22HumidityExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht22TemperatureExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1dht22TemperatureExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1hmc5883lExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1hmc5883lExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1hysrf05Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1hysrf05Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1lsm303dAccelerometerExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1lsm303dAccelerometerExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1lsm303dCompositeExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1lsm303dCompositeExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1lsm303dMagnetometerExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1lsm303dMagnetometerExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1parallaxPingExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1parallaxPingExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1pirExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1pirExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1srf04Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1srf04Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1srf05Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1srf05Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1urm37Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceexamples_1_1urm37Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceextension.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceextension.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceextension_1_1extendedUltrasonicSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceextension_1_1extendedUltrasonicSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceextension_1_1hcsr04.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceextension_1_1hcsr04.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceextension_1_1hcsr04ExtensionExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceextension_1_1hcsr04ExtensionExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1abstractActuatorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1abstractActuatorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1abstractEvent.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1abstractEvent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1abstractSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1abstractSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1accelerometerSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1accelerometerSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1actuator.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1actuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1altitudeSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1altitudeSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1dcMotorActuator.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1dcMotorActuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1eventObserver.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1eventObserver.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1humiditySensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1humiditySensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1lightSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1lightSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1magnetometerSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1magnetometerSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1motionSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1motionSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1motorActuator.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1motorActuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1pressureSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1pressureSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1sensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1sensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1servoMotorActuator.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1servoMotorActuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1stepperMotorActuator.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1stepperMotorActuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1temperatureSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1temperatureSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1ultrasonicSensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1abstractclass_1_1ultrasonicSensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1compositesensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1compositesensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1compositesensor_1_1bmp085Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1compositesensor_1_1bmp085Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1compositesensor_1_1dht11Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1compositesensor_1_1dht11Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1compositesensor_1_1dht22Composite.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1compositesensor_1_1dht22Composite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1compositesensor_1_1lsm303dComposite.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1compositesensor_1_1lsm303dComposite.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteactuator.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteactuator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteactuator_1_1stepper28BJY48.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteactuator_1_1stepper28BJY48.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteevent.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteevent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteevent_1_1temperatureEvent.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteevent_1_1temperatureEvent.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1accelerometerSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1accelerometerSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1altitudeSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1altitudeSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1compositeSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1compositeSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1humiditySensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1humiditySensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1lightSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1lightSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1magnetometerSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1magnetometerSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1motionSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1motionSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1pressureSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1pressureSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1stepperMotorActuatorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1stepperMotorActuatorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1temperatureSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1temperatureSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1ultrasonicSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretefactory_1_1ultrasonicSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteobserver.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteobserver.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteobserver_1_1currentConditionDisplay.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concreteobserver_1_1currentConditionDisplay.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1adxl345.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1adxl345.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1bmp085Altitude.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1bmp085Altitude.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1bmp085Pressure.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1bmp085Pressure.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1bmp085Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1bmp085Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1dht11Humidity.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1dht11Humidity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1dht11Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1dht11Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1dht22Humidity.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1dht22Humidity.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1dht22Temperature.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1dht22Temperature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1hmc5883l.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1hmc5883l.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1hysrf05.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1hysrf05.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1lsm303dAccelerometer.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1lsm303dAccelerometer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1lsm303dMagnetometer.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1lsm303dMagnetometer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1parallaxPing.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1parallaxPing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1pir.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1pir.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1srf04.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1srf04.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1srf05.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1srf05.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1tcs34725.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1tcs34725.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1urm37.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1concretesensor_1_1urm37.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1Stepper28BJY48Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1Stepper28BJY48Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1adxl345Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1adxl345Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1bmp085AltitudeExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1bmp085AltitudeExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1bmp085CompositeExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1bmp085CompositeExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1bmp085PressureExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1bmp085PressureExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1bmp085TemperatureExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1bmp085TemperatureExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht11CompositeExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht11CompositeExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht11HumidityExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht11HumidityExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht11TemperatureExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht11TemperatureExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht22CompositeExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht22CompositeExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht22HumidityExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht22HumidityExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht22TemperatureExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1dht22TemperatureExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1hmc5883lExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1hmc5883lExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1hysrf05Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1hysrf05Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1lsm303dAccelerometerExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1lsm303dAccelerometerExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1lsm303dCompositeExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1lsm303dCompositeExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1lsm303dMagnetometerExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1lsm303dMagnetometerExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1parallaxPingExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1parallaxPingExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1pirExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1pirExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1srf04Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1srf04Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1srf05Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1srf05Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1tcs34725Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1tcs34725Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1urm37Example.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1examples_1_1urm37Example.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1extension.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1extension.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1extension_1_1extendedUltrasonicSensorFactory.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1extension_1_1extendedUltrasonicSensorFactory.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1extension_1_1hcsr04.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1extension_1_1hcsr04.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1extension_1_1hcsr04ExtensionExample.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1extension_1_1hcsr04ExtensionExample.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1setup.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1setup.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1utils.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1utils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1utils_1_1pycomms.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacelibsensorPy_1_1utils_1_1pycomms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacemembers.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacemembers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacemembers_func.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacemembers_func.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespacemembers_vars.html" afterPath="$PROJECT_DIR$/Documentation/html/namespacemembers_vars.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaces.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaces.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceutils.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceutils.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/namespaceutils_1_1pycomms.html" afterPath="$PROJECT_DIR$/Documentation/html/namespaceutils_1_1pycomms.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/latex/refman.tex" afterPath="$PROJECT_DIR$/Documentation/latex/refman.tex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/servoMotorActuator_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/servoMotorActuator_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/setup_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/setup_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/stepper28BJY48_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/stepper28BJY48_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/stepperMotorActuatorFactory_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/stepperMotorActuatorFactory_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/stepperMotorActuator_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/stepperMotorActuator_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/tcs34725Example_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/tcs34725Example_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/tcs34725_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/tcs34725_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/temperatureEvent_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/temperatureEvent_8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/utils_2____init_____8py.html" afterPath="$PROJECT_DIR$/Documentation/html/utils_2____init_____8py.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Documentation/html/utils_2pycomms_8py.html" afterPath="$PROJECT_DIR$/Documentation/html/utils_2pycomms_8py.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.rst" afterPath="$PROJECT_DIR$/source/index.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="libsensorPy.iws" />
@@ -648,18 +30,38 @@
       <file leaf-file-name="abstractActuatorFactory.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/abstractclass/abstractActuatorFactory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="510">
               <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dht11Temperature.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dht11Temperature.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3478261" vertical-offset="267" max-vertical-offset="2325">
-              <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2325">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sensor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/abstractclass/sensor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dht11Humidity.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/concretesensor/dht11Humidity.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6884058" vertical-offset="135" max-vertical-offset="1890">
+              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -728,10 +130,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="25" />
-    <option name="width" value="1282" />
-    <option name="height" value="1000" />
+    <option name="width" value="1280" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -804,6 +205,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="concretesensor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libsensorPy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libsensorPy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="abstractclass" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -973,6 +388,23 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="libsensorPy" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -1088,25 +520,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="25" width="1282" height="1000" extended-state="6" />
+    <frame x="0" y="25" width="1280" height="999" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25253206" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17474186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29473683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1208,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concretesensor/dht11Humidity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8" vertical-offset="45" max-vertical-offset="1890">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/concretesensor/dht22Humidity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-45.0" vertical-offset="585" max-vertical-offset="2280">
@@ -1276,7 +701,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="1380">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1284,7 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="3390">
           <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1292,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1395">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1300,7 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38641685" vertical-offset="0" max-vertical-offset="854">
           <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1308,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31615925" vertical-offset="0" max-vertical-offset="854">
           <caret line="21" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1316,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45550352" vertical-offset="16" max-vertical-offset="870">
           <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1324,7 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4379391" vertical-offset="31" max-vertical-offset="885">
           <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1332,7 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23067915" vertical-offset="88" max-vertical-offset="1005">
           <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1340,9 +757,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24004684" vertical-offset="575" max-vertical-offset="2610">
           <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-          <folding>
-            <element signature="e#202#213#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1350,7 +764,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24375743" vertical-offset="440" max-vertical-offset="1455">
           <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1358,15 +771,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <caret line="13" column="32" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abstractclass/sensor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1374,9 +778,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
           <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
-          <folding>
-            <element signature="e#59#69#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1384,9 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="555">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#45#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1394,9 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
           <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-          <folding>
-            <element signature="e#59#69#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1404,9 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <element signature="e#59#69#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1414,7 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1422,9 +813,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding>
-            <element signature="e#59#69#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1432,9 +820,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
           <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-          <folding>
-            <element signature="e#138#161#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1442,7 +827,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29859486" vertical-offset="0" max-vertical-offset="854">
           <caret line="18" column="29" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1460,7 +844,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36885247" vertical-offset="0" max-vertical-offset="854">
           <caret line="21" column="43" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1468,7 +851,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1476,7 +858,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42154565" vertical-offset="0" max-vertical-offset="854">
           <caret line="25" column="22" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,7 +865,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1492,9 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding>
-            <element signature="e#60#137#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1502,7 +879,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38641685" vertical-offset="0" max-vertical-offset="854">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1510,9 +886,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6147541" vertical-offset="0" max-vertical-offset="854">
           <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#60#129#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1520,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38641685" vertical-offset="0" max-vertical-offset="854">
           <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1528,7 +900,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5093677" vertical-offset="0" max-vertical-offset="854">
           <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1536,7 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1548,10 +918,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/abstractclass/sensor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/concretesensor/dht11Temperature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3478261" vertical-offset="267" max-vertical-offset="2325">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2325">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/concretesensor/dht11Humidity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6884058" vertical-offset="135" max-vertical-offset="1890">
+          <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
           <folding />
         </state>
       </provider>

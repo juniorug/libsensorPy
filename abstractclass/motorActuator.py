@@ -29,5 +29,5 @@ class MotorActuator(Actuator):
 
     @abc.abstractmethod
     def setDirection(self):
-        """sets the rotaction direction."""
+        """Sets the rotaction direction."""
         pass

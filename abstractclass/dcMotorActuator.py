@@ -20,10 +20,18 @@ class DCMotorActuator(MotorActuator):
 
     @abc.abstractmethod
     def setStepSequence(self, stepSequence = 8):
-        pass
+        """
+        Sets the sequence: 4 or 8 steps
+        @param stepSequence: The step sequence
+        @type stepSequence: int8
+        """
 
     @abc.abstractmethod
     def setDirection(self,direction = 1):
-        '''direction: 1 = clockwise, 2 anti-clockwise '''
+        """ Sets the rotation's direction 
+        @param direction: 1 = clockwise, 2 anti-clockwise 
+        @type direction: int8
+        """
+        
         pass
 

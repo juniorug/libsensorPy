@@ -29,7 +29,7 @@ class LSM303DComposite(AccelerometerSensor,MagnetometerSensor):
         self.__lsm303dAcc.setup()
 
     def changeSetup(self):
-        """changes GPIO setup ."""
+        """Changes GPIO setup ."""
         self.__lsm303dAcc.changeSetup()
 
     def getMagnetic(self):
@@ -41,6 +41,12 @@ class LSM303DComposite(AccelerometerSensor,MagnetometerSensor):
         return self.__lsm303dAcc.getAxes()
 
     def add(self,sensor):
+        """
+        Add a basic sensor to the composite
+        @param sensor: The sensor to be added
+        @type sensor: Sensor
+        """
+        
         if ( isinstance(sensor, LSM303DAccelerometer)):
             self.__lsm303dAcc = sensor
         elif ( isinstance(sensor, LSM303DMagnetometer)):

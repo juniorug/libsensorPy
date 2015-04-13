@@ -18,10 +18,16 @@ class AbstractSensorFactory(object):
         
     @abc.abstractmethod
     def createSensor(sensorType):
-        """Retrieve data from the input source and return a Sensor object."""
+        """Retrieve data from the input source and return a Sensor object.
+        @param sensorType: The kind of sensor to be created
+        @type sensorType: String
+        """
         pass
     
     @abc.abstractmethod
     def createEvent(sensorType):
-        """Retrieve data from the input source and return an Event object."""
+        """Retrieve data from the input source and return an Event object.
+        @param sensorType: The kind of sensor to be used by the event
+        @type sensorType: String
+        """
         pass     

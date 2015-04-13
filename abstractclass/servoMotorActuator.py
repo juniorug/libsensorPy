@@ -20,8 +20,18 @@ class ServoMotorActuator(MotorActuator):
 
     @abc.abstractmethod
     def setDirection(self,stepDir = 2):
+        """
+        Sets the rotation's direction.
+        @param stepDir: The direction
+        @type stepDir: int8
+        """
         pass
 
     @abc.abstractmethod
     def setAngle(self,angle = 2.5):
+        """
+        Sets the angle to be rotated
+        @param angle: The angle to be rotated
+        @type angle: float
+        """
         pass

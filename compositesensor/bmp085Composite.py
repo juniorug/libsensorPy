@@ -36,7 +36,12 @@ class BMP085Composite(AltitudeSensor,PressureSensor,TemperatureSensor):
 
 
     def getAltitude(self,seaLevelPressure):
-        """Return the altitude measured from the sensor."""
+        """
+        Return the altitude measured from the sensor.
+        @param seaLevelPressure: The normal sea level pressure
+        @type seaLevelPressure: int8
+        """
+        
         return self.__bmp085Alt.getAltitude(seaLevelPressure)
 
     def getPressure(self):
@@ -56,6 +61,12 @@ class BMP085Composite(AltitudeSensor,PressureSensor,TemperatureSensor):
         return self.__bmp085Temp.getTemperatureInKelvin()
 
     def add(self,sensor):
+        """
+        Add a basic sensor to the composite
+        @param sensor: The sensor to be added
+        @type sensor: Sensor
+        """
+
         if ( isinstance(sensor, BMP085Altitude)):
             self.__bmp085Alt = sensor
         elif ( isinstance(sensor, BMP085Pressure)):

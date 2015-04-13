@@ -20,4 +20,8 @@ class TemperatureEvent(AbstractEvent):
 
 
     def getTemperature(self):
+        """
+        Returns the current temperature
+        """
+        
         return self.temperature

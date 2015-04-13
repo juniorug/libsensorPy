@@ -24,9 +24,9 @@ class Sensor(object):
 
     @abc.abstractmethod
     def changeSetup(self):
-        """changes GPIO setup ."""
+        """Changes GPIO setup ."""
         pass
 
     def __del__(self):
-        # we're no longer using the GPIO, so tell software we're done
+        """ We're no longer using the GPIO, so tell software we're done."""
         GPIO.cleanup()

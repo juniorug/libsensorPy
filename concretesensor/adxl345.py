@@ -68,6 +68,10 @@ class ADXL345(AccelerometerSensor):
 
     # set the measurement range for 10-bit readings
     def setSensitivity(self, range_flag = RANGE_2G):
+        """
+        @param range_flag:
+        @type range_flag:
+        """
         value = self.__bus.read_byte_data(ADXL345.address, ADXL345.DATA_FORMAT)
 
         value &= ~0x0F;

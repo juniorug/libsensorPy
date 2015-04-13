@@ -25,9 +25,9 @@ class AltitudeSensor(Sensor):
 
     @abc.abstractmethod
     def getAltitude(self):
-        ''' Get the altitude value in meters'''
+        """ Get the altitude value in meters"""
         pass
 
     def getAltitudeInCm(self):
-        ''' Get the altitude value in centimeters'''
+        """ Get the altitude value in centimeters"""
         return self.getAltitude() * 100

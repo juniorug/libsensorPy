@@ -27,7 +27,11 @@ class DHT22Composite(TemperatureSensor,HumiditySensor):
         self.__dht22Temp.setup()
 
     def changeSetup(self,pin):
-        """changes GPIO setup ."""
+        """
+        Changes GPIO setup
+        @param pin:
+        @type pin:
+        """
         self.__dht22Temp.changeSetup(self,pin)
 
     def getTemperature(self):
@@ -47,6 +51,12 @@ class DHT22Composite(TemperatureSensor,HumiditySensor):
         return self.__dht22Hum.getHumidity()
 
     def add(self,sensor):
+        """
+        Add a basic sensor to the composite
+        @param sensor: The sensor to be added
+        @type sensor: Sensor
+        """
+        
         if ( isinstance(sensor, DHT22Temperature)):
             self.__dht22Temp = sensor
         elif ( isinstance(sensor, DHT22Humidity)):
