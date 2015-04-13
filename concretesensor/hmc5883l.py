@@ -72,10 +72,18 @@ class HMC5883L(MagnetometerSensor):
     STATUS_READY_BIT = 0
 
     def __init__(self, address = DEFAULT_ADDRESS):
+        """      
+        @param address: The register's address to be read
+        @type address: int16
+        """
         MagnetometerSensor.__init__(self)
         self.setup(address)
 
     def setup(self, address = DEFAULT_ADDRESS):
+        """      
+        @param address: The register's address to be read
+        @type address: int16
+        """
         self.__i2c = PyComms(address)
         self.__address = address
         self.__mode = 0
@@ -96,15 +104,30 @@ class HMC5883L(MagnetometerSensor):
         pass
 
     def __setGain(self, value):
+        """
+        Sets the gain
+        @param value: Gain value.
+        @type value: float
+        """
+        
         self.__i2c.write8(self.RA_CONFIG_B, value << (self.CRB_GAIN_BIT - self.CRB_GAIN_LENGTH + 1))
 
     def __setMode(self, newMode):
-        # use this method to guarantee that bits 7-2 are set to zero, which is a
-        # requirement specified in the datasheet
+        """
+        Use this method to guarantee that bits 7-2 are set to zero, which is a
+        requirement specified in the datasheet.
+        @param newMode: The use mode
+        @type newMode: int8
+        """
+
         self.__i2c.write8(self.RA_MODE, self.__mode << (self.MODEREG_BIT - self.MODEREG_LENGTH + 1))
         self.__mode = newMode # track to tell if we have to clear bit 7 after a read
 
     def getMagnetic(self):
+        """Returns the magnetic value read.
+        @return: The magnetic read
+        @rtype: float[]
+        """
         packet = self.__i2c.readBytesListS(self.RA_DATAX_H, 6)
         if (self.__mode == self.MODE_SINGLE):
             self.__i2c.write8(self.RA_MODE, self.MODE_SINGLE << (self.MODEREG_BIT - self.MODEREG_LENGTH + 1))

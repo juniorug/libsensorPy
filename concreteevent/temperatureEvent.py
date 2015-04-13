@@ -8,6 +8,10 @@ from abstractclass.abstractEvent import AbstractEvent
 class TemperatureEvent(AbstractEvent):
 
     def __init__(self,sensor):
+        """
+        @param sensor: The TemperatureSensor who will rise an event
+        @type sensor: TemperatureSensor
+        """
         AbstractEvent.__init__(self,sensor)
         self._observer_list = []
         self.set_measurement()

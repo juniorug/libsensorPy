@@ -51,10 +51,24 @@ class BMP085Altitude(AltitudeSensor):
     __cal_MD = 0
 
     def __init__(self, address = 0x77, mode = 3):
+        """
+        @param address: The register's address to be read
+        @type address: int16
+        @param mode: The operating mode
+        @type mode: int8
+        """
+        
         AltitudeSensor.__init__(self)
         self.setup(address, mode)
 
     def setup(self,address = 0x77, mode = 3):
+        """
+        @param address: The register's address to be read
+        @type address: int16
+        @param mode: The operating mode
+        @type mode: int8
+        """
+        
         self.__i2c = PyComms(address)
         self.__address = address
         # Make sure the specified mode is in the appropriate range
@@ -70,7 +84,7 @@ class BMP085Altitude(AltitudeSensor):
         pass
 
     def __readCalibrationData(self):
-        # Reads the calibration data from the IC
+        """ Reads the calibration data from the IC. """
         self.__cal_AC1 = self.__i2c.readS16(self.__CAL_AC1)   # INT16
         self.__cal_AC2 = self.__i2c.readS16(self.__CAL_AC2)   # INT16
         self.__cal_AC3 = self.__i2c.readS16(self.__CAL_AC3)   # INT16
@@ -84,7 +98,7 @@ class BMP085Altitude(AltitudeSensor):
         self.__cal_MD = self.__i2c.readS16(self.__CAL_MD)     # INT16
 
     def __readRawTemp(self):
-        # Reads the raw (uncompensated) temperature from the sensor
+        """ Reads the raw (uncompensated) temperature from the sensor."""
         self.__i2c.write8(self.__CONTROL, self.__READTEMPCMD)
         time.sleep(0.005)  # Wait 5ms
         raw = self.__i2c.readU16(self.__TEMPDATA)
@@ -92,7 +106,7 @@ class BMP085Altitude(AltitudeSensor):
         return raw
 
     def __readRawPressure(self):
-        # Reads the raw (uncompensated) pressure level from the sensor
+        """Reads the raw (uncompensated) pressure level from the sensor."""
         self.__i2c.write8(self.__CONTROL, self.__READPRESSURECMD + (self.__mode << 6))
         if (self.__mode == self.__ULTRALOWPOWER):
             time.sleep(0.005)
@@ -112,7 +126,7 @@ class BMP085Altitude(AltitudeSensor):
         return raw
 
     def __readPressure(self):
-        # Gets the compensated pressure in pascal
+        """ Gets the compensated pressure in pascal."""
         UT = 0
         UP = 0
         B3 = 0
@@ -160,7 +174,12 @@ class BMP085Altitude(AltitudeSensor):
         return p
 
     def getAltitude(self, seaLevelPressure = 101325):
-        # Calculates the altitude in meters
+        """Calculates the altitude in meters.
+        @param seaLevelPressure: Sea level pressure in kPa
+        @type seaLevelPressure: int8
+        @return: The altitude read in meters
+        @rtype: float
+        """
         altitude = 0.0
         pressure = float(self.__readPressure())
         altitude = 44330.0 * (1.0 - pow(pressure / seaLevelPressure, 0.1903))

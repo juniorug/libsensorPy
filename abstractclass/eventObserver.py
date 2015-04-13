@@ -15,7 +15,7 @@ class EventObserver(object):
         '''
         Constructor
         @param event: The event to be observed
-        @type event: Event
+        @type event: AbstractEvent
         '''
         self._event = event
 
@@ -29,14 +29,11 @@ class EventObserver(object):
         """
         Observer saves reference to Subject.
         @param event: The event to be registered
-        @type event: Event 
+        @type event: AbstractEvent 
         """
 
         self._event = event
 
     def remove_event(self):
-        """Observer replaces Subject reference to None.
-        @param event: The event to be removed
-        @type event: Event
-        """
+        """Observer replaces Subject reference to None."""
         self._event  = None

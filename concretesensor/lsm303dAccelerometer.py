@@ -50,11 +50,15 @@ class LSM303DAccelerometer(AccelerometerSensor):
         self.setup()
 
     def setup(self):
+        """
+        Setup the board and GPIO  
+        @return: void
+        """
         self.__busNum = 0
         try:
             self.__b = SMBus(self.__busNum)
         except:
-            print "no device connected"
+            print ("no device connected")
             exit(0)
 
         self.__detect(self)
@@ -65,6 +69,13 @@ class LSM303DAccelerometer(AccelerometerSensor):
         pass
 
     def __twos_comp_combine(msb, lsb):
+        """
+        @param msb: Most significant bit
+        @type msb: int8
+        @param lsb: Last significant bit
+        @type lsb: int8
+        """
+        
         twos_comp = 256 * msb + lsb
         if twos_comp >= 32768:
             return twos_comp - 65536
@@ -72,12 +83,14 @@ class LSM303DAccelerometer(AccelerometerSensor):
             return twos_comp
 
     def __detect(self):
+        """ Detects if a LSM303D is connected."""
         if (self.__b.read_byte_data(self.LSM, 0x0f) == self.LSM_WHOAMI):
-            print 'LSM303D detected successfully.'
+            print ('LSM303D detected successfully.')
         else:
-            print 'No LSM303D detected on bus '+ str(self.__busNum)+'.'
+            print ('No LSM303D detected on bus '+ str(self.__busNum)+'.')
 
     def __configure(self):
+        """Configure the board to read data. """
         self.__b.write_byte_data(self.LSM, self.CTRL_1, 0b1010111) # enable accelerometer, 50 hz sampling
         self.__b.write_byte_data(self.LSM, self.CTRL_2, 0x00) #set +/- 2g full scale
         self.__b.write_byte_data(self.LSM, self.CTRL_5, 0b01100100) #high resolution mode, thermometer off, 6.25hz ODR
@@ -85,6 +98,10 @@ class LSM303DAccelerometer(AccelerometerSensor):
         self.__b.write_byte_data(self.LSM, self.CTRL_7, 0x00) #get magnetometer out of low power mode
 
     def getAxes(self):
+        """Get the axes.
+        @return: the axes read
+        @rtype: float[]
+        """
         x = self.__twos_comp_combine(self.__b.read_byte_data(self.LSM, self.ACC_X_MSB), self.__b.read_byte_data(self.LSM, self.ACC_X_LSB))
         y = self.__twos_comp_combine(self.__b.read_byte_data(self.LSM, self.ACC_Y_MSB), self.__b.read_byte_data(self.LSM, self.ACC_Y_LSB))
         z = self.__twos_comp_combine(self.__b.read_byte_data(self.LSM, self.ACC_Z_MSB), self.__b.read_byte_data(self.LSM, self.ACC_Z_LSB))

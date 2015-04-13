@@ -31,6 +31,6 @@ class StepperMotorActuator(MotorActuator):
     def setDirectionAndVelocity(self,stepDir = 2):
         """ Sets the rotation's direction and velocity
         @param stepDir: 1 = clockwise, 2 = fast-clockwise, -1 = anti-clockwise,-2 = fast-anti-clockwise  
-        @type direction: int8
+        @type stepDir: int8
         """
         pass

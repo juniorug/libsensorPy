@@ -52,10 +52,22 @@ class BMP085Temperature(TemperatureSensor):
     __cal_MD = 0
 
     def __init__(self, address = 0x77, mode = 3):
+        """
+        @param address: The register's address to be read
+        @type address: int16
+        @param mode: The operating mode
+        @type mode: int8
+        """
         TemperatureSensor.__init__(self)
         self.setup(address, mode)
 
     def setup(self,address = 0x77, mode = 3):
+        """
+        @param address: The register's address to be read
+        @type address: int16
+        @param mode: The operating mode
+        @type mode: int8
+        """
         self.__i2c = PyComms(address)
         self.__address = address
         # Make sure the specified mode is in the appropriate range
@@ -71,7 +83,7 @@ class BMP085Temperature(TemperatureSensor):
         pass
 
     def __readCalibrationData(self):
-        # Reads the calibration data from the IC
+        """ Reads the calibration data from the IC."""
         self.__cal_AC1 = self.__i2c.readS16(self.__CAL_AC1)   # INT16
         self.__cal_AC2 = self.__i2c.readS16(self.__CAL_AC2)   # INT16
         self.__cal_AC3 = self.__i2c.readS16(self.__CAL_AC3)   # INT16
@@ -85,7 +97,7 @@ class BMP085Temperature(TemperatureSensor):
         self.__cal_MD = self.__i2c.readS16(self.__CAL_MD)     # INT16
 
     def __readRawTemp(self):
-        # Reads the raw (uncompensated) temperature from the sensor
+        """ Reads the raw (uncompensated) temperature from the sensor."""
         self.__i2c.write8(self.__CONTROL, self.__READTEMPCMD)
         time.sleep(0.005)  # Wait 5ms
         raw = self.__i2c.readU16(self.__TEMPDATA)
@@ -93,14 +105,17 @@ class BMP085Temperature(TemperatureSensor):
         return raw
 
     def getTemperature(self):
-        # Gets the compensated temperature in degrees celcius
+        """ Gets the compensated temperature in degrees celsius.
+        @return: The temperature read in celsius
+        @rtype: float
+        """
         UT = 0
         X1 = 0
         X2 = 0
         B5 = 0
         temp = 0.0
 
-        # Read raw temp before aligning it with the calibration values
+        # Read raw temp before aligning it with the calibration values.
         UT = self.__readRawTemp()
         X1 = ((UT - self.__cal_AC6) * self.__cal_AC5) >> 15
         X2 = (self.__cal_MC << 11) / (X1 + self.__cal_MD)

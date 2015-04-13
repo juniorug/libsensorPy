@@ -22,16 +22,29 @@ class HYSRF05(UltrasonicSensor):
         self.setup()
         
     def setup(self):
+        """
+        Setup the board and GPIO  
+        @return: void
+        """
         GPIO.setmode(GPIO.BCM)
         GPIO.setwarnings(False) 
         self.__distance = ""
 
     def changeSetup(self, trigger, echo):
+        """
+        @param trigger: The GPIO pin used to trigger the sensor.
+        @param echo: The GPIO pin used to read data from the sensor.
+        @return: void
+        """
         self.__trigger = trigger
         self.__echo = echo
 
     def distance_in_cm(self):
-
+        """
+        Gets the distance from the sensor.
+        @return: The distance in cm.
+        @rtype: float
+        """
         GPIO.setup(self.__trigger,GPIO.OUT)
         GPIO.setup(self.__echo,GPIO.IN)
         GPIO.output(self.__trigger, GPIO.LOW)

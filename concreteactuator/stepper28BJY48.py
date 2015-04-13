@@ -20,9 +20,12 @@ class Stepper28BJY48 (StepperMotorActuator):
     FASTER_ANTI_CLOCKWISE = -2
 
     def __init__(self, stepDir = 2,waitTime = 10):
-        '''
-        Constructor
-        '''
+        """
+        @param stepDir: The direction and velocity of rotation
+        @type stepDir: int8
+        @param waitTime: The time that the motor wil rotate
+        @type waitTime: float
+        """   
         StepperMotorActuator.__init__(self)
         self.setup(stepDir, waitTime)
 
@@ -88,7 +91,7 @@ class Stepper28BJY48 (StepperMotorActuator):
         """ 
         Sets the rotation's direction and velocity
         @param stepDir: 1 = clockwise, 2 = fast-clockwise, -1 = anti-clockwise,-2 = fast-anti-clockwise  
-        @type direction: int8
+        @type stepDir: int8
         """
         self.__stepDir = stepDir
 

@@ -12,9 +12,10 @@ class AbstractEvent(object):
     __metaclass__ = abc.ABCMeta
 
     def __init__(self, sensor):
-        '''
-        Constructor
-        '''
+        """
+        @param sensor: The sensor who will rise an event
+        @type sensor: Sensor
+        """
         self._sensor = sensor
         self._observer_list = []
         

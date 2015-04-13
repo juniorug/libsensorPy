@@ -23,6 +23,10 @@ class URM37(UltrasonicSensor):
         self.setup()
 
     def setup(self):
+        """
+        Setup the board and GPIO  
+        @return: void
+        """
         GPIO.setmode(GPIO.BCM)
         GPIO.setwarnings(False)
         GPIO.setup(self.__trigger,GPIO.OUT)
@@ -32,15 +36,24 @@ class URM37(UltrasonicSensor):
             ser = serial.Serial('/dev/ttyAMA0', 9600, timeout=1)
             ser.open()
         except:
-            print "no device connected"
+            print ("no device connected")
             exit(0)
 
     def changeSetup(self, trigger, echo):
+        """
+        @param trigger: The GPIO pin used to trigger the sensor.
+        @param echo: The GPIO pin used to read data from the sensor.
+        @return: void
+        """
         self.__trigger = trigger
         self.__echo = echo
 
     def distance_in_cm(self):
-
+        """
+        Gets the distance from the sensor.
+        @return: The distance in cm.
+        @rtype: float
+        """
         GPIO.output(self.__trigger, GPIO.HIGH)
         time.sleep(0.00001)
         GPIO.output(self.__trigger, GPIO.LOW)

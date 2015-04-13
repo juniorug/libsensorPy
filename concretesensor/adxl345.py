@@ -10,12 +10,13 @@ SEE License_Pimoroni.txt included in this package
 import smbus
 from abstractclass.accelerometerSensor import AccelerometerSensor
 
-# select the correct i2c bus for this revision of Raspberry Pi
-revision = ([l[12:-1] for l in open('/proc/cpuinfo','r').readlines() if l[:8]=="Revision"]+['0000'])[0]
 
 class ADXL345(AccelerometerSensor):
 
     address = None
+    # select the correct i2c bus for this revision of Raspberry Pi
+    #revision = ([l[12:-1] for l in open('/proc/cpuinfo','r').readlines() if l[:8]=="Revision"]+['0000'])[0]
+
     # ADXL345 constants
     EARTH_GRAVITY_MS2 = 9.80665
     SCALE_MULTIPLIER = 0.004
@@ -41,6 +42,11 @@ class ADXL345(AccelerometerSensor):
     AXES_DATA = 0x32
 
     def __init__(self, address = 0x53):
+        """      
+        @param address: The register's address to be read
+        @type address: int16
+        """
+        
         AccelerometerSensor.__init__(self)
         self.address = address
         self.setup()
@@ -50,27 +56,35 @@ class ADXL345(AccelerometerSensor):
         try:
             self.__bus = smbus.SMBus(1 if int(self.__revision, 16) >= 4 else 0)
         except:
-            print "no device connected"
+            print ("no device connected")
             exit(0)
         self.__setBandwidthRate(ADXL345.BW_RATE_100HZ)
         self.setSensitivity(ADXL345.RANGE_2G)
         self.__enableMeasurement()
 
     def changeSetup(self):
-        """changes GPIO setup ."""
+        """changes GPIO setup."""
         pass
 
     def __enableMeasurement(self):
+        """ Enables the measurement from SMBus."""
         self.__bus.write_byte_data(ADXL345.address, ADXL345.POWER_CTL, ADXL345.MEASURE)
 
     def __setBandwidthRate(self, rate_flag):
+        """
+        Sets the Bandwidht rate.
+        @param rate_flag: The rate flag
+        @type rate_flag: int8
+        """
+        
         self.__bus.write_byte_data(ADXL345.address, ADXL345.BW_RATE, rate_flag)
 
     # set the measurement range for 10-bit readings
     def setSensitivity(self, range_flag = RANGE_2G):
         """
-        @param range_flag:
-        @type range_flag:
+        Sets the sensivity from the sensor.
+        @param range_flag: The range flag
+        @type range_flag: int16
         """
         value = self.__bus.read_byte_data(ADXL345.address, ADXL345.DATA_FORMAT)
 
@@ -81,6 +95,10 @@ class ADXL345(AccelerometerSensor):
         self.__bus.write_byte_data(ADXL345.address, ADXL345.DATA_FORMAT, value)
 
     def getAxes(self):
+        """Get the axes.
+        @return: the axes read
+        @rtype: float[]
+        """
         bytes = self.__bus.read_i2c_block_data(ADXL345.address, ADXL345.AXES_DATA, 6)
 
         x = bytes[0] | (bytes[1] << 8)

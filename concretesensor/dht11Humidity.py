@@ -20,6 +20,10 @@ class DHT11Humidity(HumiditySensor):
         self.setup()
 
     def setup(self):
+        """
+        Setup the board and GPIO  
+        @return:void
+        """
         GPIO.setmode(GPIO.BCM)
         GPIO.setwarnings(False)
         self.__pin = 23
@@ -29,12 +33,25 @@ class DHT11Humidity(HumiditySensor):
         self.__temperature = ""
 
     def changeSetup(self, pin):
+        """
+        @param pin: the GPIO pin used to wire the sensor
+        @return: void
+        """
         self.__pin = pin
 
     def __checkValidData(self):
+        """
+        Check if data is valid
+        @return: Boolean
+        """
         return (int(self.__humidity) + int(self.__temperature) - int(self.__crc) == 0)
 
     def __getValidData(self):
+        """
+        Reads sensor data until its send a valid data.
+        @return: void
+        """
+        
         dataRead = False
         while not (dataRead):
             dataRead = self.__readData()
@@ -44,10 +61,19 @@ class DHT11Humidity(HumiditySensor):
                 time.sleep(0.5)
 
     def getHumidity(self):
+        """
+        Gets the humidity from the sensor
+        @return: The humidity read
+        @rtype: float
+        """
         self.__getValidData()
         return self.__humidity
 
     def __readData(self):
+        """
+        Read sensor's raw data.
+        @return: Boolean
+        """
         self.__data = []
         GPIO.setmode(GPIO.BCM)
         GPIO.setup(self.__pin,GPIO.OUT)

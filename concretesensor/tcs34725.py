@@ -89,11 +89,32 @@ class TCS34725(LightSensor):
 
 
     def __init__(self, address=0x29, debug=False, integrationTime=0xFF, gain=0x01):
+        """       
+        @param address: The register's address to be read
+        @type address: int16
+        @param debug: If debug is enabled
+        @type debug: Boolean
+        @param integrationTime: Integration time
+        @type integrationTime: int16
+        @param gain: The sensor's gain 
+        @type gain: int16
+        """
+        
         LightSensor.__init__(self)
         self.__i2c = PyComms(address)
         self.setup(address, debug, integrationTime, gain)
 
     def setup(self, address=0x29, debug=False, integrationTime=0xFF, gain=0x01):
+        """        
+        @param address: The register's address to be read
+        @type address: int16
+        @param debug: If debug is enabled
+        @type debug: Boolean
+        @param integrationTime: Integration time
+        @type integrationTime: int16
+        @param gain: The sensor's gain 
+        @type gain: int16
+        """
         self.__address = address
         self.__debug = debug
         self.__integrationTime = integrationTime
@@ -115,40 +136,85 @@ class TCS34725(LightSensor):
         pass
 
     def __readU8(self, reg):
+        """
+        Read 8bit register 
+        @param reg: the register to be readed
+        @type reg: int16
+        @return: The value read from register
+        @rtype: int8
+        """
+        
         return self.__i2c.readU8(self.__COMMAND_BIT | reg)
 
     def __readU16Rev(self, reg):
+        """
+        Read 16bit register 
+        @param reg: The register to be readed
+        @type reg: int16
+        @return: The value read from register
+        @rtype: int16
+        """
         return self.__i2c.readU16(self.__COMMAND_BIT | reg)
 
     def __write8(self, reg, value):
+        """
+        
+        @param reg: The register to be written
+        @type reg: int16
+        @param value: The value to write in the register
+        @type value: int8
+        """
         self.__i2c.write8(self.__COMMAND_BIT | reg, value & 0xff)
 
     def __enable(self):
+        """Enables the GPIO to be readed."""
         self.__write8(self.__ENABLE, self.__ENABLE_PON)
         time.sleep(0.01)
         self.__write8(self.__ENABLE, (self.__ENABLE_PON | self.__ENABLE_AEN))
 
     def disable(self):
+        """Desable the GPIO to be readed."""
         reg = self.__readU8(self.__ENABLE)
         self.__write8(self.__ENABLE, (reg & ~(self.__ENABLE_PON | self.__ENABLE_AEN)))
 
     def __setIntegrationTime(self, integrationTime):
-        "Sets the integration time for the TC34725"
+        """
+        Sets the integration time for the TC34725
+        @param integrationTime: The integration time
+        @type integrationTime: int8
+        """
         self.__integrationTime = integrationTime
         self.__write8(self.__ATIME, integrationTime)
 
     def __getIntegrationTime(self):
+        """
+        Gets the integration time for the TC34725
+        @return: The integration time
+        @rtype: int8
+        """
         return self.__readU8(self.__ATIME)
 
     def __setGain(self, gain):
-        "Adjusts the gain on the TCS34725 (adjusts the sensitivity to light)"
+        """Adjusts the gain on the TCS34725 (adjusts the sensitivity to light)
+        @param gain: The sensor's gain 
+        @type gain: int16
+        """
         self.__write8(self.__CONTROL, gain)
 
     def __getGain(self):
+        """
+        Gets the he gain on the TCS34725
+        @return: The sensor's gain 
+        @rtype: int16
+        """
         return self.__readU8(self.__CONTROL)
 
     def __getRawData(self):
-        "Reads the raw red, green, blue and clear channel values"
+        """
+        Reads the raw red, green, blue and clear channel values
+        @return: The sensor's raw data 
+        @rtype: float{}
+        """
 
         color = {}
 
@@ -164,6 +230,11 @@ class TCS34725(LightSensor):
         return color
 
     def __setInterrupt(self, int):
+        """
+        Interrupt data read
+        @param int: Value to interrupt 
+        @type int: int8
+        """
         r = self.__readU8(self.__ENABLE)
 
         if (int):
@@ -174,16 +245,27 @@ class TCS34725(LightSensor):
         self.__write8(self.__ENABLE, r)
 
     def clearInterrupt(self):
+        """Removes the interrupt action"""
         self.__i2c.write8(0x66, 0 & 0xff)
 
     def setIntLimits(self, low, high):
+        """
+        Set value limits
+        @param low: Low value
+        @type low: int8
+        @param high: High value
+        @type high: int8
+        """
         self.__i2c.write8(0x04, low & 0xFF)
         self.__i2c.write8(0x05, low >> 8)
         self.__i2c.write8(0x06, high & 0xFF)
         self.__i2c.write8(0x07, high >> 8)
 
     def calculateColorTemperature(self):
-        "Converts the raw R/G/B values to color temperature in degrees Kelvin"
+        """Converts the raw R/G/B values to color temperature in degrees Kelvin
+        @return: The color's temperature 
+        @rtype: float
+        """
         rgb = self.__getRawData()
 
         X = (-0.14282 * rgb['r']) + (1.54924 * rgb['g']) + (-0.95641 * rgb['b'])
@@ -209,6 +291,11 @@ class TCS34725(LightSensor):
         return (float(cct) - 273.15)
 
     def calculateLux(self):
+        """
+        Calculate Lux value
+        @return: The Lux value 
+        @rtype: long
+        """
         rgb = self.__getRawData()
 
         illuminance = (-0.32466 * rgb['r']) + (1.57837 * rgb['g']) + (-0.73191 * rgb['b'])
@@ -216,7 +303,7 @@ class TCS34725(LightSensor):
         return long(illuminance)
 
     def __del__(self):
-        # we're no longer using the GPIO, so tell software we're done
+        """ we're no longer using the GPIO, so tell software we're done"""
         self.__setInterrupt(True)
         time.sleep(1)
         self.__disable()
