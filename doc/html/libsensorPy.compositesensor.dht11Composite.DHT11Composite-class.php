@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.compositesensor-module.html">Package&nbsp;compositesensor</a> ::
-        <a href="libsensorPy.compositesensor.dht11Composite-module.html">Module&nbsp;dht11Composite</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.compositesensor-module.php">Package&nbsp;compositesensor</a> ::
+        <a href="libsensorPy.compositesensor.dht11Composite-module.php">Module&nbsp;dht11Composite</a> ::
         Class&nbsp;DHT11Composite
       </span>
     </td>
@@ -54,31 +54,31 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class DHT11Composite</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class DHT11Composite</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_21" name="uml_class_diagram_for_libsenso_21">
-<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#__init__" title="Constructor" alt="" coords="245,193,445,212"/>
-<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#setup" title="Setup the GPIO." alt="" coords="245,212,445,231"/>
-<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#changeSetup" title="Changes GPIO setup" alt="" coords="245,231,445,249"/>
-<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#getTemperature" title="&quot;Return the temperature in Celsius measured from the sensor." alt="" coords="245,249,445,268"/>
-<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#getTemperatureInFahrenheit" title="Return the temperature in Fahrenheit measured from the sensor." alt="" coords="245,268,445,287"/>
-<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#getTemperatureInKelvin" title="Return the temperature in Kelvin measured from the sensor." alt="" coords="245,287,445,305"/>
-<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#getHumidity" title="Return the humidity measured from the sensor." alt="" coords="245,305,445,324"/>
-<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#add" title="Add a basic sensor to the composite" alt="" coords="245,324,445,343"/>
-<area shape="rect" id="node1" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html" title="classdocs" alt="" coords="233,161,457,349"/>
-<area shape="rect" id="node43" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#__metaclass__" title="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor.__metaclass__" alt="" coords="17,108,329,127"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html" title="classdocs" alt="" coords="5,83,341,141"/>
-<area shape="rect" id="node45" href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="261,39,429,57"/>
-<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.html" title="classdocs" alt="" coords="249,6,441,63"/>
-<area shape="rect" id="node4" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html" title="classdocs" alt="" coords="371,90,664,134"/>
+<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#__init__" title="Constructor" alt="" coords="245,193,445,212"/>
+<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#setup" title="Setup the GPIO." alt="" coords="245,212,445,231"/>
+<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#changeSetup" title="Changes GPIO setup" alt="" coords="245,231,445,249"/>
+<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#getTemperature" title="&quot;Return the temperature in Celsius measured from the sensor." alt="" coords="245,249,445,268"/>
+<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#getTemperatureInFahrenheit" title="Return the temperature in Fahrenheit measured from the sensor." alt="" coords="245,268,445,287"/>
+<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#getTemperatureInKelvin" title="Return the temperature in Kelvin measured from the sensor." alt="" coords="245,287,445,305"/>
+<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#getHumidity" title="Return the humidity measured from the sensor." alt="" coords="245,305,445,324"/>
+<area shape="rect" id="node42" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#add" title="Add a basic sensor to the composite" alt="" coords="245,324,445,343"/>
+<area shape="rect" id="node1" href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php" title="classdocs" alt="" coords="233,161,457,349"/>
+<area shape="rect" id="node43" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#__metaclass__" title="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor.__metaclass__" alt="" coords="17,108,329,127"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php" title="classdocs" alt="" coords="5,83,341,141"/>
+<area shape="rect" id="node45" href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="261,39,429,57"/>
+<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.php" title="classdocs" alt="" coords="249,6,441,63"/>
+<area shape="rect" id="node4" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php" title="classdocs" alt="" coords="371,90,664,134"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_21.gif" alt='' usemap="#uml_class_diagram_for_libsenso_21" ismap="ismap" class="graph-without-title" />
 </center>
@@ -109,10 +109,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -126,10 +126,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Setup the GPIO.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.setup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.setup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -143,11 +143,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">pin</span>)</span><br />
       Changes GPIO setup</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.changeSetup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.changeSetup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -161,10 +161,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#getTemperature" class="summary-sig-name">getTemperature</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#getTemperature" class="summary-sig-name">getTemperature</a>(<span class="summary-sig-arg">self</span>)</span><br />
       &quot;Return the temperature in Celsius measured from the sensor.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.getTemperature">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.getTemperature">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -178,10 +178,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#getTemperatureInFahrenheit" class="summary-sig-name">getTemperatureInFahrenheit</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#getTemperatureInFahrenheit" class="summary-sig-name">getTemperatureInFahrenheit</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Return the temperature in Fahrenheit measured from the sensor.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.getTemperatureInFahrenheit">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.getTemperatureInFahrenheit">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -195,10 +195,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#getTemperatureInKelvin" class="summary-sig-name">getTemperatureInKelvin</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#getTemperatureInKelvin" class="summary-sig-name">getTemperatureInKelvin</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Return the temperature in Kelvin measured from the sensor.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.getTemperatureInKelvin">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.getTemperatureInKelvin">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -212,10 +212,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#getHumidity" class="summary-sig-name">getHumidity</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#getHumidity" class="summary-sig-name">getHumidity</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Return the humidity measured from the sensor.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.getHumidity">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.getHumidity">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -229,11 +229,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.html#add" class="summary-sig-name">add</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.compositesensor.dht11Composite.DHT11Composite-class.php#add" class="summary-sig-name">add</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">sensor</span>)</span><br />
       Add a basic sensor to the composite</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.add">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.add">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -243,11 +243,11 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html">abstractclass.temperatureSensor.TemperatureSensor</a></code></b> (private):
-      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#_bin2dec" onclick="show_private();">_bin2dec</a></code>
+    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php">abstractclass.temperatureSensor.TemperatureSensor</a></code></b> (private):
+      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#_bin2dec" onclick="show_private();">_bin2dec</a></code>
       </p></div>
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">abstractclass.sensor.Sensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__">__del__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">abstractclass.sensor.Sensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__">__del__</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -285,8 +285,8 @@
 </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html">abstractclass.temperatureSensor.TemperatureSensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#__metaclass__">__metaclass__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php">abstractclass.temperatureSensor.TemperatureSensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#__metaclass__">__metaclass__</a></code>
       </p>
     </td>
   </tr>
@@ -345,7 +345,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -367,14 +367,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">setup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.setup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.setup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>Setup the GPIO.</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#setup">abstractclass.sensor.Sensor.setup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#setup">abstractclass.sensor.Sensor.setup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -390,7 +390,7 @@
         <span class="sig-arg">pin</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.changeSetup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.changeSetup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -401,7 +401,7 @@
         <li><strong class="pname"><code>pin</code></strong> ()</li>
     </ul></dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -416,14 +416,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getTemperature</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.getTemperature">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.getTemperature">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>&quot;Return the temperature in Celsius measured from the sensor.</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#getTemperature">abstractclass.temperatureSensor.TemperatureSensor.getTemperature</a>
+        <a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#getTemperature">abstractclass.temperatureSensor.TemperatureSensor.getTemperature</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -438,14 +438,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getTemperatureInFahrenheit</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.getTemperatureInFahrenheit">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.getTemperatureInFahrenheit">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>Return the temperature in Fahrenheit measured from the sensor.</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#getTemperatureInFahrenheit">abstractclass.temperatureSensor.TemperatureSensor.getTemperatureInFahrenheit</a>
+        <a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#getTemperatureInFahrenheit">abstractclass.temperatureSensor.TemperatureSensor.getTemperatureInFahrenheit</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -460,14 +460,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getTemperatureInKelvin</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.getTemperatureInKelvin">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.getTemperatureInKelvin">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>Return the temperature in Kelvin measured from the sensor.</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#getTemperatureInKelvin">abstractclass.temperatureSensor.TemperatureSensor.getTemperatureInKelvin</a>
+        <a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#getTemperatureInKelvin">abstractclass.temperatureSensor.TemperatureSensor.getTemperatureInKelvin</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -482,14 +482,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getHumidity</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.getHumidity">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.getHumidity">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>Return the humidity measured from the sensor.</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html#getHumidity">abstractclass.humiditySensor.HumiditySensor.getHumidity</a>
+        <a href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php#getHumidity">abstractclass.humiditySensor.HumiditySensor.getHumidity</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -505,7 +505,7 @@
         <span class="sig-arg">sensor</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.html#DHT11Composite.add">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.compositesensor.dht11Composite-pysrc.php#DHT11Composite.add">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -525,19 +525,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

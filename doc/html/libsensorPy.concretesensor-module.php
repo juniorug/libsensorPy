@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,7 +42,7 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
         Package&nbsp;concretesensor
       </span>
     </td>
@@ -52,15 +52,15 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor-module.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor-module.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== PACKAGE DESCRIPTION ==================== -->
-<h1 class="epydoc">Package concretesensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor-pysrc.html">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Package concretesensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor-pysrc.php">source&nbsp;code</a></span></p>
 <!-- ==================== SUBMODULES ==================== -->
 <a name="section-Submodules"></a>
 <table class="summary" border="1" cellpadding="3"
@@ -80,24 +80,24 @@
 </tr>
   <tr><td class="summary">
   <ul class="nomargin">
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.adxl345-module.html">libsensorPy.concretesensor.adxl345</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.bmp085Altitude-module.html">libsensorPy.concretesensor.bmp085Altitude</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.bmp085Pressure-module.html">libsensorPy.concretesensor.bmp085Pressure</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.bmp085Temperature-module.html">libsensorPy.concretesensor.bmp085Temperature</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.dht11Humidity-module.html">libsensorPy.concretesensor.dht11Humidity</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.dht11Temperature-module.html">libsensorPy.concretesensor.dht11Temperature</a></strong>: <em class="summary">Created on 30/01/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.dht22Humidity-module.html">libsensorPy.concretesensor.dht22Humidity</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.dht22Temperature-module.html">libsensorPy.concretesensor.dht22Temperature</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.hmc5883l-module.html">libsensorPy.concretesensor.hmc5883l</a></strong>: <em class="summary">Created on 18/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.hysrf05-module.html">libsensorPy.concretesensor.hysrf05</a></strong>: <em class="summary">Created on 04/02/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-module.html">libsensorPy.concretesensor.lsm303dAccelerometer</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.lsm303dMagnetometer-module.html">libsensorPy.concretesensor.lsm303dMagnetometer</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.parallaxPing-module.html">libsensorPy.concretesensor.parallaxPing</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.pir-module.html">libsensorPy.concretesensor.pir</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.srf04-module.html">libsensorPy.concretesensor.srf04</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.srf05-module.html">libsensorPy.concretesensor.srf05</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.tcs34725-module.html">libsensorPy.concretesensor.tcs34725</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.urm37-module.html">libsensorPy.concretesensor.urm37</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.adxl345-module.php">libsensorPy.concretesensor.adxl345</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.bmp085Altitude-module.php">libsensorPy.concretesensor.bmp085Altitude</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.bmp085Pressure-module.php">libsensorPy.concretesensor.bmp085Pressure</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.bmp085Temperature-module.php">libsensorPy.concretesensor.bmp085Temperature</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.dht11Humidity-module.php">libsensorPy.concretesensor.dht11Humidity</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.dht11Temperature-module.php">libsensorPy.concretesensor.dht11Temperature</a></strong>: <em class="summary">Created on 30/01/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.dht22Humidity-module.php">libsensorPy.concretesensor.dht22Humidity</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.dht22Temperature-module.php">libsensorPy.concretesensor.dht22Temperature</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.hmc5883l-module.php">libsensorPy.concretesensor.hmc5883l</a></strong>: <em class="summary">Created on 18/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.hysrf05-module.php">libsensorPy.concretesensor.hysrf05</a></strong>: <em class="summary">Created on 04/02/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-module.php">libsensorPy.concretesensor.lsm303dAccelerometer</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.lsm303dMagnetometer-module.php">libsensorPy.concretesensor.lsm303dMagnetometer</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.parallaxPing-module.php">libsensorPy.concretesensor.parallaxPing</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.pir-module.php">libsensorPy.concretesensor.pir</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.srf04-module.php">libsensorPy.concretesensor.srf04</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.srf05-module.php">libsensorPy.concretesensor.srf05</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.tcs34725-module.php">libsensorPy.concretesensor.tcs34725</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.concretesensor.urm37-module.php">libsensorPy.concretesensor.urm37</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
   </ul></td></tr>
 </table>
 
@@ -133,19 +133,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

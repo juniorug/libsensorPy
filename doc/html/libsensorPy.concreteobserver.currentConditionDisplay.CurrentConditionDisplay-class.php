@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.concreteobserver-module.html">Package&nbsp;concreteobserver</a> ::
-        <a href="libsensorPy.concreteobserver.currentConditionDisplay-module.html">Module&nbsp;currentConditionDisplay</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.concreteobserver-module.php">Package&nbsp;concreteobserver</a> ::
+        <a href="libsensorPy.concreteobserver.currentConditionDisplay-module.php">Module&nbsp;currentConditionDisplay</a> ::
         Class&nbsp;CurrentConditionDisplay
       </span>
     </td>
@@ -54,26 +54,26 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class CurrentConditionDisplay</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.html#CurrentConditionDisplay">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class CurrentConditionDisplay</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.php#CurrentConditionDisplay">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_37" name="uml_class_diagram_for_libsenso_37">
-<area shape="rect" id="node82" href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.html#__init__" title="Constructor" alt="" coords="52,167,244,185"/>
-<area shape="rect" id="node82" href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.html#update" title="Update the observer based on one event." alt="" coords="52,185,244,204"/>
-<area shape="rect" id="node82" href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.html#display" title="Display the current temperature" alt="" coords="52,204,244,223"/>
-<area shape="rect" id="node1" href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.html" title="Returns the current temperature and humidity." alt="" coords="40,134,256,229"/>
-<area shape="rect" id="node83" href="abc.ABCMeta-class.html" title="Metaclass for defining Abstract Base Classes (ABCs)." alt="" coords="17,31,277,49"/>
-<area shape="rect" id="node83" href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#__abstractmethods__" title="libsensorPy.abstractclass.eventObserver.EventObserver.__abstractmethods__" alt="" coords="17,49,277,68"/>
-<area shape="rect" id="node83" href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#register_event" title="Observer saves reference to Subject." alt="" coords="17,71,277,89"/>
-<area shape="rect" id="node83" href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#remove_event" title="Observer replaces Subject reference to None." alt="" coords="17,89,277,108"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html" title="classdocs" alt="" coords="5,6,288,114"/>
+<area shape="rect" id="node82" href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.php#__init__" title="Constructor" alt="" coords="52,167,244,185"/>
+<area shape="rect" id="node82" href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.php#update" title="Update the observer based on one event." alt="" coords="52,185,244,204"/>
+<area shape="rect" id="node82" href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.php#display" title="Display the current temperature" alt="" coords="52,204,244,223"/>
+<area shape="rect" id="node1" href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.php" title="Returns the current temperature and humidity." alt="" coords="40,134,256,229"/>
+<area shape="rect" id="node83" href="abc.ABCMeta-class.php" title="Metaclass for defining Abstract Base Classes (ABCs)." alt="" coords="17,31,277,49"/>
+<area shape="rect" id="node83" href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#__abstractmethods__" title="libsensorPy.abstractclass.eventObserver.EventObserver.__abstractmethods__" alt="" coords="17,49,277,68"/>
+<area shape="rect" id="node83" href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#register_event" title="Observer saves reference to Subject." alt="" coords="17,71,277,89"/>
+<area shape="rect" id="node83" href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#remove_event" title="Observer replaces Subject reference to None." alt="" coords="17,89,277,108"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php" title="classdocs" alt="" coords="5,6,288,114"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_37.gif" alt='' usemap="#uml_class_diagram_for_libsenso_37" ismap="ismap" class="graph-without-title" />
 </center>
@@ -100,8 +100,8 @@
 </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html">abstractclass.eventObserver.EventObserver</a></code></b>:
-      <code><a href="abc.ABCMeta-class.html">__metaclass__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php">abstractclass.eventObserver.EventObserver</a></code></b>:
+      <code><a href="abc.ABCMeta-class.php">__metaclass__</a></code>
       </p>
     </td>
   </tr>
@@ -129,11 +129,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">temperatureEvent</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.html#CurrentConditionDisplay.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.php#CurrentConditionDisplay.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -147,10 +147,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.html#update" class="summary-sig-name">update</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concreteobserver.currentConditionDisplay.CurrentConditionDisplay-class.php#update" class="summary-sig-name">update</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Update the observer based on one event.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.html#CurrentConditionDisplay.update">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.php#CurrentConditionDisplay.update">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -167,7 +167,7 @@
           <td><span class="summary-sig"><a name="display"></a><span class="summary-sig-name">display</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Display the current temperature</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.html#CurrentConditionDisplay.display">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.php#CurrentConditionDisplay.display">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -177,9 +177,9 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html">abstractclass.eventObserver.EventObserver</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#register_event">register_event</a></code>,
-      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#remove_event">remove_event</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php">abstractclass.eventObserver.EventObserver</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#register_event">register_event</a></code>,
+      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#remove_event">remove_event</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -217,14 +217,14 @@
 </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html">abstractclass.eventObserver.EventObserver</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#__abstractmethods__">__abstractmethods__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php">abstractclass.eventObserver.EventObserver</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#__abstractmethods__">__abstractmethods__</a></code>
       </p>
-    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html">abstractclass.eventObserver.EventObserver</a></code></b> (private):
-      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#_abc_cache" onclick="show_private();">_abc_cache</a></code>,
-      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#_abc_negative_cache" onclick="show_private();">_abc_negative_cache</a></code>,
-      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#_abc_negative_cache_version" onclick="show_private();">_abc_negative_cache_version</a></code>,
-      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#_abc_registry" onclick="show_private();">_abc_registry</a></code>
+    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php">abstractclass.eventObserver.EventObserver</a></code></b> (private):
+      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#_abc_cache" onclick="show_private();">_abc_cache</a></code>,
+      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#_abc_negative_cache" onclick="show_private();">_abc_negative_cache</a></code>,
+      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#_abc_negative_cache_version" onclick="show_private();">_abc_negative_cache_version</a></code>,
+      <code><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#_abc_registry" onclick="show_private();">_abc_registry</a></code>
       </p></div>
     </td>
   </tr>
@@ -284,7 +284,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.html#CurrentConditionDisplay.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.php#CurrentConditionDisplay.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -310,14 +310,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">update</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.html#CurrentConditionDisplay.update">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concreteobserver.currentConditionDisplay-pysrc.php#CurrentConditionDisplay.update">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>Update the observer based on one event.</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html#update">abstractclass.eventObserver.EventObserver.update</a>
+        <a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php#update">abstractclass.eventObserver.EventObserver.update</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -329,19 +329,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

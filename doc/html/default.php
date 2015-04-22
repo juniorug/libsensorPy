@@ -27,10 +27,10 @@ $allowuploads = false;
 $overwrite = false;
 
 $indexfiles = array (
-				'index.html',
+				'index.php',
 				'index.htm',
 				'default.htm',
-				'default.html'
+				'default.php'
 			);
 			
 $filetypes = array (

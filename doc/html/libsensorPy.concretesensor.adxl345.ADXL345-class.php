@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.concretesensor-module.html">Package&nbsp;concretesensor</a> ::
-        <a href="libsensorPy.concretesensor.adxl345-module.html">Module&nbsp;adxl345</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.concretesensor-module.php">Package&nbsp;concretesensor</a> ::
+        <a href="libsensorPy.concretesensor.adxl345-module.php">Module&nbsp;adxl345</a> ::
         Class&nbsp;ADXL345
       </span>
     </td>
@@ -54,42 +54,42 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor.adxl345.ADXL345-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor.adxl345.ADXL345-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class ADXL345</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class ADXL345</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_38" name="uml_class_diagram_for_libsenso_38">
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#address" title="libsensorPy.concretesensor.adxl345.ADXL345.address" alt="" coords="53,199,317,217"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#EARTH_GRAVITY_MS2" title="libsensorPy.concretesensor.adxl345.ADXL345.EARTH_GRAVITY_MS2" alt="" coords="53,217,317,236"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#SCALE_MULTIPLIER" title="libsensorPy.concretesensor.adxl345.ADXL345.SCALE_MULTIPLIER" alt="" coords="53,236,317,255"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#DATA_FORMAT" title="libsensorPy.concretesensor.adxl345.ADXL345.DATA_FORMAT" alt="" coords="53,255,317,273"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#BW_RATE" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE" alt="" coords="53,273,317,292"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#POWER_CTL" title="libsensorPy.concretesensor.adxl345.ADXL345.POWER_CTL" alt="" coords="53,292,317,311"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#BW_RATE_1600HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_1600HZ" alt="" coords="53,311,317,329"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#BW_RATE_800HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_800HZ" alt="" coords="53,329,317,348"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#BW_RATE_400HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_400HZ" alt="" coords="53,348,317,367"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#BW_RATE_200HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_200HZ" alt="" coords="53,367,317,385"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#BW_RATE_100HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_100HZ" alt="" coords="53,385,317,404"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#BW_RATE_50HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_50HZ" alt="" coords="53,404,317,423"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#BW_RATE_25HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_25HZ" alt="" coords="53,423,317,441"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#AXES_DATA" title="libsensorPy.concretesensor.adxl345.ADXL345.AXES_DATA" alt="" coords="53,460,317,479"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#__init__" title="Constructor" alt="" coords="53,481,317,500"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#setup" title="Setup the GPIO." alt="" coords="53,500,317,519"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#changeSetup" title="changes GPIO setup." alt="" coords="53,519,317,537"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#setSensitivity" title="Sets the sensivity from the sensor." alt="" coords="53,537,317,556"/>
-<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#getAxes" title="Get the axes." alt="" coords="53,556,317,575"/>
-<area shape="rect" id="node1" href="libsensorPy.concretesensor.adxl345.ADXL345-class.html" title="libsensorPy.concretesensor.adxl345.ADXL345" alt="" coords="41,174,329,581"/>
-<area shape="rect" id="node85" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#__metaclass__" title="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor.__metaclass__" alt="" coords="17,108,353,127"/>
-<area shape="rect" id="node85" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#getAxesInMS2" title="Get the axes value in m/s2" alt="" coords="17,129,353,148"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html" title="classdocs" alt="" coords="5,83,365,154"/>
-<area shape="rect" id="node86" href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="101,39,269,57"/>
-<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.html" title="classdocs" alt="" coords="89,6,281,63"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#address" title="libsensorPy.concretesensor.adxl345.ADXL345.address" alt="" coords="53,199,317,217"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#EARTH_GRAVITY_MS2" title="libsensorPy.concretesensor.adxl345.ADXL345.EARTH_GRAVITY_MS2" alt="" coords="53,217,317,236"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#SCALE_MULTIPLIER" title="libsensorPy.concretesensor.adxl345.ADXL345.SCALE_MULTIPLIER" alt="" coords="53,236,317,255"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#DATA_FORMAT" title="libsensorPy.concretesensor.adxl345.ADXL345.DATA_FORMAT" alt="" coords="53,255,317,273"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#BW_RATE" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE" alt="" coords="53,273,317,292"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#POWER_CTL" title="libsensorPy.concretesensor.adxl345.ADXL345.POWER_CTL" alt="" coords="53,292,317,311"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#BW_RATE_1600HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_1600HZ" alt="" coords="53,311,317,329"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#BW_RATE_800HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_800HZ" alt="" coords="53,329,317,348"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#BW_RATE_400HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_400HZ" alt="" coords="53,348,317,367"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#BW_RATE_200HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_200HZ" alt="" coords="53,367,317,385"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#BW_RATE_100HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_100HZ" alt="" coords="53,385,317,404"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#BW_RATE_50HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_50HZ" alt="" coords="53,404,317,423"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#BW_RATE_25HZ" title="libsensorPy.concretesensor.adxl345.ADXL345.BW_RATE_25HZ" alt="" coords="53,423,317,441"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#AXES_DATA" title="libsensorPy.concretesensor.adxl345.ADXL345.AXES_DATA" alt="" coords="53,460,317,479"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#__init__" title="Constructor" alt="" coords="53,481,317,500"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#setup" title="Setup the GPIO." alt="" coords="53,500,317,519"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#changeSetup" title="changes GPIO setup." alt="" coords="53,519,317,537"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#setSensitivity" title="Sets the sensivity from the sensor." alt="" coords="53,537,317,556"/>
+<area shape="rect" id="node84" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#getAxes" title="Get the axes." alt="" coords="53,556,317,575"/>
+<area shape="rect" id="node1" href="libsensorPy.concretesensor.adxl345.ADXL345-class.php" title="libsensorPy.concretesensor.adxl345.ADXL345" alt="" coords="41,174,329,581"/>
+<area shape="rect" id="node85" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#__metaclass__" title="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor.__metaclass__" alt="" coords="17,108,353,127"/>
+<area shape="rect" id="node85" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#getAxesInMS2" title="Get the axes value in m/s2" alt="" coords="17,129,353,148"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php" title="classdocs" alt="" coords="5,83,365,154"/>
+<area shape="rect" id="node86" href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="101,39,269,57"/>
+<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.php" title="classdocs" alt="" coords="89,6,281,63"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_38.gif" alt='' usemap="#uml_class_diagram_for_libsenso_38" ismap="ismap" class="graph-without-title" />
 </center>
@@ -118,11 +118,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">address</span>=<span class="summary-sig-default">0x53</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -136,10 +136,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Setup the GPIO.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.setup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.setup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -153,10 +153,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       changes GPIO setup.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.changeSetup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.changeSetup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -173,7 +173,7 @@
           <td><span class="summary-sig"><a name="__enableMeasurement"></a><span class="summary-sig-name">__enableMeasurement</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Enables the measurement from SMBus.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.__enableMeasurement">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.__enableMeasurement">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -187,11 +187,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#__setBandwidthRate" class="summary-sig-name" onclick="show_private();">__setBandwidthRate</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#__setBandwidthRate" class="summary-sig-name" onclick="show_private();">__setBandwidthRate</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">rate_flag</span>)</span><br />
       Sets the Bandwidht rate.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.__setBandwidthRate">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.__setBandwidthRate">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -205,11 +205,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#setSensitivity" class="summary-sig-name">setSensitivity</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#setSensitivity" class="summary-sig-name">setSensitivity</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">range_flag</span>=<span class="summary-sig-default">RANGE_2G</span>)</span><br />
       Sets the sensivity from the sensor.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.setSensitivity">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.setSensitivity">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -223,10 +223,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.html#getAxes" class="summary-sig-name">getAxes</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.adxl345.ADXL345-class.php#getAxes" class="summary-sig-name">getAxes</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Get the axes.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.getAxes">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.getAxes">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -236,11 +236,11 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html">abstractclass.accelerometerSensor.AccelerometerSensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#getAxesInMS2">getAxesInMS2</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php">abstractclass.accelerometerSensor.AccelerometerSensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#getAxesInMS2">getAxesInMS2</a></code>
       </p>
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">abstractclass.sensor.Sensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__">__del__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">abstractclass.sensor.Sensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__">__del__</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -411,8 +411,8 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html">abstractclass.accelerometerSensor.AccelerometerSensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#__metaclass__">__metaclass__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php">abstractclass.accelerometerSensor.AccelerometerSensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#__metaclass__">__metaclass__</a></code>
       </p>
     </td>
   </tr>
@@ -472,7 +472,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -498,14 +498,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">setup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.setup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.setup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>Setup the GPIO.</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#setup">abstractclass.sensor.Sensor.setup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#setup">abstractclass.sensor.Sensor.setup</a>
         <dd><em class="note">(inherited documentation)</em></dd>
     </dt>
   </dl>
@@ -521,14 +521,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">changeSetup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.changeSetup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.changeSetup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>changes GPIO setup.</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -544,7 +544,7 @@
         <span class="sig-arg">rate_flag</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.__setBandwidthRate">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.__setBandwidthRate">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -568,7 +568,7 @@
         <span class="sig-arg">range_flag</span>=<span class="sig-default">RANGE_2G</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.setSensitivity">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.setSensitivity">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -591,7 +591,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getAxes</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.html#ADXL345.getAxes">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.adxl345-pysrc.php#ADXL345.getAxes">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -600,7 +600,7 @@
     <dt>Returns: float[]</dt>
         <dd>the axes read</dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#getAxes">abstractclass.accelerometerSensor.AccelerometerSensor.getAxes</a>
+        <a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#getAxes">abstractclass.accelerometerSensor.AccelerometerSensor.getAxes</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -612,19 +612,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

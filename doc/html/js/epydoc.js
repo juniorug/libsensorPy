@@ -282,8 +282,8 @@ function redirect_url(dottedName) {
                   // construct its URL, using leftover `dottedName`
                   // content to form an anchor.
                   var pagetype = pages[i].charAt(pages[i].length-1);
-                  var url = pagename + ((pagetype=="m")?"-module.html":
-                                                        "-class.html");
+                  var url = pagename + ((pagetype=="m")?"-module.php":
+                                                        "-class.php");
                   if (dottedName.length > pagename.length)
                       url += "#" + dottedName.substring(pagename.length+1,
                                                         dottedName.length);

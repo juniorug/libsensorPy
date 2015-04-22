@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.abstractclass-module.html">Package&nbsp;abstractclass</a> ::
-        <a href="libsensorPy.abstractclass.lightSensor-module.html">Module&nbsp;lightSensor</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.abstractclass-module.php">Package&nbsp;abstractclass</a> ::
+        <a href="libsensorPy.abstractclass.lightSensor-module.php">Module&nbsp;lightSensor</a> ::
         Class&nbsp;LightSensor
       </span>
     </td>
@@ -54,27 +54,27 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class LightSensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.html#LightSensor">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class LightSensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.php#LightSensor">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_10" name="uml_class_diagram_for_libsenso_10">
-<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html#__metaclass__" title="libsensorPy.abstractclass.lightSensor.LightSensor.__metaclass__" alt="" coords="17,127,223,145"/>
-<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html#__init__" title="Constructor" alt="" coords="17,148,223,167"/>
-<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html#setup" title="Setup the GPIO." alt="" coords="17,167,223,185"/>
-<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html#getLux" title="Return the light in Lux." alt="" coords="17,185,223,204"/>
-<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html#getColorTemperature" title="Return the color temperature in celsius." alt="" coords="17,204,223,223"/>
-<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html#getColorTemperatureInKelvin" title="Return the temperature in Kelvin." alt="" coords="17,223,223,241"/>
-<area shape="rect" id="node1" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html" title="classdocs" alt="" coords="5,102,235,247"/>
-<area shape="rect" id="node17" href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup" title="Changes GPIO setup ." alt="" coords="64,39,176,57"/>
-<area shape="rect" id="node17" href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="64,57,176,76"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.sensor.Sensor-class.html" title="classdocs" alt="" coords="52,6,188,82"/>
+<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php#__metaclass__" title="libsensorPy.abstractclass.lightSensor.LightSensor.__metaclass__" alt="" coords="17,127,223,145"/>
+<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php#__init__" title="Constructor" alt="" coords="17,148,223,167"/>
+<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php#setup" title="Setup the GPIO." alt="" coords="17,167,223,185"/>
+<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php#getLux" title="Return the light in Lux." alt="" coords="17,185,223,204"/>
+<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php#getColorTemperature" title="Return the color temperature in celsius." alt="" coords="17,204,223,223"/>
+<area shape="rect" id="node16" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php#getColorTemperatureInKelvin" title="Return the temperature in Kelvin." alt="" coords="17,223,223,241"/>
+<area shape="rect" id="node1" href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php" title="classdocs" alt="" coords="5,102,235,247"/>
+<area shape="rect" id="node17" href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup" title="Changes GPIO setup ." alt="" coords="64,39,176,57"/>
+<area shape="rect" id="node17" href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="64,57,176,76"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.sensor.Sensor-class.php" title="classdocs" alt="" coords="52,6,188,82"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_10.gif" alt='' usemap="#uml_class_diagram_for_libsenso_10" ismap="ismap" class="graph-without-title" />
 </center>
@@ -105,10 +105,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.html#LightSensor.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.php#LightSensor.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -122,10 +122,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Setup the GPIO.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.html#LightSensor.setup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.php#LightSensor.setup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -139,10 +139,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html#getLux" class="summary-sig-name">getLux</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php#getLux" class="summary-sig-name">getLux</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Return the light in Lux.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.html#LightSensor.getLux">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.php#LightSensor.getLux">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -156,10 +156,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.lightSensor.LightSensor-class.html#getColorTemperature" class="summary-sig-name">getColorTemperature</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.lightSensor.LightSensor-class.php#getColorTemperature" class="summary-sig-name">getColorTemperature</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Return the color temperature in celsius.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.html#LightSensor.getColorTemperature">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.php#LightSensor.getColorTemperature">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -176,7 +176,7 @@
           <td><span class="summary-sig"><a name="getColorTemperatureInKelvin"></a><span class="summary-sig-name">getColorTemperatureInKelvin</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Return the temperature in Kelvin.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.html#LightSensor.getColorTemperatureInKelvin">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.php#LightSensor.getColorTemperatureInKelvin">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -186,9 +186,9 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">sensor.Sensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__">__del__</a></code>,
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup">changeSetup</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">sensor.Sensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__">__del__</a></code>,
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup">changeSetup</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -286,7 +286,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.html#LightSensor.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.php#LightSensor.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -308,7 +308,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">setup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.html#LightSensor.setup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.php#LightSensor.setup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -319,7 +319,7 @@
         <li><code>@abc.abstractmethod</code></li>
     </ul></dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#setup">sensor.Sensor.setup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#setup">sensor.Sensor.setup</a>
         <dd><em class="note">(inherited documentation)</em></dd>
     </dt>
   </dl>
@@ -335,7 +335,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getLux</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.html#LightSensor.getLux">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.php#LightSensor.getLux">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -358,7 +358,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getColorTemperature</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.html#LightSensor.getColorTemperature">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.lightSensor-pysrc.php#LightSensor.getColorTemperature">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -378,19 +378,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.abstractclass-module.html">Package&nbsp;abstractclass</a> ::
-        <a href="libsensorPy.abstractclass.abstractSensorFactory-module.html">Module&nbsp;abstractSensorFactory</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.abstractclass-module.php">Package&nbsp;abstractclass</a> ::
+        <a href="libsensorPy.abstractclass.abstractSensorFactory-module.php">Module&nbsp;abstractSensorFactory</a> ::
         Class&nbsp;AbstractSensorFactory
       </span>
     </td>
@@ -54,23 +54,23 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class AbstractSensorFactory</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.html#AbstractSensorFactory">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class AbstractSensorFactory</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.php#AbstractSensorFactory">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_3" name="uml_class_diagram_for_libsenso_3">
-<area shape="rect" id="node4" href="abc.ABCMeta-class.html" title="Metaclass for defining Abstract Base Classes (ABCs)." alt="" coords="17,31,177,49"/>
-<area shape="rect" id="node4" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#__abstractmethods__" title="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory.__abstractmethods__" alt="" coords="17,49,177,68"/>
-<area shape="rect" id="node4" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#__init__" title="Constructor" alt="" coords="17,71,177,89"/>
-<area shape="rect" id="node4" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#createSensor" title="Retrieve data from the input source and return a Sensor object." alt="" coords="17,89,177,108"/>
-<area shape="rect" id="node4" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#createEvent" title="Retrieve data from the input source and return an Event object." alt="" coords="17,108,177,127"/>
-<area shape="rect" id="node1" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html" title="classdocs" alt="" coords="5,6,189,133"/>
+<area shape="rect" id="node4" href="abc.ABCMeta-class.php" title="Metaclass for defining Abstract Base Classes (ABCs)." alt="" coords="17,31,177,49"/>
+<area shape="rect" id="node4" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#__abstractmethods__" title="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory.__abstractmethods__" alt="" coords="17,49,177,68"/>
+<area shape="rect" id="node4" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#__init__" title="Constructor" alt="" coords="17,71,177,89"/>
+<area shape="rect" id="node4" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#createSensor" title="Retrieve data from the input source and return a Sensor object." alt="" coords="17,89,177,108"/>
+<area shape="rect" id="node4" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#createEvent" title="Retrieve data from the input source and return an Event object." alt="" coords="17,108,177,127"/>
+<area shape="rect" id="node1" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php" title="classdocs" alt="" coords="5,6,189,133"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_3.gif" alt='' usemap="#uml_class_diagram_for_libsenso_3" ismap="ismap" class="graph-without-title" />
 </center>
@@ -99,7 +99,7 @@
     <td width="15%" align="right" valign="top" class="summary">
       <span class="summary-type">&nbsp;</span>
     </td><td class="summary">
-        <a href="abc.ABCMeta-class.html" class="summary-name">__metaclass__</a><br />
+        <a href="abc.ABCMeta-class.php" class="summary-name">__metaclass__</a><br />
       Metaclass for defining Abstract Base Classes (ABCs).
     </td>
   </tr>
@@ -127,10 +127,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.html#AbstractSensorFactory.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.php#AbstractSensorFactory.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -144,10 +144,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#createSensor" class="summary-sig-name">createSensor</a>(<span class="summary-sig-arg">sensorType</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#createSensor" class="summary-sig-name">createSensor</a>(<span class="summary-sig-arg">sensorType</span>)</span><br />
       Retrieve data from the input source and return a Sensor object.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.html#AbstractSensorFactory.createSensor">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.php#AbstractSensorFactory.createSensor">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -161,10 +161,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#createEvent" class="summary-sig-name">createEvent</a>(<span class="summary-sig-arg">sensorType</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#createEvent" class="summary-sig-name">createEvent</a>(<span class="summary-sig-arg">sensorType</span>)</span><br />
       Retrieve data from the input source and return an Event object.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.html#AbstractSensorFactory.createEvent">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.php#AbstractSensorFactory.createEvent">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -298,7 +298,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.html#AbstractSensorFactory.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.php#AbstractSensorFactory.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -320,7 +320,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">createSensor</span>(<span class="sig-arg">sensorType</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.html#AbstractSensorFactory.createSensor">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.php#AbstractSensorFactory.createSensor">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -347,7 +347,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">createEvent</span>(<span class="sig-arg">sensorType</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.html#AbstractSensorFactory.createEvent">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.abstractSensorFactory-pysrc.php#AbstractSensorFactory.createEvent">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -371,19 +371,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

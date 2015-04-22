@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.concretesensor-module.html">Package&nbsp;concretesensor</a> ::
-        <a href="libsensorPy.concretesensor.bmp085Temperature-module.html">Module&nbsp;bmp085Temperature</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.concretesensor-module.php">Package&nbsp;concretesensor</a> ::
+        <a href="libsensorPy.concretesensor.bmp085Temperature-module.php">Module&nbsp;bmp085Temperature</a> ::
         Class&nbsp;BMP085Temperature
       </span>
     </td>
@@ -54,28 +54,28 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class BMP085Temperature</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class BMP085Temperature</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_41" name="uml_class_diagram_for_libsenso_41">
-<area shape="rect" id="node93" href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.html#__init__" title="Constructor" alt="" coords="60,225,287,244"/>
-<area shape="rect" id="node93" href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.html#setup" title="Setup the GPIO." alt="" coords="60,244,287,263"/>
-<area shape="rect" id="node93" href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.html#changeSetup" title="changes GPIO setup ." alt="" coords="60,263,287,281"/>
-<area shape="rect" id="node93" href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.html#getTemperature" title="Gets the compensated temperature in degrees celsius." alt="" coords="60,281,287,300"/>
-<area shape="rect" id="node1" href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.html" title="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature" alt="" coords="48,193,299,306"/>
-<area shape="rect" id="node94" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#__metaclass__" title="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor.__metaclass__" alt="" coords="17,108,329,127"/>
-<area shape="rect" id="node94" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#getTemperatureInFahrenheit" title="Return the temperature in Fahrenheit." alt="" coords="17,129,329,148"/>
-<area shape="rect" id="node94" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#getTemperatureInKelvin" title="Return the temperature in Kelvin." alt="" coords="17,148,329,167"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html" title="classdocs" alt="" coords="5,83,341,173"/>
-<area shape="rect" id="node95" href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="89,39,257,57"/>
-<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.html" title="classdocs" alt="" coords="77,6,269,63"/>
+<area shape="rect" id="node93" href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.php#__init__" title="Constructor" alt="" coords="60,225,287,244"/>
+<area shape="rect" id="node93" href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.php#setup" title="Setup the GPIO." alt="" coords="60,244,287,263"/>
+<area shape="rect" id="node93" href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.php#changeSetup" title="changes GPIO setup ." alt="" coords="60,263,287,281"/>
+<area shape="rect" id="node93" href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.php#getTemperature" title="Gets the compensated temperature in degrees celsius." alt="" coords="60,281,287,300"/>
+<area shape="rect" id="node1" href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.php" title="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature" alt="" coords="48,193,299,306"/>
+<area shape="rect" id="node94" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#__metaclass__" title="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor.__metaclass__" alt="" coords="17,108,329,127"/>
+<area shape="rect" id="node94" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#getTemperatureInFahrenheit" title="Return the temperature in Fahrenheit." alt="" coords="17,129,329,148"/>
+<area shape="rect" id="node94" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#getTemperatureInKelvin" title="Return the temperature in Kelvin." alt="" coords="17,148,329,167"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php" title="classdocs" alt="" coords="5,83,341,173"/>
+<area shape="rect" id="node95" href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="89,39,257,57"/>
+<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.php" title="classdocs" alt="" coords="77,6,269,63"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_41.gif" alt='' usemap="#uml_class_diagram_for_libsenso_41" ismap="ismap" class="graph-without-title" />
 </center>
@@ -104,12 +104,12 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">address</span>=<span class="summary-sig-default">0x77</span>,
         <span class="summary-sig-arg">mode</span>=<span class="summary-sig-default">3</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -123,12 +123,12 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.html#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.php#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">address</span>=<span class="summary-sig-default">0x77</span>,
         <span class="summary-sig-arg">mode</span>=<span class="summary-sig-default">3</span>)</span><br />
       Setup the GPIO.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature.setup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature.setup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -142,10 +142,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.html#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.php#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       changes GPIO setup .</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature.changeSetup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature.changeSetup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -162,7 +162,7 @@
           <td><span class="summary-sig"><a name="__readCalibrationData"></a><span class="summary-sig-name">__readCalibrationData</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Reads the calibration data from the IC.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature.__readCalibrationData">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature.__readCalibrationData">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -179,7 +179,7 @@
           <td><span class="summary-sig"><a name="__readRawTemp"></a><span class="summary-sig-name">__readRawTemp</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Reads the raw (uncompensated) temperature from the sensor.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature.__readRawTemp">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature.__readRawTemp">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -193,10 +193,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.html#getTemperature" class="summary-sig-name">getTemperature</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Temperature.BMP085Temperature-class.php#getTemperature" class="summary-sig-name">getTemperature</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Gets the compensated temperature in degrees celsius.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature.getTemperature">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature.getTemperature">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -206,15 +206,15 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html">abstractclass.temperatureSensor.TemperatureSensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#getTemperatureInFahrenheit">getTemperatureInFahrenheit</a></code>,
-      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#getTemperatureInKelvin">getTemperatureInKelvin</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php">abstractclass.temperatureSensor.TemperatureSensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#getTemperatureInFahrenheit">getTemperatureInFahrenheit</a></code>,
+      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#getTemperatureInKelvin">getTemperatureInKelvin</a></code>
       </p>
-    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html">abstractclass.temperatureSensor.TemperatureSensor</a></code></b> (private):
-      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#_bin2dec" onclick="show_private();">_bin2dec</a></code>
+    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php">abstractclass.temperatureSensor.TemperatureSensor</a></code></b> (private):
+      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#_bin2dec" onclick="show_private();">_bin2dec</a></code>
       </p></div>
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">abstractclass.sensor.Sensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__">__del__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">abstractclass.sensor.Sensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__">__del__</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -469,8 +469,8 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html">abstractclass.temperatureSensor.TemperatureSensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#__metaclass__">__metaclass__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php">abstractclass.temperatureSensor.TemperatureSensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#__metaclass__">__metaclass__</a></code>
       </p>
     </td>
   </tr>
@@ -531,7 +531,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -560,7 +560,7 @@
         <span class="sig-arg">mode</span>=<span class="sig-default">3</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature.setup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature.setup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -572,7 +572,7 @@
         <li><strong class="pname"><code>mode</code></strong> (int8) - The operating mode</li>
     </ul></dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#setup">abstractclass.sensor.Sensor.setup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#setup">abstractclass.sensor.Sensor.setup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -587,14 +587,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">changeSetup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature.changeSetup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature.changeSetup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>changes GPIO setup .</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -609,7 +609,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getTemperature</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.html#BMP085Temperature.getTemperature">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Temperature-pysrc.php#BMP085Temperature.getTemperature">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -618,7 +618,7 @@
     <dt>Returns: float</dt>
         <dd>The temperature read in celsius</dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.html#getTemperature">abstractclass.temperatureSensor.TemperatureSensor.getTemperature</a>
+        <a href="libsensorPy.abstractclass.temperatureSensor.TemperatureSensor-class.php#getTemperature">abstractclass.temperatureSensor.TemperatureSensor.getTemperature</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -630,19 +630,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

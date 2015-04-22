@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,8 +42,8 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.examples-module.html">Package&nbsp;examples</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.examples-module.php">Package&nbsp;examples</a> ::
         Module&nbsp;tcs34725Example
       </span>
     </td>
@@ -53,14 +53,14 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.examples.tcs34725Example-pysrc.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.examples.tcs34725Example-pysrc.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
-<h1 class="epydoc">Source Code for <a href="libsensorPy.examples.tcs34725Example-module.html">Module libsensorPy.examples.tcs34725Example</a></h1>
+<h1 class="epydoc">Source Code for <a href="libsensorPy.examples.tcs34725Example-module.php">Module libsensorPy.examples.tcs34725Example</a></h1>
 <pre class="py-src">
 <a name="L1"></a><tt class="py-lineno"> 1</tt>  <tt class="py-line"><tt class="py-docstring">'''</tt> </tt>
 <a name="L2"></a><tt class="py-lineno"> 2</tt>  <tt class="py-line"><tt class="py-docstring">Created on 16/03/2015</tt> </tt>
@@ -68,11 +68,11 @@
 <a name="L4"></a><tt class="py-lineno"> 4</tt>  <tt class="py-line"><tt class="py-docstring">@author: Junior Mascarenhas</tt> </tt>
 <a name="L5"></a><tt class="py-lineno"> 5</tt>  <tt class="py-line"><tt class="py-docstring">'''</tt> </tt>
 <a name="L6"></a><tt class="py-lineno"> 6</tt>  <tt class="py-line"> </tt>
-<a name="L7"></a><tt class="py-lineno"> 7</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt id="link-0" class="py-name" targets="Package libsensorPy.concretefactory=libsensorPy.concretefactory-module.html"><a title="libsensorPy.concretefactory" class="py-name" href="#" onclick="return doclink('link-0', 'concretefactory', 'link-0');">concretefactory</a></tt><tt class="py-op">.</tt><tt id="link-1" class="py-name" targets="Module libsensorPy.concretefactory.lightSensorFactory=libsensorPy.concretefactory.lightSensorFactory-module.html"><a title="libsensorPy.concretefactory.lightSensorFactory" class="py-name" href="#" onclick="return doclink('link-1', 'lightSensorFactory', 'link-1');">lightSensorFactory</a></tt> <tt class="py-keyword">import</tt> <tt id="link-2" class="py-name" targets="Class libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory=libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory-class.html"><a title="libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory" class="py-name" href="#" onclick="return doclink('link-2', 'LightSensorFactory', 'link-2');">LightSensorFactory</a></tt> </tt>
+<a name="L7"></a><tt class="py-lineno"> 7</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt id="link-0" class="py-name" targets="Package libsensorPy.concretefactory=libsensorPy.concretefactory-module.php"><a title="libsensorPy.concretefactory" class="py-name" href="#" onclick="return doclink('link-0', 'concretefactory', 'link-0');">concretefactory</a></tt><tt class="py-op">.</tt><tt id="link-1" class="py-name" targets="Module libsensorPy.concretefactory.lightSensorFactory=libsensorPy.concretefactory.lightSensorFactory-module.php"><a title="libsensorPy.concretefactory.lightSensorFactory" class="py-name" href="#" onclick="return doclink('link-1', 'lightSensorFactory', 'link-1');">lightSensorFactory</a></tt> <tt class="py-keyword">import</tt> <tt id="link-2" class="py-name" targets="Class libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory=libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory-class.php"><a title="libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory" class="py-name" href="#" onclick="return doclink('link-2', 'LightSensorFactory', 'link-2');">LightSensorFactory</a></tt> </tt>
 <a name="L8"></a><tt class="py-lineno"> 8</tt>  <tt class="py-line"> </tt>
 <a name="L9"></a><tt class="py-lineno"> 9</tt>  <tt class="py-line"><tt class="py-keyword">if</tt> <tt class="py-name">__name__</tt> <tt class="py-op">==</tt> <tt class="py-string">'__main__'</tt><tt class="py-op">:</tt> </tt>
 <a name="L10"></a><tt class="py-lineno">10</tt>  <tt class="py-line"> </tt>
-<a name="L11"></a><tt class="py-lineno">11</tt>  <tt class="py-line">    <tt id="link-3" class="py-name" targets="Module libsensorPy.concretesensor.tcs34725=libsensorPy.concretesensor.tcs34725-module.html"><a title="libsensorPy.concretesensor.tcs34725" class="py-name" href="#" onclick="return doclink('link-3', 'tcs34725', 'link-3');">tcs34725</a></tt> <tt class="py-op">=</tt> <tt id="link-4" class="py-name"><a title="libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory" class="py-name" href="#" onclick="return doclink('link-4', 'LightSensorFactory', 'link-2');">LightSensorFactory</a></tt><tt class="py-op">.</tt><tt id="link-5" class="py-name" targets="Method libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory.createSensor()=libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#createSensor,Static Method libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory.createSensor()=libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.html#createSensor,Static Method libsensorPy.concretefactory.altitudeSensorFactory.AltitudeSensorFactory.createSensor()=libsensorPy.concretefactory.altitudeSensorFactory.AltitudeSensorFactory-class.html#createSensor,Static Method libsensorPy.concretefactory.compositeSensorFactory.CompositeSensorFactory.createSensor()=libsensorPy.concretefactory.compositeSensorFactory.CompositeSensorFactory-class.html#createSensor,Static Method libsensorPy.concretefactory.humiditySensorFactory.HumididtySensorFactory.createSensor()=libsensorPy.concretefactory.humiditySensorFactory.HumididtySensorFactory-class.html#createSensor,Static Method libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory.createSensor()=libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory-class.html#createSensor,Static Method libsensorPy.concretefactory.magnetometerSensorFactory.MagnetometerSensorFactory.createSensor()=libsensorPy.concretefactory.magnetometerSensorFactory.MagnetometerSensorFactory-class.html#createSensor,Static Method libsensorPy.concretefactory.motionSensorFactory.MotionSensorFactory.createSensor()=libsensorPy.concretefactory.motionSensorFactory.MotionSensorFactory-class.html#createSensor,Static Method libsensorPy.concretefactory.pressureSensorFactory.PressureSensorFactory.createSensor()=libsensorPy.concretefactory.pressureSensorFactory.PressureSensorFactory-class.html#createSensor,Static Method libsensorPy.concretefactory.temperatureSensorFactory.TemperatureSensorFactory.createSensor()=libsensorPy.concretefactory.temperatureSensorFactory.TemperatureSensorFactory-class.html#createSensor,Static Method libsensorPy.concretefactory.ultrasonicSensorFactory.UltrasonicSensorFactory.createSensor()=libsensorPy.concretefactory.ultrasonicSensorFactory.UltrasonicSensorFactory-class.html#createSensor,Static Method libsensorPy.extension.extendedUltrasonicSensorFactory.ExtendedUltrasonicSensorFactory.createSensor()=libsensorPy.extension.extendedUltrasonicSensorFactory.ExtendedUltrasonicSensorFactory-class.html#createSensor"><a title="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory.createSensor
+<a name="L11"></a><tt class="py-lineno">11</tt>  <tt class="py-line">    <tt id="link-3" class="py-name" targets="Module libsensorPy.concretesensor.tcs34725=libsensorPy.concretesensor.tcs34725-module.php"><a title="libsensorPy.concretesensor.tcs34725" class="py-name" href="#" onclick="return doclink('link-3', 'tcs34725', 'link-3');">tcs34725</a></tt> <tt class="py-op">=</tt> <tt id="link-4" class="py-name"><a title="libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory" class="py-name" href="#" onclick="return doclink('link-4', 'LightSensorFactory', 'link-2');">LightSensorFactory</a></tt><tt class="py-op">.</tt><tt id="link-5" class="py-name" targets="Method libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory.createSensor()=libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#createSensor,Static Method libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory.createSensor()=libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.php#createSensor,Static Method libsensorPy.concretefactory.altitudeSensorFactory.AltitudeSensorFactory.createSensor()=libsensorPy.concretefactory.altitudeSensorFactory.AltitudeSensorFactory-class.php#createSensor,Static Method libsensorPy.concretefactory.compositeSensorFactory.CompositeSensorFactory.createSensor()=libsensorPy.concretefactory.compositeSensorFactory.CompositeSensorFactory-class.php#createSensor,Static Method libsensorPy.concretefactory.humiditySensorFactory.HumididtySensorFactory.createSensor()=libsensorPy.concretefactory.humiditySensorFactory.HumididtySensorFactory-class.php#createSensor,Static Method libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory.createSensor()=libsensorPy.concretefactory.lightSensorFactory.LightSensorFactory-class.php#createSensor,Static Method libsensorPy.concretefactory.magnetometerSensorFactory.MagnetometerSensorFactory.createSensor()=libsensorPy.concretefactory.magnetometerSensorFactory.MagnetometerSensorFactory-class.php#createSensor,Static Method libsensorPy.concretefactory.motionSensorFactory.MotionSensorFactory.createSensor()=libsensorPy.concretefactory.motionSensorFactory.MotionSensorFactory-class.php#createSensor,Static Method libsensorPy.concretefactory.pressureSensorFactory.PressureSensorFactory.createSensor()=libsensorPy.concretefactory.pressureSensorFactory.PressureSensorFactory-class.php#createSensor,Static Method libsensorPy.concretefactory.temperatureSensorFactory.TemperatureSensorFactory.createSensor()=libsensorPy.concretefactory.temperatureSensorFactory.TemperatureSensorFactory-class.php#createSensor,Static Method libsensorPy.concretefactory.ultrasonicSensorFactory.UltrasonicSensorFactory.createSensor()=libsensorPy.concretefactory.ultrasonicSensorFactory.UltrasonicSensorFactory-class.php#createSensor,Static Method libsensorPy.extension.extendedUltrasonicSensorFactory.ExtendedUltrasonicSensorFactory.createSensor()=libsensorPy.extension.extendedUltrasonicSensorFactory.ExtendedUltrasonicSensorFactory-class.php#createSensor"><a title="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory.createSensor
 libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory.createSensor
 libsensorPy.concretefactory.altitudeSensorFactory.AltitudeSensorFactory.createSensor
 libsensorPy.concretefactory.compositeSensorFactory.CompositeSensorFactory.createSensor
@@ -84,13 +84,13 @@ libsensorPy.concretefactory.pressureSensorFactory.PressureSensorFactory.createSe
 libsensorPy.concretefactory.temperatureSensorFactory.TemperatureSensorFactory.createSensor
 libsensorPy.concretefactory.ultrasonicSensorFactory.UltrasonicSensorFactory.createSensor
 libsensorPy.extension.extendedUltrasonicSensorFactory.ExtendedUltrasonicSensorFactory.createSensor" class="py-name" href="#" onclick="return doclink('link-5', 'createSensor', 'link-5');">createSensor</a></tt><tt class="py-op">(</tt><tt class="py-string">"TCS34725"</tt><tt class="py-op">)</tt> </tt>
-<a name="L12"></a><tt class="py-lineno">12</tt>  <tt class="py-line">    <tt class="py-name">colorTemp</tt> <tt class="py-op">=</tt> <tt id="link-6" class="py-name"><a title="libsensorPy.concretesensor.tcs34725" class="py-name" href="#" onclick="return doclink('link-6', 'tcs34725', 'link-3');">tcs34725</a></tt><tt class="py-op">.</tt><tt id="link-7" class="py-name" targets="Method libsensorPy.concretesensor.tcs34725.TCS34725.calculateColorTemperature()=libsensorPy.concretesensor.tcs34725.TCS34725-class.html#calculateColorTemperature"><a title="libsensorPy.concretesensor.tcs34725.TCS34725.calculateColorTemperature" class="py-name" href="#" onclick="return doclink('link-7', 'calculateColorTemperature', 'link-7');">calculateColorTemperature</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L12"></a><tt class="py-lineno">12</tt>  <tt class="py-line">    <tt class="py-name">colorTemp</tt> <tt class="py-op">=</tt> <tt id="link-6" class="py-name"><a title="libsensorPy.concretesensor.tcs34725" class="py-name" href="#" onclick="return doclink('link-6', 'tcs34725', 'link-3');">tcs34725</a></tt><tt class="py-op">.</tt><tt id="link-7" class="py-name" targets="Method libsensorPy.concretesensor.tcs34725.TCS34725.calculateColorTemperature()=libsensorPy.concretesensor.tcs34725.TCS34725-class.php#calculateColorTemperature"><a title="libsensorPy.concretesensor.tcs34725.TCS34725.calculateColorTemperature" class="py-name" href="#" onclick="return doclink('link-7', 'calculateColorTemperature', 'link-7');">calculateColorTemperature</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
 <a name="L13"></a><tt class="py-lineno">13</tt>  <tt class="py-line">    <tt class="py-keyword">if</tt> <tt class="py-name">colorTemp</tt> <tt class="py-keyword">is</tt> <tt class="py-name">None</tt><tt class="py-op">:</tt> </tt>
 <a name="L14"></a><tt class="py-lineno">14</tt>  <tt class="py-line">        <tt class="py-keyword">print</tt> <tt class="py-string">'Too dark to determine color temperature!'</tt> </tt>
 <a name="L15"></a><tt class="py-lineno">15</tt>  <tt class="py-line">    <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
 <a name="L16"></a><tt class="py-lineno">16</tt>  <tt class="py-line">        <tt class="py-keyword">print</tt> <tt class="py-string">"Color Temperature: %.3f C"</tt> <tt class="py-op">%</tt> <tt class="py-name">colorTemp</tt> </tt>
 <a name="L17"></a><tt class="py-lineno">17</tt>  <tt class="py-line"> </tt>
-<a name="L18"></a><tt class="py-lineno">18</tt>  <tt class="py-line">    <tt class="py-keyword">print</tt> <tt class="py-string">"Luminosity: %%.3f lux"</tt> <tt class="py-op">%</tt>  <tt id="link-8" class="py-name"><a title="libsensorPy.concretesensor.tcs34725" class="py-name" href="#" onclick="return doclink('link-8', 'tcs34725', 'link-3');">tcs34725</a></tt><tt class="py-op">.</tt><tt id="link-9" class="py-name" targets="Method libsensorPy.concretesensor.tcs34725.TCS34725.calculateLux()=libsensorPy.concretesensor.tcs34725.TCS34725-class.html#calculateLux"><a title="libsensorPy.concretesensor.tcs34725.TCS34725.calculateLux" class="py-name" href="#" onclick="return doclink('link-9', 'calculateLux', 'link-9');">calculateLux</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L18"></a><tt class="py-lineno">18</tt>  <tt class="py-line">    <tt class="py-keyword">print</tt> <tt class="py-string">"Luminosity: %%.3f lux"</tt> <tt class="py-op">%</tt>  <tt id="link-8" class="py-name"><a title="libsensorPy.concretesensor.tcs34725" class="py-name" href="#" onclick="return doclink('link-8', 'tcs34725', 'link-3');">tcs34725</a></tt><tt class="py-op">.</tt><tt id="link-9" class="py-name" targets="Method libsensorPy.concretesensor.tcs34725.TCS34725.calculateLux()=libsensorPy.concretesensor.tcs34725.TCS34725-class.php#calculateLux"><a title="libsensorPy.concretesensor.tcs34725.TCS34725.calculateLux" class="py-name" href="#" onclick="return doclink('link-9', 'calculateLux', 'link-9');">calculateLux</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
 <a name="L19"></a><tt class="py-lineno">19</tt>  <tt class="py-line"> </tt><script type="text/javascript">
 <!--
 expandto(location.href);
@@ -104,19 +104,19 @@ expandto(location.href);
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

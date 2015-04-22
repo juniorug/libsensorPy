@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,7 +42,7 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
         Package&nbsp;abstractclass
       </span>
     </td>
@@ -52,15 +52,15 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass-module.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass-module.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== PACKAGE DESCRIPTION ==================== -->
-<h1 class="epydoc">Package abstractclass</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass-pysrc.html">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Package abstractclass</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass-pysrc.php">source&nbsp;code</a></span></p>
 <!-- ==================== SUBMODULES ==================== -->
 <a name="section-Submodules"></a>
 <table class="summary" border="1" cellpadding="3"
@@ -80,25 +80,25 @@
 </tr>
   <tr><td class="summary">
   <ul class="nomargin">
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractActuatorFactory-module.html">libsensorPy.abstractclass.abstractActuatorFactory</a></strong>: <em class="summary">Created on 11/02/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractEvent-module.html">libsensorPy.abstractclass.abstractEvent</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractSensorFactory-module.html">libsensorPy.abstractclass.abstractSensorFactory</a></strong>: <em class="summary">Created on 11/02/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.accelerometerSensor-module.html">libsensorPy.abstractclass.accelerometerSensor</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.actuator-module.html">libsensorPy.abstractclass.actuator</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.altitudeSensor-module.html">libsensorPy.abstractclass.altitudeSensor</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.dcMotorActuator-module.html">libsensorPy.abstractclass.dcMotorActuator</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.eventObserver-module.html">libsensorPy.abstractclass.eventObserver</a></strong>: <em class="summary">Created on 11/02/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.humiditySensor-module.html">libsensorPy.abstractclass.humiditySensor</a></strong>: <em class="summary">Created on 10/02/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.lightSensor-module.html">libsensorPy.abstractclass.lightSensor</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.magnetometerSensor-module.html">libsensorPy.abstractclass.magnetometerSensor</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.motionSensor-module.html">libsensorPy.abstractclass.motionSensor</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.motorActuator-module.html">libsensorPy.abstractclass.motorActuator</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.pressureSensor-module.html">libsensorPy.abstractclass.pressureSensor</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.sensor-module.html">libsensorPy.abstractclass.sensor</a></strong>: <em class="summary">Created on 10/02/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.servoMotorActuator-module.html">libsensorPy.abstractclass.servoMotorActuator</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.stepperMotorActuator-module.html">libsensorPy.abstractclass.stepperMotorActuator</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.temperatureSensor-module.html">libsensorPy.abstractclass.temperatureSensor</a></strong>: <em class="summary">Created on 10/02/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.ultrasonicSensor-module.html">libsensorPy.abstractclass.ultrasonicSensor</a></strong>: <em class="summary">Created on 08/02/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractActuatorFactory-module.php">libsensorPy.abstractclass.abstractActuatorFactory</a></strong>: <em class="summary">Created on 11/02/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractEvent-module.php">libsensorPy.abstractclass.abstractEvent</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractSensorFactory-module.php">libsensorPy.abstractclass.abstractSensorFactory</a></strong>: <em class="summary">Created on 11/02/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.accelerometerSensor-module.php">libsensorPy.abstractclass.accelerometerSensor</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.actuator-module.php">libsensorPy.abstractclass.actuator</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.altitudeSensor-module.php">libsensorPy.abstractclass.altitudeSensor</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.dcMotorActuator-module.php">libsensorPy.abstractclass.dcMotorActuator</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.eventObserver-module.php">libsensorPy.abstractclass.eventObserver</a></strong>: <em class="summary">Created on 11/02/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.humiditySensor-module.php">libsensorPy.abstractclass.humiditySensor</a></strong>: <em class="summary">Created on 10/02/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.lightSensor-module.php">libsensorPy.abstractclass.lightSensor</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.magnetometerSensor-module.php">libsensorPy.abstractclass.magnetometerSensor</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.motionSensor-module.php">libsensorPy.abstractclass.motionSensor</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.motorActuator-module.php">libsensorPy.abstractclass.motorActuator</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.pressureSensor-module.php">libsensorPy.abstractclass.pressureSensor</a></strong>: <em class="summary">Created on 17/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.sensor-module.php">libsensorPy.abstractclass.sensor</a></strong>: <em class="summary">Created on 10/02/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.servoMotorActuator-module.php">libsensorPy.abstractclass.servoMotorActuator</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.stepperMotorActuator-module.php">libsensorPy.abstractclass.stepperMotorActuator</a></strong>: <em class="summary">Created on 01/04/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.temperatureSensor-module.php">libsensorPy.abstractclass.temperatureSensor</a></strong>: <em class="summary">Created on 10/02/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.ultrasonicSensor-module.php">libsensorPy.abstractclass.ultrasonicSensor</a></strong>: <em class="summary">Created on 08/02/2015</em>    </li>
   </ul></td></tr>
 </table>
 
@@ -134,19 +134,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

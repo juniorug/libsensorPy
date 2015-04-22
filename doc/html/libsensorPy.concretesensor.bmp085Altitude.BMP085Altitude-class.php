@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.concretesensor-module.html">Package&nbsp;concretesensor</a> ::
-        <a href="libsensorPy.concretesensor.bmp085Altitude-module.html">Module&nbsp;bmp085Altitude</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.concretesensor-module.php">Package&nbsp;concretesensor</a> ::
+        <a href="libsensorPy.concretesensor.bmp085Altitude-module.php">Module&nbsp;bmp085Altitude</a> ::
         Class&nbsp;BMP085Altitude
       </span>
     </td>
@@ -54,27 +54,27 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class BMP085Altitude</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class BMP085Altitude</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_39" name="uml_class_diagram_for_libsenso_39">
-<area shape="rect" id="node87" href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.html#__init__" title="Constructor" alt="" coords="17,207,277,225"/>
-<area shape="rect" id="node87" href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.html#setup" title="Setup the GPIO." alt="" coords="17,225,277,244"/>
-<area shape="rect" id="node87" href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.html#changeSetup" title="changes GPIO setup ." alt="" coords="17,244,277,263"/>
-<area shape="rect" id="node87" href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.html#getAltitude" title="Calculates the altitude in meters." alt="" coords="17,263,277,281"/>
-<area shape="rect" id="node1" href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.html" title="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude" alt="" coords="5,174,288,287"/>
-<area shape="rect" id="node88" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#__metaclass__" title="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor.__metaclass__" alt="" coords="20,108,276,127"/>
-<area shape="rect" id="node88" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#getAltitudeInCm" title="Get the altitude value in centimeters" alt="" coords="20,129,276,148"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html" title="classdocs" alt="" coords="8,83,288,154"/>
-<area shape="rect" id="node89" href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="64,39,232,57"/>
-<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.html" title="classdocs" alt="" coords="52,6,244,63"/>
+<area shape="rect" id="node87" href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.php#__init__" title="Constructor" alt="" coords="17,207,277,225"/>
+<area shape="rect" id="node87" href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.php#setup" title="Setup the GPIO." alt="" coords="17,225,277,244"/>
+<area shape="rect" id="node87" href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.php#changeSetup" title="changes GPIO setup ." alt="" coords="17,244,277,263"/>
+<area shape="rect" id="node87" href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.php#getAltitude" title="Calculates the altitude in meters." alt="" coords="17,263,277,281"/>
+<area shape="rect" id="node1" href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.php" title="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude" alt="" coords="5,174,288,287"/>
+<area shape="rect" id="node88" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#__metaclass__" title="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor.__metaclass__" alt="" coords="20,108,276,127"/>
+<area shape="rect" id="node88" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#getAltitudeInCm" title="Get the altitude value in centimeters" alt="" coords="20,129,276,148"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php" title="classdocs" alt="" coords="8,83,288,154"/>
+<area shape="rect" id="node89" href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="64,39,232,57"/>
+<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.php" title="classdocs" alt="" coords="52,6,244,63"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_39.gif" alt='' usemap="#uml_class_diagram_for_libsenso_39" ismap="ismap" class="graph-without-title" />
 </center>
@@ -103,12 +103,12 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">address</span>=<span class="summary-sig-default">0x77</span>,
         <span class="summary-sig-arg">mode</span>=<span class="summary-sig-default">3</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -122,12 +122,12 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.html#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.php#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">address</span>=<span class="summary-sig-default">0x77</span>,
         <span class="summary-sig-arg">mode</span>=<span class="summary-sig-default">3</span>)</span><br />
       Setup the GPIO.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.setup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.setup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -141,10 +141,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.html#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.php#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       changes GPIO setup .</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.changeSetup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.changeSetup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -161,7 +161,7 @@
           <td><span class="summary-sig"><a name="__readCalibrationData"></a><span class="summary-sig-name">__readCalibrationData</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Reads the calibration data from the IC.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.__readCalibrationData">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.__readCalibrationData">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -178,7 +178,7 @@
           <td><span class="summary-sig"><a name="__readRawTemp"></a><span class="summary-sig-name">__readRawTemp</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Reads the raw (uncompensated) temperature from the sensor.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.__readRawTemp">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.__readRawTemp">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -195,7 +195,7 @@
           <td><span class="summary-sig"><a name="__readRawPressure"></a><span class="summary-sig-name">__readRawPressure</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Reads the raw (uncompensated) pressure level from the sensor.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.__readRawPressure">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.__readRawPressure">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -212,7 +212,7 @@
           <td><span class="summary-sig"><a name="__readPressure"></a><span class="summary-sig-name">__readPressure</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Gets the compensated pressure in pascal.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.__readPressure">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.__readPressure">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -226,11 +226,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.html#getAltitude" class="summary-sig-name">getAltitude</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.bmp085Altitude.BMP085Altitude-class.php#getAltitude" class="summary-sig-name">getAltitude</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">seaLevelPressure</span>=<span class="summary-sig-default">101325</span>)</span><br />
       Calculates the altitude in meters.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.getAltitude">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.getAltitude">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -240,11 +240,11 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html">abstractclass.altitudeSensor.AltitudeSensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#getAltitudeInCm">getAltitudeInCm</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php">abstractclass.altitudeSensor.AltitudeSensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#getAltitudeInCm">getAltitudeInCm</a></code>
       </p>
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">abstractclass.sensor.Sensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__">__del__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">abstractclass.sensor.Sensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__">__del__</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -499,11 +499,11 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html">abstractclass.altitudeSensor.AltitudeSensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#__metaclass__">__metaclass__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php">abstractclass.altitudeSensor.AltitudeSensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#__metaclass__">__metaclass__</a></code>
       </p>
-    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html">abstractclass.altitudeSensor.AltitudeSensor</a></code></b> (private):
-      <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#_SEA_LEVEL_PRESSURE" onclick="show_private();">_SEA_LEVEL_PRESSURE</a></code>
+    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php">abstractclass.altitudeSensor.AltitudeSensor</a></code></b> (private):
+      <code><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#_SEA_LEVEL_PRESSURE" onclick="show_private();">_SEA_LEVEL_PRESSURE</a></code>
       </p></div>
     </td>
   </tr>
@@ -564,7 +564,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -593,7 +593,7 @@
         <span class="sig-arg">mode</span>=<span class="sig-default">3</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.setup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.setup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -605,7 +605,7 @@
         <li><strong class="pname"><code>mode</code></strong> (int8) - The operating mode</li>
     </ul></dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#setup">abstractclass.sensor.Sensor.setup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#setup">abstractclass.sensor.Sensor.setup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -620,14 +620,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">changeSetup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.changeSetup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.changeSetup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>changes GPIO setup .</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -643,7 +643,7 @@
         <span class="sig-arg">seaLevelPressure</span>=<span class="sig-default">101325</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.html#BMP085Altitude.getAltitude">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.bmp085Altitude-pysrc.php#BMP085Altitude.getAltitude">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -656,7 +656,7 @@
     <dt>Returns: float</dt>
         <dd>The altitude read in meters</dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#getAltitude">abstractclass.altitudeSensor.AltitudeSensor.getAltitude</a>
+        <a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#getAltitude">abstractclass.altitudeSensor.AltitudeSensor.getAltitude</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -668,19 +668,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.abstractclass-module.html">Package&nbsp;abstractclass</a> ::
-        <a href="libsensorPy.abstractclass.altitudeSensor-module.html">Module&nbsp;altitudeSensor</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.abstractclass-module.php">Package&nbsp;abstractclass</a> ::
+        <a href="libsensorPy.abstractclass.altitudeSensor-module.php">Module&nbsp;altitudeSensor</a> ::
         Class&nbsp;AltitudeSensor
       </span>
     </td>
@@ -54,26 +54,26 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class AltitudeSensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.html#AltitudeSensor">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class AltitudeSensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.php#AltitudeSensor">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_6" name="uml_class_diagram_for_libsenso_6">
-<area shape="rect" id="node8" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#__metaclass__" title="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor.__metaclass__" alt="" coords="17,127,148,145"/>
-<area shape="rect" id="node8" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#__init__" title="Constructor" alt="" coords="17,148,148,167"/>
-<area shape="rect" id="node8" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#setup" title="Setup the GPIO." alt="" coords="17,167,148,185"/>
-<area shape="rect" id="node8" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#getAltitude" title="Get the altitude value in meters" alt="" coords="17,185,148,204"/>
-<area shape="rect" id="node8" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#getAltitudeInCm" title="Get the altitude value in centimeters" alt="" coords="17,204,148,223"/>
-<area shape="rect" id="node1" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html" title="classdocs" alt="" coords="5,102,160,229"/>
-<area shape="rect" id="node9" href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup" title="Changes GPIO setup ." alt="" coords="27,39,139,57"/>
-<area shape="rect" id="node9" href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="27,57,139,76"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.sensor.Sensor-class.html" title="classdocs" alt="" coords="15,6,151,82"/>
+<area shape="rect" id="node8" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#__metaclass__" title="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor.__metaclass__" alt="" coords="17,127,148,145"/>
+<area shape="rect" id="node8" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#__init__" title="Constructor" alt="" coords="17,148,148,167"/>
+<area shape="rect" id="node8" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#setup" title="Setup the GPIO." alt="" coords="17,167,148,185"/>
+<area shape="rect" id="node8" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#getAltitude" title="Get the altitude value in meters" alt="" coords="17,185,148,204"/>
+<area shape="rect" id="node8" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#getAltitudeInCm" title="Get the altitude value in centimeters" alt="" coords="17,204,148,223"/>
+<area shape="rect" id="node1" href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php" title="classdocs" alt="" coords="5,102,160,229"/>
+<area shape="rect" id="node9" href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup" title="Changes GPIO setup ." alt="" coords="27,39,139,57"/>
+<area shape="rect" id="node9" href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="27,57,139,76"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.sensor.Sensor-class.php" title="classdocs" alt="" coords="15,6,151,82"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_6.gif" alt='' usemap="#uml_class_diagram_for_libsenso_6" ismap="ismap" class="graph-without-title" />
 </center>
@@ -104,10 +104,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.html#AltitudeSensor.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.php#AltitudeSensor.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -121,10 +121,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Setup the GPIO.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.html#AltitudeSensor.setup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.php#AltitudeSensor.setup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -138,10 +138,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.html#getAltitude" class="summary-sig-name">getAltitude</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.altitudeSensor.AltitudeSensor-class.php#getAltitude" class="summary-sig-name">getAltitude</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Get the altitude value in meters</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.html#AltitudeSensor.getAltitude">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.php#AltitudeSensor.getAltitude">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -158,7 +158,7 @@
           <td><span class="summary-sig"><a name="getAltitudeInCm"></a><span class="summary-sig-name">getAltitudeInCm</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Get the altitude value in centimeters</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.html#AltitudeSensor.getAltitudeInCm">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.php#AltitudeSensor.getAltitudeInCm">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -168,9 +168,9 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">sensor.Sensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__">__del__</a></code>,
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup">changeSetup</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">sensor.Sensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__">__del__</a></code>,
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup">changeSetup</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -275,7 +275,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.html#AltitudeSensor.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.php#AltitudeSensor.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -297,7 +297,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">setup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.html#AltitudeSensor.setup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.php#AltitudeSensor.setup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -308,7 +308,7 @@
         <li><code>@abc.abstractmethod</code></li>
     </ul></dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#setup">sensor.Sensor.setup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#setup">sensor.Sensor.setup</a>
         <dd><em class="note">(inherited documentation)</em></dd>
     </dt>
   </dl>
@@ -324,7 +324,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getAltitude</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.html#AltitudeSensor.getAltitude">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.altitudeSensor-pysrc.php#AltitudeSensor.getAltitude">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -344,19 +344,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

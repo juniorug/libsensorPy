@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -13,7 +13,7 @@
 <h1 class="toc">Module lsm303dComposite</h1>
 <hr />
   <h2 class="toc">Classes</h2>
-    <a target="mainFrame" href="libsensorPy.compositesensor.lsm303dComposite.LSM303DComposite-class.html"
+    <a target="mainFrame" href="libsensorPy.compositesensor.lsm303dComposite.LSM303DComposite-class.php"
      >LSM303DComposite</a><br /><hr />
 <span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span>

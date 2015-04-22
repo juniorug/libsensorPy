@@ -19,7 +19,7 @@ if (dottedName) {
 <h3>Epydoc Auto-redirect page</h3>
 
 <p>When javascript is enabled, this page will redirect URLs of
-the form <tt>redirect.html#<i>dotted.name</i></tt> to the
+the form <tt>redirect.php#<i>dotted.name</i></tt> to the
 documentation for the object with the given fully-qualified
 dotted name.</p>
 <p><a id="message"> &nbsp; </a></p>

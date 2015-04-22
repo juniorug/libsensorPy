@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.utils-module.html">Package&nbsp;utils</a> ::
-        <a href="libsensorPy.utils.pycomms-module.html">Module&nbsp;pycomms</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.utils-module.php">Package&nbsp;utils</a> ::
+        <a href="libsensorPy.utils.pycomms-module.php">Module&nbsp;pycomms</a> ::
         Class&nbsp;PyComms
       </span>
     </td>
@@ -54,15 +54,15 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.utils.pycomms.PyComms-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.utils.pycomms.PyComms-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class PyComms</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class PyComms</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms">source&nbsp;code</a></span></p>
 <!-- ==================== INSTANCE METHODS ==================== -->
 <a name="section-InstanceMethods"></a>
 <table class="summary" border="1" cellpadding="3"
@@ -89,7 +89,7 @@
           <td><span class="summary-sig"><a name="__init__"></a><span class="summary-sig-name">__init__</span>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">address</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -106,7 +106,7 @@
           <td><span class="summary-sig"><a name="reverseByteOrder"></a><span class="summary-sig-name">reverseByteOrder</span>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">data</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.reverseByteOrder">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.reverseByteOrder">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -124,7 +124,7 @@
         <span class="summary-sig-arg">reg</span>,
         <span class="summary-sig-arg">bitNum</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.readBit">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.readBit">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -143,7 +143,7 @@
         <span class="summary-sig-arg">bitNum</span>,
         <span class="summary-sig-arg">data</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.writeBit">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.writeBit">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -162,7 +162,7 @@
         <span class="summary-sig-arg">bitStart</span>,
         <span class="summary-sig-arg">length</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.readBits">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.readBits">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -182,7 +182,7 @@
         <span class="summary-sig-arg">length</span>,
         <span class="summary-sig-arg">data</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.writeBits">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.writeBits">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -200,7 +200,7 @@
         <span class="summary-sig-arg">reg</span>,
         <span class="summary-sig-arg">length</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.readBytes">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.readBytes">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -218,7 +218,7 @@
         <span class="summary-sig-arg">reg</span>,
         <span class="summary-sig-arg">length</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.readBytesListU">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.readBytesListU">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -236,7 +236,7 @@
         <span class="summary-sig-arg">reg</span>,
         <span class="summary-sig-arg">length</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.readBytesListS">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.readBytesListS">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -254,7 +254,7 @@
         <span class="summary-sig-arg">reg</span>,
         <span class="summary-sig-arg">list</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.writeList">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.writeList">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -272,7 +272,7 @@
         <span class="summary-sig-arg">reg</span>,
         <span class="summary-sig-arg">value</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.write8">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.write8">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -289,7 +289,7 @@
           <td><span class="summary-sig"><a name="readU8"></a><span class="summary-sig-name">readU8</span>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">reg</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.readU8">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.readU8">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -306,7 +306,7 @@
           <td><span class="summary-sig"><a name="readS8"></a><span class="summary-sig-name">readS8</span>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">reg</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.readS8">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.readS8">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -323,7 +323,7 @@
           <td><span class="summary-sig"><a name="readU16"></a><span class="summary-sig-name">readU16</span>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">reg</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.readU16">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.readU16">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -340,7 +340,7 @@
           <td><span class="summary-sig"><a name="readS16"></a><span class="summary-sig-name">readS16</span>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">reg</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.html#PyComms.readS16">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.utils.pycomms-pysrc.php#PyComms.readS16">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -355,19 +355,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

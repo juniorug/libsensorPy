@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.concretesensor-module.html">Package&nbsp;concretesensor</a> ::
-        <a href="libsensorPy.concretesensor.hmc5883l-module.html">Module&nbsp;hmc5883l</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.concretesensor-module.php">Package&nbsp;concretesensor</a> ::
+        <a href="libsensorPy.concretesensor.hmc5883l-module.php">Module&nbsp;hmc5883l</a> ::
         Class&nbsp;HMC5883L
       </span>
     </td>
@@ -54,40 +54,40 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class HMC5883L</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class HMC5883L</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_46" name="uml_class_diagram_for_libsenso_46">
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#ADDRESS" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.ADDRESS" alt="" coords="47,185,324,204"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#DEFAULT_ADDRESS" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.DEFAULT_ADDRESS" alt="" coords="47,204,324,223"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_CONFIG_A" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_CONFIG_A" alt="" coords="47,223,324,241"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_CONFIG_B" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_CONFIG_B" alt="" coords="47,241,324,260"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_MODE" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_MODE" alt="" coords="47,260,324,279"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_DATAX_H" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAX_H" alt="" coords="47,279,324,297"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_DATAX_L" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAX_L" alt="" coords="47,297,324,316"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_DATAZ_H" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAZ_H" alt="" coords="47,316,324,335"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_DATAZ_L" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAZ_L" alt="" coords="47,335,324,353"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_DATAY_H" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAY_H" alt="" coords="47,353,324,372"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_DATAY_L" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAY_L" alt="" coords="47,372,324,391"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_STATUS" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_STATUS" alt="" coords="47,391,324,409"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#RA_ID_A" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_ID_A" alt="" coords="47,409,324,428"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#STATUS_READY_BIT" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.STATUS_READY_BIT" alt="" coords="47,447,324,465"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#__init__" title="Constructor" alt="" coords="47,468,324,487"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#setup" title="Setup the GPIO." alt="" coords="47,487,324,505"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#changeSetup" title="changes GPIO setup ." alt="" coords="47,505,324,524"/>
-<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#getMagnetic" title="Returns the magnetic value read." alt="" coords="47,524,324,543"/>
-<area shape="rect" id="node1" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html" title="libsensorPy.concretesensor.hmc5883l.HMC5883L" alt="" coords="35,161,336,549"/>
-<area shape="rect" id="node109" href="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor-class.html#__metaclass__" title="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor.__metaclass__" alt="" coords="17,108,353,127"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor-class.html" title="classdocs" alt="" coords="5,83,365,141"/>
-<area shape="rect" id="node110" href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="101,39,269,57"/>
-<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.html" title="classdocs" alt="" coords="89,6,281,63"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#ADDRESS" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.ADDRESS" alt="" coords="47,185,324,204"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#DEFAULT_ADDRESS" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.DEFAULT_ADDRESS" alt="" coords="47,204,324,223"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_CONFIG_A" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_CONFIG_A" alt="" coords="47,223,324,241"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_CONFIG_B" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_CONFIG_B" alt="" coords="47,241,324,260"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_MODE" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_MODE" alt="" coords="47,260,324,279"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_DATAX_H" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAX_H" alt="" coords="47,279,324,297"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_DATAX_L" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAX_L" alt="" coords="47,297,324,316"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_DATAZ_H" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAZ_H" alt="" coords="47,316,324,335"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_DATAZ_L" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAZ_L" alt="" coords="47,335,324,353"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_DATAY_H" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAY_H" alt="" coords="47,353,324,372"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_DATAY_L" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_DATAY_L" alt="" coords="47,372,324,391"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_STATUS" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_STATUS" alt="" coords="47,391,324,409"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#RA_ID_A" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.RA_ID_A" alt="" coords="47,409,324,428"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#STATUS_READY_BIT" title="libsensorPy.concretesensor.hmc5883l.HMC5883L.STATUS_READY_BIT" alt="" coords="47,447,324,465"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#__init__" title="Constructor" alt="" coords="47,468,324,487"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#setup" title="Setup the GPIO." alt="" coords="47,487,324,505"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#changeSetup" title="changes GPIO setup ." alt="" coords="47,505,324,524"/>
+<area shape="rect" id="node108" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#getMagnetic" title="Returns the magnetic value read." alt="" coords="47,524,324,543"/>
+<area shape="rect" id="node1" href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php" title="libsensorPy.concretesensor.hmc5883l.HMC5883L" alt="" coords="35,161,336,549"/>
+<area shape="rect" id="node109" href="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor-class.php#__metaclass__" title="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor.__metaclass__" alt="" coords="17,108,353,127"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor-class.php" title="classdocs" alt="" coords="5,83,365,141"/>
+<area shape="rect" id="node110" href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="101,39,269,57"/>
+<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.php" title="classdocs" alt="" coords="89,6,281,63"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_46.gif" alt='' usemap="#uml_class_diagram_for_libsenso_46" ismap="ismap" class="graph-without-title" />
 </center>
@@ -116,11 +116,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">address</span>=<span class="summary-sig-default">DEFAULT_ADDRESS</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -134,11 +134,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">address</span>=<span class="summary-sig-default">DEFAULT_ADDRESS</span>)</span><br />
       Setup the GPIO.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.setup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.setup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -152,10 +152,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       changes GPIO setup .</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.changeSetup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.changeSetup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -169,11 +169,11 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#__setGain" class="summary-sig-name" onclick="show_private();">__setGain</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#__setGain" class="summary-sig-name" onclick="show_private();">__setGain</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">value</span>)</span><br />
       Sets the gain</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.__setGain">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.__setGain">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -187,12 +187,12 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#__setMode" class="summary-sig-name" onclick="show_private();">__setMode</a>(<span class="summary-sig-arg">self</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#__setMode" class="summary-sig-name" onclick="show_private();">__setMode</a>(<span class="summary-sig-arg">self</span>,
         <span class="summary-sig-arg">newMode</span>)</span><br />
       Use this method to guarantee that bits 7-2 are set to zero, which is 
       a requirement specified in the datasheet.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.__setMode">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.__setMode">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -206,10 +206,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.html#getMagnetic" class="summary-sig-name">getMagnetic</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.hmc5883l.HMC5883L-class.php#getMagnetic" class="summary-sig-name">getMagnetic</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Returns the magnetic value read.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.getMagnetic">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.getMagnetic">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -219,8 +219,8 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">abstractclass.sensor.Sensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__">__del__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">abstractclass.sensor.Sensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__">__del__</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -622,8 +622,8 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor-class.html">abstractclass.magnetometerSensor.MagnetometerSensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor-class.html#__metaclass__">__metaclass__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor-class.php">abstractclass.magnetometerSensor.MagnetometerSensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor-class.php#__metaclass__">__metaclass__</a></code>
       </p>
     </td>
   </tr>
@@ -683,7 +683,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -710,7 +710,7 @@
         <span class="sig-arg">address</span>=<span class="sig-default">DEFAULT_ADDRESS</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.setup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.setup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -721,7 +721,7 @@
         <li><strong class="pname"><code>address</code></strong> (int16) - The register's address to be read</li>
     </ul></dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#setup">abstractclass.sensor.Sensor.setup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#setup">abstractclass.sensor.Sensor.setup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -736,14 +736,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">changeSetup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.changeSetup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.changeSetup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>changes GPIO setup .</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -759,7 +759,7 @@
         <span class="sig-arg">value</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.__setGain">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.__setGain">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -783,7 +783,7 @@
         <span class="sig-arg">newMode</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.__setMode">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.__setMode">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -807,7 +807,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getMagnetic</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.html#HMC5883L.getMagnetic">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.hmc5883l-pysrc.php#HMC5883L.getMagnetic">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -816,7 +816,7 @@
     <dt>Returns: float[]</dt>
         <dd>The magnetic read</dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor-class.html#getMagnetic">abstractclass.magnetometerSensor.MagnetometerSensor.getMagnetic</a>
+        <a href="libsensorPy.abstractclass.magnetometerSensor.MagnetometerSensor-class.php#getMagnetic">abstractclass.magnetometerSensor.MagnetometerSensor.getMagnetic</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -828,19 +828,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

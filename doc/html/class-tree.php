@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,7 +16,7 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th bgcolor="#70b0f0" class="navbar-select"
@@ -24,11 +24,11 @@
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -47,47 +47,47 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="class-tree.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="class-tree.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <center><b>
- [ <a href="module-tree.html">Module Hierarchy</a>
- | <a href="class-tree.html">Class Hierarchy</a> ]
+ [ <a href="module-tree.php">Module Hierarchy</a>
+ | <a href="class-tree.php">Class Hierarchy</a> ]
 </b></center><br />
 <h1 class="epydoc">Class Hierarchy</h1>
 <ul class="nomargin-top">
-    <li> <strong class="uidlink"><a href="libsensorPy.utils.pycomms.PyComms-class.html">libsensorPy.utils.pycomms.PyComms</a></strong>
+    <li> <strong class="uidlink"><a href="libsensorPy.utils.pycomms.PyComms-class.php">libsensorPy.utils.pycomms.PyComms</a></strong>
     </li>
     <li> <strong class="uidlink">object</strong>:
       <em class="summary">The most base type</em>
     <ul>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractActuatorFactory.AbstractActuatorFactory-class.html">libsensorPy.abstractclass.abstractActuatorFactory.AbstractActuatorFactory</a></strong>:
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractActuatorFactory.AbstractActuatorFactory-class.php">libsensorPy.abstractclass.abstractActuatorFactory.AbstractActuatorFactory</a></strong>:
       <em class="summary">classdocs</em>
     </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractEvent.AbstractEvent-class.html">libsensorPy.abstractclass.abstractEvent.AbstractEvent</a></strong>:
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractEvent.AbstractEvent-class.php">libsensorPy.abstractclass.abstractEvent.AbstractEvent</a></strong>:
       <em class="summary">classdocs</em>
     </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html">libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory</a></strong>:
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php">libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory</a></strong>:
       <em class="summary">classdocs</em>
     </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.actuator.Actuator-class.html">libsensorPy.abstractclass.actuator.Actuator</a></strong>:
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.actuator.Actuator-class.php">libsensorPy.abstractclass.actuator.Actuator</a></strong>:
       <em class="summary">classdocs</em>
     </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.html">libsensorPy.abstractclass.eventObserver.EventObserver</a></strong>:
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.eventObserver.EventObserver-class.php">libsensorPy.abstractclass.eventObserver.EventObserver</a></strong>:
       <em class="summary">classdocs</em>
     </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">libsensorPy.abstractclass.sensor.Sensor</a></strong>:
+    <li> <strong class="uidlink"><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">libsensorPy.abstractclass.sensor.Sensor</a></strong>:
       <em class="summary">classdocs</em>
     </li>
     <li> <strong class="uidlink">type</strong>:
       <em class="summary">type(object) -&gt; the object's type type(name, bases, dict) -&gt; 
         a new type</em>
     <ul>
-    <li> <strong class="uidlink"><a href="abc.ABCMeta-class.html">abc.ABCMeta</a></strong>:
+    <li> <strong class="uidlink"><a href="abc.ABCMeta-class.php">abc.ABCMeta</a></strong>:
       <em class="summary">Metaclass for defining Abstract Base Classes (ABCs).</em>
     </li>
     </ul>
@@ -101,7 +101,7 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th bgcolor="#70b0f0" class="navbar-select"
@@ -109,11 +109,11 @@
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.abstractclass-module.html">Package&nbsp;abstractclass</a> ::
-        <a href="libsensorPy.abstractclass.humiditySensor-module.html">Module&nbsp;humiditySensor</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.abstractclass-module.php">Package&nbsp;abstractclass</a> ::
+        <a href="libsensorPy.abstractclass.humiditySensor-module.php">Module&nbsp;humiditySensor</a> ::
         Class&nbsp;HumiditySensor
       </span>
     </td>
@@ -54,25 +54,25 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class HumiditySensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.html#HumiditySensor">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class HumiditySensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.php#HumiditySensor">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_9" name="uml_class_diagram_for_libsenso_9">
-<area shape="rect" id="node14" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html#__metaclass__" title="libsensorPy.abstractclass.humiditySensor.HumiditySensor.__metaclass__" alt="" coords="20,127,127,145"/>
-<area shape="rect" id="node14" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html#__init__" title="Constructor" alt="" coords="20,148,127,167"/>
-<area shape="rect" id="node14" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html#setup" title="Setup the GPIO." alt="" coords="20,167,127,185"/>
-<area shape="rect" id="node14" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html#getHumidity" title="Get the humidity value" alt="" coords="20,185,127,204"/>
-<area shape="rect" id="node1" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html" title="classdocs" alt="" coords="8,102,139,210"/>
-<area shape="rect" id="node15" href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup" title="Changes GPIO setup ." alt="" coords="17,39,129,57"/>
-<area shape="rect" id="node15" href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="17,57,129,76"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.sensor.Sensor-class.html" title="classdocs" alt="" coords="5,6,141,82"/>
+<area shape="rect" id="node14" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php#__metaclass__" title="libsensorPy.abstractclass.humiditySensor.HumiditySensor.__metaclass__" alt="" coords="20,127,127,145"/>
+<area shape="rect" id="node14" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php#__init__" title="Constructor" alt="" coords="20,148,127,167"/>
+<area shape="rect" id="node14" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php#setup" title="Setup the GPIO." alt="" coords="20,167,127,185"/>
+<area shape="rect" id="node14" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php#getHumidity" title="Get the humidity value" alt="" coords="20,185,127,204"/>
+<area shape="rect" id="node1" href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php" title="classdocs" alt="" coords="8,102,139,210"/>
+<area shape="rect" id="node15" href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup" title="Changes GPIO setup ." alt="" coords="17,39,129,57"/>
+<area shape="rect" id="node15" href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="17,57,129,76"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.sensor.Sensor-class.php" title="classdocs" alt="" coords="5,6,141,82"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_9.gif" alt='' usemap="#uml_class_diagram_for_libsenso_9" ismap="ismap" class="graph-without-title" />
 </center>
@@ -103,10 +103,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.html#HumiditySensor.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.php#HumiditySensor.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -120,10 +120,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Setup the GPIO.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.html#HumiditySensor.setup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.php#HumiditySensor.setup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -137,10 +137,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.html#getHumidity" class="summary-sig-name">getHumidity</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.humiditySensor.HumiditySensor-class.php#getHumidity" class="summary-sig-name">getHumidity</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Get the humidity value</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.html#HumiditySensor.getHumidity">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.php#HumiditySensor.getHumidity">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -158,7 +158,7 @@
         <span class="summary-sig-arg">string_num</span>)</span><br />
       Convert the value to String</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.html#HumiditySensor._bin2dec">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.php#HumiditySensor._bin2dec">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -168,9 +168,9 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">sensor.Sensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__">__del__</a></code>,
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup">changeSetup</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">sensor.Sensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__">__del__</a></code>,
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup">changeSetup</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -268,7 +268,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.html#HumiditySensor.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.php#HumiditySensor.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -290,7 +290,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">setup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.html#HumiditySensor.setup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.php#HumiditySensor.setup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -301,7 +301,7 @@
         <li><code>@abc.abstractmethod</code></li>
     </ul></dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#setup">sensor.Sensor.setup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#setup">sensor.Sensor.setup</a>
         <dd><em class="note">(inherited documentation)</em></dd>
     </dt>
   </dl>
@@ -317,7 +317,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getHumidity</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.html#HumiditySensor.getHumidity">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.humiditySensor-pysrc.php#HumiditySensor.getHumidity">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -337,19 +337,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

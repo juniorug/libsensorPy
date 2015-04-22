@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,7 +42,7 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
         Package&nbsp;compositesensor
       </span>
     </td>
@@ -52,15 +52,15 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.compositesensor-module.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.compositesensor-module.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== PACKAGE DESCRIPTION ==================== -->
-<h1 class="epydoc">Package compositesensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.compositesensor-pysrc.html">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Package compositesensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.compositesensor-pysrc.php">source&nbsp;code</a></span></p>
 <!-- ==================== SUBMODULES ==================== -->
 <a name="section-Submodules"></a>
 <table class="summary" border="1" cellpadding="3"
@@ -80,10 +80,10 @@
 </tr>
   <tr><td class="summary">
   <ul class="nomargin">
-    <li> <strong class="uidlink"><a href="libsensorPy.compositesensor.bmp085Composite-module.html">libsensorPy.compositesensor.bmp085Composite</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.compositesensor.dht11Composite-module.html">libsensorPy.compositesensor.dht11Composite</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.compositesensor.dht22Composite-module.html">libsensorPy.compositesensor.dht22Composite</a></strong>: <em class="summary">Created on 18/03/2015</em>    </li>
-    <li> <strong class="uidlink"><a href="libsensorPy.compositesensor.lsm303dComposite-module.html">libsensorPy.compositesensor.lsm303dComposite</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.compositesensor.bmp085Composite-module.php">libsensorPy.compositesensor.bmp085Composite</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.compositesensor.dht11Composite-module.php">libsensorPy.compositesensor.dht11Composite</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.compositesensor.dht22Composite-module.php">libsensorPy.compositesensor.dht22Composite</a></strong>: <em class="summary">Created on 18/03/2015</em>    </li>
+    <li> <strong class="uidlink"><a href="libsensorPy.compositesensor.lsm303dComposite-module.php">libsensorPy.compositesensor.lsm303dComposite</a></strong>: <em class="summary">Created on 16/03/2015</em>    </li>
   </ul></td></tr>
 </table>
 
@@ -119,19 +119,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

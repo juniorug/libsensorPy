@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.concretesensor-module.html">Package&nbsp;concretesensor</a> ::
-        <a href="libsensorPy.concretesensor.lsm303dAccelerometer-module.html">Module&nbsp;lsm303dAccelerometer</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.concretesensor-module.php">Package&nbsp;concretesensor</a> ::
+        <a href="libsensorPy.concretesensor.lsm303dAccelerometer-module.php">Module&nbsp;lsm303dAccelerometer</a> ::
         Class&nbsp;LSM303DAccelerometer
       </span>
     </td>
@@ -54,42 +54,42 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class LSM303DAccelerometer</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class LSM303DAccelerometer</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_48" name="uml_class_diagram_for_libsenso_48">
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#LSM" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.LSM" alt="" coords="113,217,257,236"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#LSM_WHOAMI" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.LSM_WHOAMI" alt="" coords="113,236,257,255"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#CTRL_0" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_0" alt="" coords="113,255,257,273"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#CTRL_1" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_1" alt="" coords="113,273,257,292"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#CTRL_2" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_2" alt="" coords="113,292,257,311"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#CTRL_3" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_3" alt="" coords="113,311,257,329"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#CTRL_4" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_4" alt="" coords="113,329,257,348"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#CTRL_5" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_5" alt="" coords="113,348,257,367"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#CTRL_6" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_6" alt="" coords="113,367,257,385"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#CTRL_7" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_7" alt="" coords="113,385,257,404"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#MAG_X_LSB" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.MAG_X_LSB" alt="" coords="113,404,257,423"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#MAG_X_MSB" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.MAG_X_MSB" alt="" coords="113,423,257,441"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#MAG_Y_LSB" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.MAG_Y_LSB" alt="" coords="113,441,257,460"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#TEMP_LSB" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.TEMP_LSB" alt="" coords="113,479,257,497"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#__init__" title="Constructor" alt="" coords="113,500,257,519"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#setup" title="Setup the board and GPIO" alt="" coords="113,519,257,537"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#changeSetup" title="changes GPIO setup ." alt="" coords="113,537,257,556"/>
-<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#getAxes" title="Get the axes." alt="" coords="113,556,257,575"/>
-<area shape="rect" id="node1" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer" alt="" coords="101,193,269,581"/>
-<area shape="rect" id="node115" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#__metaclass__" title="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor.__metaclass__" alt="" coords="17,108,353,127"/>
-<area shape="rect" id="node115" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#EARTH_GRAVITY_MS2" title="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor.EARTH_GRAVITY_MS2" alt="" coords="17,127,353,145"/>
-<area shape="rect" id="node115" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#getAxesInMS2" title="Get the axes value in m/s2" alt="" coords="17,148,353,167"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html" title="classdocs" alt="" coords="5,83,365,173"/>
-<area shape="rect" id="node116" href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="101,39,269,57"/>
-<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.html" title="classdocs" alt="" coords="89,6,281,63"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#LSM" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.LSM" alt="" coords="113,217,257,236"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#LSM_WHOAMI" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.LSM_WHOAMI" alt="" coords="113,236,257,255"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#CTRL_0" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_0" alt="" coords="113,255,257,273"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#CTRL_1" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_1" alt="" coords="113,273,257,292"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#CTRL_2" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_2" alt="" coords="113,292,257,311"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#CTRL_3" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_3" alt="" coords="113,311,257,329"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#CTRL_4" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_4" alt="" coords="113,329,257,348"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#CTRL_5" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_5" alt="" coords="113,348,257,367"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#CTRL_6" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_6" alt="" coords="113,367,257,385"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#CTRL_7" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.CTRL_7" alt="" coords="113,385,257,404"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#MAG_X_LSB" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.MAG_X_LSB" alt="" coords="113,404,257,423"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#MAG_X_MSB" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.MAG_X_MSB" alt="" coords="113,423,257,441"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#MAG_Y_LSB" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.MAG_Y_LSB" alt="" coords="113,441,257,460"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#TEMP_LSB" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer.TEMP_LSB" alt="" coords="113,479,257,497"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#__init__" title="Constructor" alt="" coords="113,500,257,519"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#setup" title="Setup the board and GPIO" alt="" coords="113,519,257,537"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#changeSetup" title="changes GPIO setup ." alt="" coords="113,537,257,556"/>
+<area shape="rect" id="node114" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#getAxes" title="Get the axes." alt="" coords="113,556,257,575"/>
+<area shape="rect" id="node1" href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php" title="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer" alt="" coords="101,193,269,581"/>
+<area shape="rect" id="node115" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#__metaclass__" title="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor.__metaclass__" alt="" coords="17,108,353,127"/>
+<area shape="rect" id="node115" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#EARTH_GRAVITY_MS2" title="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor.EARTH_GRAVITY_MS2" alt="" coords="17,127,353,145"/>
+<area shape="rect" id="node115" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#getAxesInMS2" title="Get the axes value in m/s2" alt="" coords="17,148,353,167"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php" title="classdocs" alt="" coords="5,83,365,173"/>
+<area shape="rect" id="node116" href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="101,39,269,57"/>
+<area shape="rect" id="node3" href="libsensorPy.abstractclass.sensor.Sensor-class.php" title="classdocs" alt="" coords="89,6,281,63"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_48.gif" alt='' usemap="#uml_class_diagram_for_libsenso_48" ismap="ismap" class="graph-without-title" />
 </center>
@@ -118,10 +118,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -135,10 +135,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Setup the board and GPIO</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.setup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.setup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -152,10 +152,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#changeSetup" class="summary-sig-name">changeSetup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       changes GPIO setup .</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.changeSetup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.changeSetup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -169,10 +169,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#__twos_comp_combine" class="summary-sig-name" onclick="show_private();">__twos_comp_combine</a>(<span class="summary-sig-arg">msb</span>,
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#__twos_comp_combine" class="summary-sig-name" onclick="show_private();">__twos_comp_combine</a>(<span class="summary-sig-arg">msb</span>,
         <span class="summary-sig-arg">lsb</span>)</span></td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.__twos_comp_combine">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.__twos_comp_combine">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -189,7 +189,7 @@
           <td><span class="summary-sig"><a name="__detect"></a><span class="summary-sig-name">__detect</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Detects if a LSM303D is connected.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.__detect">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.__detect">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -206,7 +206,7 @@
           <td><span class="summary-sig"><a name="__configure"></a><span class="summary-sig-name">__configure</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Configure the board to read data.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.__configure">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.__configure">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -220,10 +220,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.html#getAxes" class="summary-sig-name">getAxes</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretesensor.lsm303dAccelerometer.LSM303DAccelerometer-class.php#getAxes" class="summary-sig-name">getAxes</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Get the axes.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.getAxes">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.getAxes">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -233,11 +233,11 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html">abstractclass.accelerometerSensor.AccelerometerSensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#getAxesInMS2">getAxesInMS2</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php">abstractclass.accelerometerSensor.AccelerometerSensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#getAxesInMS2">getAxesInMS2</a></code>
       </p>
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">abstractclass.sensor.Sensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__">__del__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">abstractclass.sensor.Sensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__">__del__</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -443,9 +443,9 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html">abstractclass.accelerometerSensor.AccelerometerSensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#EARTH_GRAVITY_MS2">EARTH_GRAVITY_MS2</a></code>,
-      <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#__metaclass__">__metaclass__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php">abstractclass.accelerometerSensor.AccelerometerSensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#EARTH_GRAVITY_MS2">EARTH_GRAVITY_MS2</a></code>,
+      <code><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#__metaclass__">__metaclass__</a></code>
       </p>
     </td>
   </tr>
@@ -504,7 +504,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -526,7 +526,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">setup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.setup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.setup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -535,7 +535,7 @@
     <dt>Returns:</dt>
         <dd>void</dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#setup">abstractclass.sensor.Sensor.setup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#setup">abstractclass.sensor.Sensor.setup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -550,14 +550,14 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">changeSetup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.changeSetup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.changeSetup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
   <p>changes GPIO setup .</p>
   <dl class="fields">
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup">abstractclass.sensor.Sensor.changeSetup</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -573,7 +573,7 @@
         <span class="sig-arg">lsb</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.__twos_comp_combine">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.__twos_comp_combine">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -597,7 +597,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getAxes</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.html#LSM303DAccelerometer.getAxes">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretesensor.lsm303dAccelerometer-pysrc.php#LSM303DAccelerometer.getAxes">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -606,7 +606,7 @@
     <dt>Returns: float[]</dt>
         <dd>the axes read</dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#getAxes">abstractclass.accelerometerSensor.AccelerometerSensor.getAxes</a>
+        <a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#getAxes">abstractclass.accelerometerSensor.AccelerometerSensor.getAxes</a>
     </dt>
   </dl>
 </td></tr></table>
@@ -618,19 +618,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

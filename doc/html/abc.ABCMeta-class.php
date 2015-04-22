@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -53,8 +53,8 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="abc.ABCMeta-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="abc.ABCMeta-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
@@ -64,11 +64,11 @@
 <h1 class="epydoc">Type ABCMeta</h1><p class="nomargin-top"></p>
 <center>
 <center>  <map id="uml_class_diagram_for_abc_abcm" name="uml_class_diagram_for_abc_abcm">
-<area shape="rect" id="node0" href="abc.ABCMeta-class.html#__instancecheck__" title="Override for isinstance(instance, cls)." alt="" coords="17,559,271,577"/>
-<area shape="rect" id="node0" href="abc.ABCMeta-class.html#__new__" title="abc.ABCMeta.__new__" alt="" coords="17,577,271,596"/>
-<area shape="rect" id="node0" href="abc.ABCMeta-class.html#__subclasscheck__" title="Override for issubclass(subclass, cls)." alt="" coords="17,596,271,615"/>
-<area shape="rect" id="node0" href="abc.ABCMeta-class.html#register" title="Register a virtual subclass of an ABC." alt="" coords="17,615,271,633"/>
-<area shape="rect" id="node1" href="abc.ABCMeta-class.html" title="Metaclass for defining Abstract Base Classes (ABCs)." alt="" coords="5,526,283,639"/>
+<area shape="rect" id="node0" href="abc.ABCMeta-class.php#__instancecheck__" title="Override for isinstance(instance, cls)." alt="" coords="17,559,271,577"/>
+<area shape="rect" id="node0" href="abc.ABCMeta-class.php#__new__" title="abc.ABCMeta.__new__" alt="" coords="17,577,271,596"/>
+<area shape="rect" id="node0" href="abc.ABCMeta-class.php#__subclasscheck__" title="Override for issubclass(subclass, cls)." alt="" coords="17,596,271,615"/>
+<area shape="rect" id="node0" href="abc.ABCMeta-class.php#register" title="Register a virtual subclass of an ABC." alt="" coords="17,615,271,633"/>
+<area shape="rect" id="node1" href="abc.ABCMeta-class.php" title="Metaclass for defining Abstract Base Classes (ABCs)." alt="" coords="5,526,283,639"/>
 <area shape="rect" id="node1" href="javascript:void(0);" title="type.__abstractmethods__" alt="" coords="77,31,209,49"/>
 <area shape="rect" id="node1" href="javascript:void(0);" title="type.__base__" alt="" coords="77,49,209,68"/>
 <area shape="rect" id="node1" href="javascript:void(0);" title="type.__bases__" alt="" coords="77,68,209,87"/>
@@ -133,7 +133,7 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="abc.ABCMeta-class.html#__instancecheck__" class="summary-sig-name">__instancecheck__</a>(<span class="summary-sig-arg">cls</span>,
+          <td><span class="summary-sig"><a href="abc.ABCMeta-class.php#__instancecheck__" class="summary-sig-name">__instancecheck__</a>(<span class="summary-sig-arg">cls</span>,
         <span class="summary-sig-arg">instance</span>)</span><br />
       Override for isinstance(instance, cls).</td>
           <td align="right" valign="top">
@@ -151,7 +151,7 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="abc.ABCMeta-class.html#__subclasscheck__" class="summary-sig-name">__subclasscheck__</a>(<span class="summary-sig-arg">cls</span>,
+          <td><span class="summary-sig"><a href="abc.ABCMeta-class.php#__subclasscheck__" class="summary-sig-name">__subclasscheck__</a>(<span class="summary-sig-arg">cls</span>,
         <span class="summary-sig-arg">subclass</span>)</span><br />
       Override for issubclass(subclass, cls).</td>
           <td align="right" valign="top">
@@ -252,7 +252,7 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="abc.ABCMeta-class.html#__new__" class="summary-sig-name">__new__</a>(<span class="summary-sig-arg">mcls</span>,
+          <td><span class="summary-sig"><a href="abc.ABCMeta-class.php#__new__" class="summary-sig-name">__new__</a>(<span class="summary-sig-arg">mcls</span>,
         <span class="summary-sig-arg">name</span>,
         <span class="summary-sig-arg">bases</span>,
         <span class="summary-sig-arg">namespace</span>)</span></td>
@@ -429,19 +429,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

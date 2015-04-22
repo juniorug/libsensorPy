@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -13,9 +13,9 @@
 <h1 class="toc">Module abstractActuatorFactory</h1>
 <hr />
   <h2 class="toc">Classes</h2>
-    <a target="mainFrame" href="libsensorPy.abstractclass.abstractActuatorFactory.AbstractActuatorFactory-class.html"
+    <a target="mainFrame" href="libsensorPy.abstractclass.abstractActuatorFactory.AbstractActuatorFactory-class.php"
      >AbstractActuatorFactory</a><br />  <h2 class="toc">Variables</h2>
-    <a target="mainFrame" href="libsensorPy.abstractclass.abstractActuatorFactory-module.html#__package__"
+    <a target="mainFrame" href="libsensorPy.abstractclass.abstractActuatorFactory-module.php#__package__"
      >__package__</a><br /><hr />
 <span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span>

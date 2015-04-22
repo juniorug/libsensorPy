@@ -7,11 +7,11 @@
 </head>
 <frameset cols="20%,80%">
   <frameset rows="30%,70%">
-    <frame src="toc.html" name="moduleListFrame"
+    <frame src="toc.php" name="moduleListFrame"
            id="moduleListFrame" />
-    <frame src="toc-everything.html" name="moduleFrame"
+    <frame src="toc-everything.php" name="moduleFrame"
            id="moduleFrame" />
   </frameset>
-  <frame src="libsensorPy-module.html" name="mainFrame" id="mainFrame" />
+  <frame src="libsensorPy-module.php" name="mainFrame" id="mainFrame" />
 </frameset>
 </html>

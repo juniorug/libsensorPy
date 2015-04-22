@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.abstractclass-module.html">Package&nbsp;abstractclass</a> ::
-        <a href="libsensorPy.abstractclass.accelerometerSensor-module.html">Module&nbsp;accelerometerSensor</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.abstractclass-module.php">Package&nbsp;abstractclass</a> ::
+        <a href="libsensorPy.abstractclass.accelerometerSensor-module.php">Module&nbsp;accelerometerSensor</a> ::
         Class&nbsp;AccelerometerSensor
       </span>
     </td>
@@ -54,27 +54,27 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class AccelerometerSensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.html#AccelerometerSensor">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class AccelerometerSensor</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.php#AccelerometerSensor">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_4" name="uml_class_diagram_for_libsenso_4">
-<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#__metaclass__" title="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor.__metaclass__" alt="" coords="17,127,171,145"/>
-<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#EARTH_GRAVITY_MS2" title="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor.EARTH_GRAVITY_MS2" alt="" coords="17,145,171,164"/>
-<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#__init__" title="Constructor" alt="" coords="17,167,171,185"/>
-<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#setup" title="Setup the GPIO." alt="" coords="17,185,171,204"/>
-<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#getAxes" title="Get the axes value in G" alt="" coords="17,204,171,223"/>
-<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#getAxesInMS2" title="Get the axes value in m/s2" alt="" coords="17,223,171,241"/>
-<area shape="rect" id="node1" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html" title="classdocs" alt="" coords="5,102,181,247"/>
-<area shape="rect" id="node6" href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup" title="Changes GPIO setup ." alt="" coords="39,39,151,57"/>
-<area shape="rect" id="node6" href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="39,57,151,76"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.sensor.Sensor-class.html" title="classdocs" alt="" coords="27,6,163,82"/>
+<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#__metaclass__" title="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor.__metaclass__" alt="" coords="17,127,171,145"/>
+<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#EARTH_GRAVITY_MS2" title="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor.EARTH_GRAVITY_MS2" alt="" coords="17,145,171,164"/>
+<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#__init__" title="Constructor" alt="" coords="17,167,171,185"/>
+<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#setup" title="Setup the GPIO." alt="" coords="17,185,171,204"/>
+<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#getAxes" title="Get the axes value in G" alt="" coords="17,204,171,223"/>
+<area shape="rect" id="node5" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#getAxesInMS2" title="Get the axes value in m/s2" alt="" coords="17,223,171,241"/>
+<area shape="rect" id="node1" href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php" title="classdocs" alt="" coords="5,102,181,247"/>
+<area shape="rect" id="node6" href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup" title="Changes GPIO setup ." alt="" coords="39,39,151,57"/>
+<area shape="rect" id="node6" href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__" title="We&#39;re no longer using the GPIO, so tell software we&#39;re done." alt="" coords="39,57,151,76"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.sensor.Sensor-class.php" title="classdocs" alt="" coords="27,6,163,82"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_4.gif" alt='' usemap="#uml_class_diagram_for_libsenso_4" ismap="ismap" class="graph-without-title" />
 </center>
@@ -105,10 +105,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.html#AccelerometerSensor.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.php#AccelerometerSensor.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -122,10 +122,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#setup" class="summary-sig-name">setup</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Setup the GPIO.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.html#AccelerometerSensor.setup">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.php#AccelerometerSensor.setup">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -139,10 +139,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.html#getAxes" class="summary-sig-name">getAxes</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.abstractclass.accelerometerSensor.AccelerometerSensor-class.php#getAxes" class="summary-sig-name">getAxes</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Get the axes value in G</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.html#AccelerometerSensor.getAxes">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.php#AccelerometerSensor.getAxes">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -159,7 +159,7 @@
           <td><span class="summary-sig"><a name="getAxesInMS2"></a><span class="summary-sig-name">getAxesInMS2</span>(<span class="summary-sig-arg">self</span>)</span><br />
       Get the axes value in m/s2</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.html#AccelerometerSensor.getAxesInMS2">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.php#AccelerometerSensor.getAxesInMS2">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -169,9 +169,9 @@
   </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html">sensor.Sensor</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#__del__">__del__</a></code>,
-      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.html#changeSetup">changeSetup</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php">sensor.Sensor</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#__del__">__del__</a></code>,
+      <code><a href="libsensorPy.abstractclass.sensor.Sensor-class.php#changeSetup">changeSetup</a></code>
       </p>
     <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
       <code>__delattr__</code>,
@@ -276,7 +276,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.html#AccelerometerSensor.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.php#AccelerometerSensor.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -298,7 +298,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">setup</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.html#AccelerometerSensor.setup">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.php#AccelerometerSensor.setup">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -309,7 +309,7 @@
         <li><code>@abc.abstractmethod</code></li>
     </ul></dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.sensor.Sensor-class.html#setup">sensor.Sensor.setup</a>
+        <a href="libsensorPy.abstractclass.sensor.Sensor-class.php#setup">sensor.Sensor.setup</a>
         <dd><em class="note">(inherited documentation)</em></dd>
     </dt>
   </dl>
@@ -325,7 +325,7 @@
   <h3 class="epydoc"><span class="sig"><span class="sig-name">getAxes</span>(<span class="sig-arg">self</span>)</span>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.html#AccelerometerSensor.getAxes">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.abstractclass.accelerometerSensor-pysrc.php#AccelerometerSensor.getAxes">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -345,19 +345,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">

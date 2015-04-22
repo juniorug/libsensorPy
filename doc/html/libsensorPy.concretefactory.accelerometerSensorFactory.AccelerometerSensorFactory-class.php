@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ascii"?>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
           "DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,19 +16,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
@@ -42,9 +42,9 @@
   <tr valign="top">
     <td width="100%">
       <span class="breadcrumbs">
-        <a href="libsensorPy-module.html">Package&nbsp;libsensorPy</a> ::
-        <a href="libsensorPy.concretefactory-module.html">Package&nbsp;concretefactory</a> ::
-        <a href="libsensorPy.concretefactory.accelerometerSensorFactory-module.html">Module&nbsp;accelerometerSensorFactory</a> ::
+        <a href="libsensorPy-module.php">Package&nbsp;libsensorPy</a> ::
+        <a href="libsensorPy.concretefactory-module.php">Package&nbsp;concretefactory</a> ::
+        <a href="libsensorPy.concretefactory.accelerometerSensorFactory-module.php">Module&nbsp;accelerometerSensorFactory</a> ::
         Class&nbsp;AccelerometerSensorFactory
       </span>
     </td>
@@ -54,24 +54,24 @@
         <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
     onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
         <tr><td align="right"><span class="options"
-            >[<a href="frames.html" target="_top">frames</a
-            >]&nbsp;|&nbsp;<a href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.html"
+            >[<a href="frames.php" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.php"
             target="_top">no&nbsp;frames</a>]</span></td></tr>
       </table>
     </td>
   </tr>
 </table>
 <!-- ==================== CLASS DESCRIPTION ==================== -->
-<h1 class="epydoc">Class AccelerometerSensorFactory</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.html#AccelerometerSensorFactory">source&nbsp;code</a></span></p>
+<h1 class="epydoc">Class AccelerometerSensorFactory</h1><p class="nomargin-top"><span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.php#AccelerometerSensorFactory">source&nbsp;code</a></span></p>
 <center>
 <center>  <map id="uml_class_diagram_for_libsenso_26" name="uml_class_diagram_for_libsenso_26">
-<area shape="rect" id="node60" href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.html#__init__" title="Constructor" alt="" coords="109,135,280,153"/>
-<area shape="rect" id="node60" href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.html#createSensor" title="Retrieve data from the input source and return a Sensor object." alt="" coords="109,153,280,172"/>
-<area shape="rect" id="node60" href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.html#createEvent" title="Retrieve data from the input source and return an Event object." alt="" coords="109,172,280,191"/>
-<area shape="rect" id="node1" href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.html" title="classdocs" alt="" coords="97,102,292,197"/>
-<area shape="rect" id="node61" href="abc.ABCMeta-class.html" title="Metaclass for defining Abstract Base Classes (ABCs)." alt="" coords="17,31,372,49"/>
-<area shape="rect" id="node61" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#__abstractmethods__" title="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory.__abstractmethods__" alt="" coords="17,49,372,68"/>
-<area shape="rect" id="node2" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html" title="classdocs" alt="" coords="5,6,384,82"/>
+<area shape="rect" id="node60" href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.php#__init__" title="Constructor" alt="" coords="109,135,280,153"/>
+<area shape="rect" id="node60" href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.php#createSensor" title="Retrieve data from the input source and return a Sensor object." alt="" coords="109,153,280,172"/>
+<area shape="rect" id="node60" href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.php#createEvent" title="Retrieve data from the input source and return an Event object." alt="" coords="109,172,280,191"/>
+<area shape="rect" id="node1" href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.php" title="classdocs" alt="" coords="97,102,292,197"/>
+<area shape="rect" id="node61" href="abc.ABCMeta-class.php" title="Metaclass for defining Abstract Base Classes (ABCs)." alt="" coords="17,31,372,49"/>
+<area shape="rect" id="node61" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#__abstractmethods__" title="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory.__abstractmethods__" alt="" coords="17,49,372,68"/>
+<area shape="rect" id="node2" href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php" title="classdocs" alt="" coords="5,6,384,82"/>
 </map>
   <img src="<?=$siteUrl?>/img/uml/uml_class_diagram_for_libsenso_26.gif" alt='' usemap="#uml_class_diagram_for_libsenso_26" ismap="ismap" class="graph-without-title" />
 </center>
@@ -98,8 +98,8 @@
 </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html">abstractclass.abstractSensorFactory.AbstractSensorFactory</a></code></b>:
-      <code><a href="abc.ABCMeta-class.html">__metaclass__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php">abstractclass.abstractSensorFactory.AbstractSensorFactory</a></code></b>:
+      <code><a href="abc.ABCMeta-class.php">__metaclass__</a></code>
       </p>
     </td>
   </tr>
@@ -127,10 +127,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.php#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>)</span><br />
       Constructor</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.html#AccelerometerSensorFactory.__init__">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.php#AccelerometerSensorFactory.__init__">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -180,10 +180,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.html#createSensor" class="summary-sig-name">createSensor</a>(<span class="summary-sig-arg">sensorType</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.php#createSensor" class="summary-sig-name">createSensor</a>(<span class="summary-sig-arg">sensorType</span>)</span><br />
       Retrieve data from the input source and return a Sensor object.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.html#AccelerometerSensorFactory.createSensor">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.php#AccelerometerSensorFactory.createSensor">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -197,10 +197,10 @@
     </td><td class="summary">
       <table width="100%" cellpadding="0" cellspacing="0" border="0">
         <tr>
-          <td><span class="summary-sig"><a href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.html#createEvent" class="summary-sig-name">createEvent</a>(<span class="summary-sig-arg">sensorType</span>)</span><br />
+          <td><span class="summary-sig"><a href="libsensorPy.concretefactory.accelerometerSensorFactory.AccelerometerSensorFactory-class.php#createEvent" class="summary-sig-name">createEvent</a>(<span class="summary-sig-arg">sensorType</span>)</span><br />
       Retrieve data from the input source and return an Event object.</td>
           <td align="right" valign="top">
-            <span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.html#AccelerometerSensorFactory.createEvent">source&nbsp;code</a></span>
+            <span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.php#AccelerometerSensorFactory.createEvent">source&nbsp;code</a></span>
             
           </td>
         </tr>
@@ -228,14 +228,14 @@
 </tr>
   <tr>
     <td colspan="2" class="summary">
-    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html">abstractclass.abstractSensorFactory.AbstractSensorFactory</a></code></b>:
-      <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#__abstractmethods__">__abstractmethods__</a></code>
+    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php">abstractclass.abstractSensorFactory.AbstractSensorFactory</a></code></b>:
+      <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#__abstractmethods__">__abstractmethods__</a></code>
       </p>
-    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html">abstractclass.abstractSensorFactory.AbstractSensorFactory</a></code></b> (private):
-      <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#_abc_cache" onclick="show_private();">_abc_cache</a></code>,
-      <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#_abc_negative_cache" onclick="show_private();">_abc_negative_cache</a></code>,
-      <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#_abc_negative_cache_version" onclick="show_private();">_abc_negative_cache_version</a></code>,
-      <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#_abc_registry" onclick="show_private();">_abc_registry</a></code>
+    <div class="private">    <p class="indent-wrapped-lines"><b>Inherited from <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php">abstractclass.abstractSensorFactory.AbstractSensorFactory</a></code></b> (private):
+      <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#_abc_cache" onclick="show_private();">_abc_cache</a></code>,
+      <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#_abc_negative_cache" onclick="show_private();">_abc_negative_cache</a></code>,
+      <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#_abc_negative_cache_version" onclick="show_private();">_abc_negative_cache_version</a></code>,
+      <code><a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#_abc_registry" onclick="show_private();">_abc_registry</a></code>
       </p></div>
     </td>
   </tr>
@@ -294,7 +294,7 @@
     <br /><em class="fname">(Constructor)</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.html#AccelerometerSensorFactory.__init__">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.php#AccelerometerSensorFactory.__init__">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -317,7 +317,7 @@
     <br /><em class="fname">Static Method</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.html#AccelerometerSensorFactory.createSensor">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.php#AccelerometerSensorFactory.createSensor">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -328,7 +328,7 @@
         <li><strong class="pname"><code>sensorType</code></strong> - The kind of sensor to be created</li>
     </ul></dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#createSensor">abstractclass.abstractSensorFactory.AbstractSensorFactory.createSensor</a>
+        <a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#createSensor">abstractclass.abstractSensorFactory.AbstractSensorFactory.createSensor</a>
         <dd><em class="note">(inherited documentation)</em></dd>
     </dt>
   </dl>
@@ -345,7 +345,7 @@
     <br /><em class="fname">Static Method</em>
   </h3>
   </td><td align="right" valign="top"
-    ><span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.html#AccelerometerSensorFactory.createEvent">source&nbsp;code</a></span>&nbsp;
+    ><span class="codelink"><a href="libsensorPy.concretefactory.accelerometerSensorFactory-pysrc.php#AccelerometerSensorFactory.createEvent">source&nbsp;code</a></span>&nbsp;
     </td>
   </tr></table>
   
@@ -356,7 +356,7 @@
         <li><strong class="pname"><code>sensorType</code></strong> - The kind of sensor to be used by the event</li>
     </ul></dd>
     <dt>Overrides:
-        <a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.html#createEvent">abstractclass.abstractSensorFactory.AbstractSensorFactory.createEvent</a>
+        <a href="libsensorPy.abstractclass.abstractSensorFactory.AbstractSensorFactory-class.php#createEvent">abstractclass.abstractSensorFactory.AbstractSensorFactory.createEvent</a>
         <dd><em class="note">(inherited documentation)</em></dd>
     </dt>
   </dl>
@@ -369,19 +369,19 @@
   <tr valign="middle">
   <!-- Home link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="libsensorPy-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+        href="libsensorPy-module.php">Home</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Tree link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+        href="module-tree.php">Trees</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Index link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+        href="identifier-index.php">Indices</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Help link -->
       <th>&nbsp;&nbsp;&nbsp;<a
-        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+        href="help.php">Help</a>&nbsp;&nbsp;&nbsp;</th>
 
   <!-- Project homepage -->
       <th class="navbar" align="right" width="100%">
