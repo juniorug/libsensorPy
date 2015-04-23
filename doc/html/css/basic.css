@@ -20,6 +20,7 @@ div.clearer {
 div.related {
     width: 100%;
     font-size: 90%;
+    padding-top: 10px;	
 }
 
 div.related h3 {
