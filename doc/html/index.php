@@ -104,7 +104,7 @@
     <li>Easy to extend the library and add new sensor</li>
     <li>Automatically set GPIO states on program termination (GPIO cleanup)</li>	
     <li>Triggers for automation based on event state changes</li>
-    <li>Basic and Composite sensors</li>	
+    <li>Provides basic and composite sensors</li>	
 </ul>
 <div class="toctree-wrapper compound">
 <ul class="simple">
