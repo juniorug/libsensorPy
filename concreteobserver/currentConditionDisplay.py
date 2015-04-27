@@ -31,4 +31,4 @@ class CurrentConditionDisplay(EventObserver):
         Display the current temperature
         """
         
-        print "Current conditions: %.1f F degrees " %(self.current_temperature)
+        print "Current conditions: %s degree Celsius  " %(self.current_temperature)
