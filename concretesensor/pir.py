@@ -44,6 +44,6 @@ class PIR(MotionSensor):
         @rtype: Boolean
         """
         
-        return (GPIO.input(self.pin) == 1)
+        return (GPIO.input(self.__pin) == 1)
 
 
