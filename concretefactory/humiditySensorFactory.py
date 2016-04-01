@@ -8,7 +8,7 @@ from abstractclass.abstractSensorFactory import AbstractSensorFactory
 from concretesensor.dht11Humidity import DHT11Humidity
 from concretesensor.dht22Humidity import DHT22Humidity
 
-class HumididtySensorFactory(AbstractSensorFactory):
+class HumiditySensorFactory(AbstractSensorFactory):
     '''
     classdocs
     '''
@@ -20,9 +20,9 @@ class HumididtySensorFactory(AbstractSensorFactory):
 
     @staticmethod
     def createSensor(sensorType):
-        if (sensorType == "DHT11Humididty"):
+        if (sensorType == "DHT11Humidity"):
             return DHT11Humidity()
-        elif (sensorType == "DHT22Humididty"):
+        elif (sensorType == "DHT22Humidity"):
             return DHT22Humidity()
         else:
             assert 0, "Bad sensor creation: " + sensorType

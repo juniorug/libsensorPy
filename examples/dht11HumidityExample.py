@@ -4,9 +4,9 @@ Created on 16/03/2015
 @author: Junior Mascarenhas
 '''
 
-from concretefactory.humiditySensorFactory import HumididtySensorFactory
+from concretefactory.humiditySensorFactory import HumiditySensorFactory
 
 if __name__ == '__main__':
 
-    dht11 = HumididtySensorFactory.createSensor("DHT11Humididty")
+    dht11 = HumiditySensorFactory.createSensor("DHT11Humidity")
     print ("Humidity: " + dht11.getHumidity() + "%")
