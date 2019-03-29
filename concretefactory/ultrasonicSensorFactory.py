@@ -23,18 +23,18 @@ class UltrasonicSensorFactory(AbstractSensorFactory):
 
     @staticmethod
     def createSensor(sensorType):
-	if (sensorType == "HYSRF05"):
-		return HYSRF05()
-    	elif (sensorType == "ParallaxPing"):
-        	return ParallaxPing()
-    	elif (sensorType == "SRF04"):
-            	return SRF04()
-    	elif (sensorType == "SRF05"):
-        	return SRF05()
+        if (sensorType == "HYSRF05"):
+            return HYSRF05()
+        elif (sensorType == "ParallaxPing"):
+            return ParallaxPing()
+        elif (sensorType == "SRF04"):
+            return SRF04()
+        elif (sensorType == "SRF05"):
+            return SRF05()
         elif (sensorType == "URM37"):
             return URM37()
         else:
-            	assert 0, "Bad sensor creation: " + sensorType 
+            assert 0, "Bad sensor creation: " + sensorType 
 
     @staticmethod
     def createEvent(sensorType):
