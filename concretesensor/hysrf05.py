@@ -28,6 +28,8 @@ class HYSRF05(UltrasonicSensor):
         """
         GPIO.setmode(GPIO.BCM)
         GPIO.setwarnings(False) 
+        GPIO.setup(self.__trigger,GPIO.OUT)
+        GPIO.setup(self.__echo,GPIO.IN)
         self.__distance = ""
 
     def changeSetup(self, trigger, echo):
@@ -45,8 +47,6 @@ class HYSRF05(UltrasonicSensor):
         @return: The distance in cm.
         @rtype: float
         """
-        GPIO.setup(self.__trigger,GPIO.OUT)
-        GPIO.setup(self.__echo,GPIO.IN)
         GPIO.output(self.__trigger, GPIO.LOW)
         time.sleep(0.3)
         GPIO.output(self.__trigger, True)
